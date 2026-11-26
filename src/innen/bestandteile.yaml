@@ -10,19 +10,21 @@ blocks:
   - type: section
     id: einstieg
     title:
-      de: "Station 4: das Tablet aus Glas"
-      en: "Station 4: the glass tablet"
+      de: "Station 4: der gläserne Computer"
+      en: "Station 4: the glass computer"
     blocks:
       - type: text
         text:
           de: |
-            Du weißt schon: Hardware kannst du anfassen. Aber was steckt eigentlich in einem Tablet? An Station 4
-            steht ein Tablet aus Glas. Jona sagt: „Hier kannst du hineinschauen. Rate mal, wo das Tablet denkt.“
+            An Station 3 hast du ein Programm bedient. Von Station 2 weißt du: Hardware kannst du anfassen. Aber was
+            steckt eigentlich in einem Tablet? An Station 4 steht ein Tablet aus Glas. Nach ihm heißt die ganze
+            Ausstellung: der gläserne Computer. Jona sagt: „Hier kannst du hineinschauen. Rate mal, wo das Tablet denkt.“
 
             Auf dieser Seite lernst du die wichtigsten Teile eines Computers kennen und was jedes Teil tut.
           en: |
-            You already know: hardware is what you can touch. But what is actually inside a tablet? At station 4
-            there is a tablet made of glass. Jona says: “You can look inside here. Guess where the tablet does its
+            At station 3 you used a program. From station 2 you know: hardware is what you can touch. But what is
+            actually inside a tablet? At station 4 there is a tablet made of glass. The whole exhibition is named
+            after it: the glass computer. Jona says: “You can look inside here. Guess where the tablet does its
             thinking.”
 
             On this page you get to know the most important parts of a computer and what each part does.
@@ -86,6 +88,13 @@ blocks:
           - { x: 80, y: 47, text: { de: Lautsprecher, en: loudspeaker } }
       - type: definition
         term:
+          de: Daten
+          en: data
+        explanation:
+          de: Alles, womit ein Computer arbeitet, zum Beispiel Zahlen, Buchstaben, Bilder und Töne.
+          en: Everything a computer works with, for example numbers, letters, pictures and sounds.
+      - type: definition
+        term:
           de: Eingabegerät
           en: input device
         explanation:
@@ -104,22 +113,18 @@ blocks:
           en: "The parts inside, compared with your room"
         header:
           - { de: Teil, en: Part }
-          - { de: Was es tut, en: What it does }
-          - { de: Wie in deinem Zimmer, en: Like in your room }
+          - { de: "Was es tut (wie in deinem Zimmer)", en: "What it does (like in your room)" }
         rowHeaders: true
         rows:
           - - { de: Prozessor, en: processor }
-            - { de: rechnet und arbeitet die Daten ab, en: calculates and works through the data }
-            - { de: du selbst beim Arbeiten, en: you yourself while working }
+            - de: "rechnet mit den Daten (wie du selbst beim Arbeiten)"
+              en: "calculates with the data (like you yourself while working)"
           - - { de: Arbeitsspeicher, en: memory }
-            - { de: "hält, woran gerade gearbeitet wird", en: holds what is being worked on right now }
-            - { de: dein Schreibtisch, en: your desk }
+            - de: "hält, woran gerade gearbeitet wird (wie dein Schreibtisch)"
+              en: "holds what is being worked on right now (like your desk)"
           - - { de: Festspeicher, en: storage }
-            - {
-                de: "hebt Fotos, Apps und Texte auf, auch ohne Strom",
-                en: "keeps photos, apps and texts, even without power",
-              }
-            - { de: dein Schrank, en: your cupboard }
+            - de: "hebt Fotos, Apps und Texte auf, auch ohne Strom (wie dein Schrank)"
+              en: "keeps photos, apps and texts, even without power (like your cupboard)"
       - type: text
         text:
           de: |
@@ -132,8 +137,8 @@ blocks:
       - type: single-choice
         id: stromausfall
         text:
-          de: Mia malt am Computer ein Bild. Sie hat noch nicht gespeichert. Plötzlich fällt der Strom aus. Wo war das Bild?
-          en: Mia is drawing a picture on the computer. She has not saved yet. Suddenly the power goes off. Where was the picture?
+          de: Selin malt am Computer ein Bild. Sie hat noch nicht gespeichert. Plötzlich fällt der Strom aus. Wo war das Bild?
+          en: Selin is drawing a picture on the computer. She has not saved yet. Suddenly the power goes off. Where was the picture?
         options:
           - text:
               de: Im Arbeitsspeicher

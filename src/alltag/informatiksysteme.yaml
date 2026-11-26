@@ -26,14 +26,14 @@ blocks:
       - type: text
         text:
           de: |
-            Die Computer-AG baut die Ausstellung „Der gläserne Computer“. Jona und Selin aus der Klasse 6b sammeln
-            Geräte dafür. Auf den Tischen liegen schon ein Tablet, eine Smartwatch und eine Kasse. Selin bringt ein
+            Die Computer-AG baut die Ausstellung „Der gläserne Computer“. Jona und Selin aus der Klasse 6b, beide 11 Jahre
+            alt, sammeln Geräte dafür und zeigen sie später den Besuchern. Auf den Tischen liegen schon ein Tablet, eine Smartwatch und eine Kasse. Selin bringt ein
             Fahrrad, eine Spielkonsole und ein Lineal. Was davon passt in die Ausstellung?
 
             Auf dieser Seite lernst du, Informatiksysteme in deinem Alltag zu erkennen.
           en: |
-            The computer club is building the exhibition “The glass computer”. Jona and Selin from class 6b are
-            collecting devices for it. A tablet, a smartwatch and a till are already on the tables. Selin brings a
+            The computer club is building the exhibition “The glass computer”. Jona and Selin from class 6b, both 11 years
+            old, are collecting devices for it and will show them to visitors. A tablet, a smartwatch and a till are already on the tables. Selin brings a
             bicycle, a game console and a ruler. Which of them fits into the exhibition?
 
             On this page you learn to spot computer systems in your everyday life.
@@ -79,11 +79,11 @@ blocks:
           en: computer system
         explanation:
           de: >-
-            Ein Gerät, in dem Hardware und Software zusammenarbeiten: Ein Computer arbeitet darin nach einem Programm.
-            Ein Programm ist eine genaue Anleitung für den Computer.
+            Ein Gerät, in dem ein Computer nach einem Programm arbeitet. Ein Programm ist eine genaue Anleitung für den
+            Computer. Zu jedem Informatiksystem gehören Teile zum Anfassen und Programme.
           en: >-
-            A device in which hardware and software work together: a computer inside it follows a program. A program is
-            an exact set of instructions for the computer.
+            A device in which a computer works by following a program. A program is an exact set of instructions for
+            the computer. Every computer system has parts you can touch and programs.
       - type: text
         text:
           de: |
@@ -212,8 +212,8 @@ blocks:
           e: { pick: 1, from: { data: gegenstaende } }
         task:
           text:
-            de: "Gehört **{{e.name}}** als Informatiksystem in die Ausstellung? Antworte mit ja oder nein."
-            en: "Does the **{{e.name}}** belong in the exhibition as a computer system? Answer yes or no."
+            de: "Jona hält ein neues Schild hoch: **{{e.name}}**. Ist das ein Informatiksystem? Antworte mit ja oder nein."
+            en: "Jona holds up a new sign: **{{e.name}}**. Is that a computer system? Answer yes or no."
         answer:
           value: "e.antwort"
           compare:

@@ -107,12 +107,12 @@ blocks:
       - type: text
         text:
           de: |
-            Die gestrichelte Wolke zeigt nur: nicht zum Anfassen. Die Apps sind im Gerät gespeichert. Die Pfeile im
+            Die gestrichelte Wolke zeigt nur: nicht zum Anfassen. Die Apps stecken im Gerät. Die Pfeile im
             Bild zeigen: Beide brauchen einander. Die Software sagt der Hardware, was sie tun soll. Die
             Hardware führt es aus. Ohne Software tut die Hardware nichts Sinnvolles. Ohne Hardware kann die Software
             nirgends laufen.
           en: |
-            The dashed cloud only shows: not touchable. The apps are stored inside the device. The arrows in the
+            The dashed cloud only shows: not touchable. The apps are inside the device. The arrows in the
             picture show: they need each other. The software tells the hardware what to do. The
             hardware does it. Without software the hardware does nothing useful. Without hardware the software has
             nowhere to run.
@@ -176,8 +176,8 @@ blocks:
           e: { pick: 1, from: { data: hardware-software } }
         task:
           text:
-            de: "Jona braucht ein Schild für **{{e.name}}**. Ist das Hardware oder Software?"
-            en: "Jona needs a sign for the **{{e.name}}**. Is it hardware or software?"
+            de: "Auf Jonas nächstem Schild steht: **{{e.name}}**. Ist das Hardware oder Software?"
+            en: "Jona's next sign says: **{{e.name}}**. Is it hardware or software?"
         answer:
           value: "e.art"
           compare:
@@ -191,13 +191,13 @@ blocks:
           de: Hardware kannst du anfassen, Software nicht.
           en: You can touch hardware, but not software.
         steps:
-          - de: "{{e.grund}} Also ist es {{answer}}."
-            en: "{{e.grund}} So it is {{answer}}."
+          - de: "{{e.grund}} Antwort: {{answer}}."
+            en: "{{e.grund}} Answer: {{answer}}."
       - type: matching
         id: wer-mit-wem
         text:
-          de: Welche App braucht welche Hardware am dringendsten?
-          en: Which app needs which hardware most?
+          de: Zu welcher Hardware passt welche App?
+          en: Which app goes with which piece of hardware?
         pairs:
           - left: { de: Kamera, en: camera }
             right: { de: Kamera-App, en: camera app }
@@ -217,22 +217,22 @@ blocks:
           en: A tablet has no software at all, not even a program to start up. What happens when you switch it on?
         options:
           - text:
-              de: Es tut nichts Sinnvolles.
-              en: It does nothing useful.
+              de: Es tut nichts Sinnvolles
+              en: It does nothing useful
             correct: true
             info:
               de: Kein Programm sagt der Hardware, was sie tun soll. Darum bleibt das Tablet nutzlos.
               en: No program tells the hardware what to do. So the tablet stays useless.
           - text:
-              de: Es zeigt trotzdem Fotos.
-              en: It still shows photos.
+              de: Es zeigt trotzdem Fotos
+              en: It still shows photos
             correct: false
             info:
               de: Um Fotos zu zeigen, braucht das Tablet ein Programm. Das fehlt hier.
               en: To show photos, the tablet needs a program. That is missing here.
           - text:
-              de: Es macht sich die Apps selbst.
-              en: It makes its own apps.
+              de: Es macht sich die Apps selbst
+              en: It makes its own apps
             correct: false
             info:
               de: Apps schreiben Menschen. Hardware allein kann keine Programme erfinden.

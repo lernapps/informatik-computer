@@ -34,22 +34,22 @@ blocks:
           en: Why is Selin's poster gone?
         options:
           - text:
-              de: Sie hat es vor dem Schließen nicht gespeichert.
-              en: She did not save it before closing.
+              de: Sie hat es vor dem Schließen nicht gespeichert
+              en: She did not save it before closing
             correct: true
             info:
               de: Was nicht gespeichert ist, geht beim Schließen verloren.
               en: What is not saved is lost when you close the program.
           - text:
-              de: Das Malprogramm löscht jede Nacht alle Bilder.
-              en: The drawing program deletes all pictures every night.
+              de: Das Malprogramm löscht jede Nacht alle Bilder
+              en: The drawing program deletes all pictures every night
             correct: false
             info:
               de: Ein Malprogramm löscht gespeicherte Bilder nicht von selbst.
               en: A drawing program does not delete saved pictures by itself.
           - text:
-              de: Der Bildschirm war zu klein für das Plakat.
-              en: The screen was too small for the poster.
+              de: Der Bildschirm war zu klein für das Plakat
+              en: The screen was too small for the poster
             correct: false
             info:
               de: Der Bildschirm zeigt nur, was gerade offen ist. Er hebt nichts auf.
@@ -237,8 +237,8 @@ blocks:
         distractors:
           - { de: Das Bild wird auf Papier gedruckt., en: The picture is printed on paper. }
         explanation:
-          de: "Drucken ist ein eigener Befehl. Er gehört zu keinem der fünf Befehle hier."
-          en: "Printing is a command of its own. It belongs to none of the five commands here."
+          de: "Drucken ist ein eigener Befehl. Er gehört zu keinem der sechs Befehle hier."
+          en: "Printing is a command of its own. It belongs to none of the six commands here."
       - type: generated
         id: sonnen-zaehlen
         given:
@@ -265,8 +265,8 @@ blocks:
         steps:
           - de: "Kopieren ändert nichts am Bild. Einfügen: eine Sonne mehr. Ausschneiden: eine Sonne weniger."
             en: "Copy changes nothing in the picture. Paste: one more sun. Cut: one sun fewer."
-          - de: "Bei **{{e.folge}}** sind am Ende {{answer}} Sonnen auf dem Bild."
-            en: "With **{{e.folge}}** there are {{answer}} suns in the picture at the end."
+          - de: "Bei **{{e.folge}}** ist die Zahl der Sonnen am Ende: {{answer}}."
+            en: "With **{{e.folge}}** the number of suns at the end is: {{answer}}."
       - type: true-false
         id: schliessen-speichert
         text:
@@ -280,7 +280,7 @@ blocks:
         text:
           de: |
             Geschafft: Das Plakat hängt, mit zwei Sonnen, und es ist gespeichert. Damit endet der Rundgang von außen.
-            Im nächsten Kapitel klappt ihr den Computer auf und schaut hinein.
+            Im nächsten Kapitel schaut ihr in einen Computer hinein.
           en: |
             Well done: the poster is up, with two suns, and it is saved. That ends the tour from the outside. In the
-            next chapter you open the computer and look inside.
+            next chapter you look inside a computer.

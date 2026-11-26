@@ -43,22 +43,22 @@ blocks:
           en: How does the calculator know which numbers to work with?
         options:
           - text:
-              de: Jemand tippt sie auf den Tasten ein.
-              en: Someone types them in on the keys.
+              de: Jemand tippt sie auf den Tasten ein
+              en: Someone types them in on the keys
             correct: true
             info:
               de: Die Zahlen kommen von außen in den Taschenrechner hinein.
               en: The numbers come into the calculator from outside.
           - text:
-              de: Er denkt sich die Zahlen selbst aus.
-              en: It makes up the numbers by itself.
+              de: Er denkt sich die Zahlen selbst aus
+              en: It makes up the numbers by itself
             correct: false
             info:
               de: Er rechnet nur mit dem, was hineinkommt.
               en: It only works with what goes in.
           - text:
-              de: Die Zahlen stehen schon in der Anzeige.
-              en: The numbers are already on the display.
+              de: Die Zahlen stehen schon in der Anzeige
+              en: The numbers are already on the display
             correct: false
             info:
               de: In der Anzeige steht nur, was der Taschenrechner zeigt. Hineinkommen kann darüber nichts.
@@ -82,13 +82,6 @@ blocks:
             Jona types **3 + 4 =**. A moment later the display shows **7**. In between, the calculator works in three
             steps. In the picture each step is a box with its own colour and letter: I blue, P green, O orange. The
             arrows show the order in which the data travels.
-      - type: definition
-        term:
-          de: Daten
-          en: data
-        explanation:
-          de: Alles, womit ein Computer arbeitet, zum Beispiel Zahlen, Buchstaben, Bilder und Töne.
-          en: Everything a computer works with, for example numbers, letters, pictures and sounds.
       - type: vue-component
         component: EvaBild
         props:
@@ -135,11 +128,11 @@ blocks:
         text:
           de: |
             Der Taschenrechner vergisst die 7 gleich wieder. Ein Tablet will vieles aufheben, zum Beispiel ein Foto.
-            Dafür hat der Kasten Verarbeitung eine Schublade: den Festspeicher. Darum nennen manche Bücher es auch
+            Dafür hat der Kasten Verarbeitung eine Schublade: den Festspeicher. Im Bild heißt sie „Speicher – hebt auf“. Darum nennen manche Bücher es auch
             EVAS-Prinzip, mit S für Speicher.
           en: |
             The calculator forgets the 7 straight away. A tablet wants to keep many things, for example a photo. For
-            that the box Process has a drawer: storage. That is why some books call it the IPOS model, with S for
+            that the box Process has a drawer: storage. In the picture it says “storage – keeps”. That is why some books call it the IPOS model, with S for
             storage.
       - type: note
         title:
@@ -150,11 +143,11 @@ blocks:
             text:
               de: |
                 Eingabe heißt: **hinein** in den Computer. Ausgabe heißt: **heraus** aus dem Computer, zu dir oder zu
-                einem anderen Gerät, zum Beispiel einem Motor. Ein
+                einem anderen Teil, zum Beispiel zur Trommel der Waschmaschine. Ein
                 Lautsprecher bringt Töne aus dem Computer heraus. Darum ist er ein Ausgabegerät.
               en: |
-                Input means: **into** the computer. Output means: **out of** the computer, to you or to another device,
-                for example a motor. A loudspeaker brings
+                Input means: **into** the computer. Output means: **out of** the computer, to you or to another part,
+                for example to the drum of a washing machine. A loudspeaker brings
                 sounds out of the computer. That is why it is an output device.
   - type: section
     id: beispiel
@@ -197,8 +190,8 @@ blocks:
         component: EvaSortierer
         props:
           task:
-            de: "Selin hat Schilder für fünf Geräte. Lege jedes Gerät in seinen Kasten:"
-            en: "Selin has signs for five devices. Put each device into its box:"
+            de: "Selin hat Schilder für fünf Geräte und Teile. Lege jedes in seinen Kasten:"
+            en: "Selin has signs for five devices and parts. Put each one into its box:"
           devices: { data: eva-geraete }
           boxes:
             - { de: Eingabe, en: Input }
@@ -369,8 +362,8 @@ blocks:
       - type: text
         text:
           de: |
-            Geschafft: Jedes Gerät der Ausstellung hat jetzt sein Schild mit E, V oder A. An der nächsten Station
+            Geschafft: Jedes Gerät und jedes Teil auf Selins Schildern hat jetzt seinen Kasten: E, V oder A. An der nächsten Station
             kommt Mia. Sie fragt, welches Gerät sie für ihr Referat nehmen soll.
           en: |
-            Well done: every device in the exhibition now has its sign with I, P or O. At the next station Mia
-            arrives. She asks which device she should use for her talk.
+            Well done: every device and part on Selin's signs now has its box: I, P or O. At the next station Mia
+            arrives. She asks which device she should use for her report.

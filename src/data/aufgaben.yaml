@@ -2,21 +2,6 @@
 # anderen Geräte mit ihrem Grund, warum sie weniger passen, grund begründet die richtige Wahl mit dem EVA-Bild.
 
 - aufgabe:
-    de: "Mia schreibt ein Referat über Igel, zwei Seiten Text."
-    en: "Mia writes a report about hedgehogs, two pages of text."
-  geraet: "Laptop"
-  falschA: "Smartwatch"
-  grundA:
-    de: "Auf der Smartwatch kannst du kaum tippen, und der Bildschirm ist winzig."
-    en: "On a smartwatch you can hardly type, and the screen is tiny."
-  falschB: "Smartphone"
-  grundB:
-    de: "Auf dem Smartphone kannst du tippen, aber zwei Seiten Text sind dort mühsam. Der Bildschirm ist klein."
-    en: "On a smartphone you can type, but two pages of text are hard work there. The screen is small."
-  grund:
-    de: "Für viel Text brauchst du eine Tastatur zur Eingabe und einen großen Bildschirm zur Ausgabe. Das hat der Laptop."
-    en: "For a lot of text you need a keyboard for input and a big screen for output. The laptop has both."
-- aufgabe:
     de: "Jona will beim Wandertag Fotos machen und sie gleich ansehen."
     en: "Jona wants to take photos on the class hike and look at them straight away."
   geraet: "Smartphone"

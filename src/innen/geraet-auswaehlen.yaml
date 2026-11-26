@@ -26,14 +26,14 @@ blocks:
       - type: text
         text:
           de: |
-            An Station 5 hast du jedes Gerät in die EVA-Kästen gelegt. Jetzt kommt Mia aus der 6b. Sie muss ein
+            An Station 5 hast du Geräte und Teile in die EVA-Kästen gelegt. Jetzt kommt Mia, 11, aus der 6b zu Besuch. Sie muss ein
             Referat über Igel schreiben, zwei Seiten Text. Sie fragt Jona: „Welches Gerät soll ich nehmen?“
 
             Auf dieser Seite lernst du, für eine Aufgabe ein passendes Gerät und Programm auszuwählen und deine Wahl
             zu begründen.
           en: |
-            At station 5 you put every device into the IPO boxes. Now Mia from class 6b arrives. She has to write a
-            talk about hedgehogs, two pages of text. She asks Jona: “Which device should I use?”
+            At station 5 you put devices and parts into the IPO boxes. Now Mia, 11, from class 6b comes to visit. She has to
+            write a report about hedgehogs, two pages of text. She asks Jona: “Which device should I use?”
 
             On this page you learn to choose a suitable device and program for a task and to explain your choice.
       - type: single-choice
@@ -232,37 +232,37 @@ blocks:
       - type: single-choice
         id: beste-begruendung
         text:
-          de: Jona nimmt für seine Liste mit 28 Namen den Laptop. Welche Begründung passt am besten?
-          en: Jona uses the laptop for his list of 28 names. Which reason fits best?
+          de: Selin nimmt ein Hörspiel für die Klasse auf und will es gleich anhören. Sie nimmt das Smartphone. Welche Begründung passt am besten?
+          en: Selin records a radio play for the class and wants to listen to it straight away. She uses the smartphone. Which reason fits best?
         options:
           - text:
-              de: Er hat eine Tastatur, mit der man schnell viele Namen tippt.
-              en: It has a keyboard for typing many names quickly.
+              de: Es hat ein Mikrofon zur Eingabe und einen Lautsprecher zur Ausgabe
+              en: It has a microphone for input and a loudspeaker for output
             correct: true
             info:
-              de: "Die Begründung nennt, was die Aufgabe braucht: eine gute Eingabe für viel Text."
-              en: "This reason names what the task needs: good input for a lot of text."
+              de: "Die Begründung nennt, was die Aufgabe braucht: Töne hinein und Töne heraus."
+              en: "This reason names what the task needs: sound in and sound out."
           - text:
-              de: Er ist das neueste Gerät auf dem Tisch.
-              en: It is the newest device on the table.
+              de: Es ist das neueste Gerät in Selins Familie
+              en: It is the newest device in Selin's family
             correct: false
             info:
               de: Neu sagt nichts darüber, ob das Gerät zur Aufgabe passt.
               en: New says nothing about whether the device fits the task.
           - text:
-              de: Er ist das teuerste Gerät auf dem Tisch.
-              en: It is the most expensive device on the table.
+              de: Es hat viel gekostet
+              en: It cost a lot of money
             correct: false
             info:
               de: Der Preis sagt nichts darüber, ob das Gerät zur Aufgabe passt.
               en: The price says nothing about whether the device fits the task.
           - text:
-              de: Er hat die beste Kamera.
-              en: It has the best camera.
+              de: Es hat eine Kamera
+              en: It has a camera
             correct: false
             info:
-              de: Für eine Namensliste braucht Jona keine Kamera. Die Begründung passt nicht zur Aufgabe.
-              en: Jona does not need a camera for a list of names. The reason does not fit the task.
+              de: Für ein Hörspiel braucht Selin keine Kamera. Die Begründung passt nicht zur Aufgabe.
+              en: Selin does not need a camera for a radio play. The reason does not fit the task.
         explanation:
           de: Eine gute Begründung nennt, was die Aufgabe als Eingabe und Ausgabe braucht.
           en: A good reason names what the task needs as input and output.
@@ -288,7 +288,7 @@ blocks:
 
             1. Du erkennst Informatiksysteme in deinem Alltag.
             2. Du unterscheidest Hardware und Software.
-            3. Du bedienst ein Programm: Öffnen, Speichern, Kopieren, Einfügen.
+            3. Du bedienst ein Programm: Öffnen, Speichern, Kopieren, Einfügen, Ausschneiden, Rückgängig.
             4. Du kennst die Teile im gläsernen Computer.
             5. Du ordnest Geräte und Schritte mit dem EVA-Prinzip.
             6. Du wählst ein Gerät für eine Aufgabe und begründest deine Wahl.
@@ -297,7 +297,7 @@ blocks:
 
             1. You can spot computer systems in your everyday life.
             2. You can tell hardware from software.
-            3. You can use a program: open, save, copy, paste.
+            3. You can use a program: open, save, copy, paste, cut, undo.
             4. You know the parts inside the glass computer.
             5. You can sort devices and steps with the IPO model.
             6. You can choose a device for a task and explain your choice.

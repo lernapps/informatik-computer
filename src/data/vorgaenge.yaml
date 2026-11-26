@@ -36,11 +36,11 @@
     de: "Die Anzeige zeigt den Preis und der Drucker druckt den Kassenbon"
     en: "The display shows the price and the printer prints the receipt"
 - vorgang:
-    de: "Mia hört eine Sprachnachricht ab."
-    en: "Mia listens to a voice message."
+    de: "Jona hört eine Sprachnachricht ab."
+    en: "Jona listens to a voice message."
   eingabe:
-    de: "Mia tippt auf „Abspielen“"
-    en: "Mia taps “Play”"
+    de: "Jona tippt auf „Abspielen“"
+    en: "Jona taps “Play”"
   verarbeitung:
     de: "Der Prozessor macht aus der Nachricht Töne"
     en: "The processor turns the message into sounds"
@@ -69,5 +69,5 @@
     de: "Der Prozessor zählt die Bewegungen als Schritte zusammen"
     en: "The processor adds up the movements as steps"
   ausgabe:
-    de: "Das Display der Uhr zeigt die Zahl der Schritte"
+    de: "Die Anzeige der Uhr zeigt die Zahl der Schritte"
     en: "The watch display shows the number of steps"

@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -78,6 +78,25 @@ Bausteine haben `practisedBy: []` (Lücken). Kein Baustein braucht etwas von au�
   begründen.“
 
 Voraussetzungen von außerhalb: keine. Keine Wiederholungsseite.
+
+### Prüfungen und was ich behoben habe
+
+- Lernenden-Prüfung Musterseite (de, en, 360/1280, ohne JS, Tastatur): Einstiegsfrage war im Text beantwortet;
+  Schublade lag bei 360 px zwischen V und A; Schublade nicht geübt; Farben und „Daten“ nicht erklärt; Sortierer nannte
+  nur ein falsches Gerät; Fokus schwach; Wortbrüche; englische Texte. Alles behoben.
+- Fachliche Prüfung (Informatik, ganze App): falsche Sonnen-Folge (zweimal Ausschneiden); Foto-App statt Kamera-App;
+  „hard drive“; Tabelle Seite 6 passte nicht zu den Begründungen; Joggen-Aufgabe mehrdeutig; Merke „anfassen = Hardware,
+  sonst Software“; Sprachnachricht mit Ausgabe auf anderem Gerät; Mikrofon/Lautsprecher im Bild nicht zu erkennen;
+  „Referat“ = report; Arbeitsspeicher „rechnet“; Rollenspiel widersprach der Schublade; Smartwatch doppelt auf Seite 1;
+  Gegenbeispiele (E-Bike, LED); Definition Informatiksystem; Wolke = Cloud; Öffnen nicht geübt, Mitmachen am echten
+  Malprogramm; Zwischenablage gehört dem Computer; Drucker als Ausgabegerät; Ausgabe auch an ein Teil. Behoben.
+  Nicht umgesetzt: freie Begründung „Ich nehme …, weil …“ (bräuchte `open-task` und `scope` auf allen Seiten).
+- Lernenden-Prüfung ganze App (de, en): Figuren ohne Alter, Mia vor ihrer Einführung (Seite 4 und 5), „Daten“ vor
+  Seite 5, Artikel in generierten Aufgaben, drei verschiedene Kassen, „gespeichert“ zu früh, „Textverarbeitung“ zu früh,
+  Zuordnung falsch herum gefragt, „aufklappen“, „fünf Befehle“, „1 Sonnen“, Tabelle Seite 4 bei 360 px zu breit, „Motor“,
+  „Geräte“ für Teile, Monitor/Display, Wiederholung der Einstiegsaufgabe und der 28 Namen, Rückblick ohne
+  Ausschneiden/Rückgängig, „talk“/„report“, „So it is Software“, „.:“ nach Optionstexten. Behoben. Runtime-Funde
+  (Rückmeldung bleibt stehen, „Leider nicht richtig“ bei unfertig, „.:“ der Runtime) an den Orchestrator.
 
 ### Quellen (geöffnet und gelesen)
 
@@ -384,9 +403,9 @@ Geräten oft über ein Menü geht. Keine Übung hängt vom System ab.
 <!-- tasks: pages (5 added): the other pages or screens, after the pattern -->
 - [x] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [x] Run `npx --no -- lernapps check` until it passes.
-- [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
+- [x] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
-- [ ] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
+- [x] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
       fixed.
 
 ## Commit

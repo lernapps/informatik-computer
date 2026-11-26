@@ -26,8 +26,8 @@
     de: "In der Konsole rechnet ein Computer aus, wie sich die Figuren im Spiel bewegen."
     en: "A computer inside the console works out how the characters move in the game."
 - name:
-    de: "Kasse im Supermarkt"
-    en: "till in the supermarket"
+    de: "Kasse"
+    en: "till"
   antwort:
     de: "ja"
     en: "yes"

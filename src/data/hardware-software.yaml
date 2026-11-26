@@ -73,13 +73,13 @@
     de: "Die Taschenrechner-App ist ein Programm. Sie läuft auf dem Gerät, anfassen kannst du sie nicht."
     en: "The calculator app is a program. It runs on the device, you cannot touch it."
 - name:
-    de: "Textverarbeitung"
-    en: "word processor"
+    de: "Lern-App"
+    en: "learning app"
   art: "Software"
   gegenteil: "Hardware"
   grund:
-    de: "Ein Programm zum Schreiben von Texten. Du kannst es benutzen, aber nicht anfassen."
-    en: "A program for writing texts. You can use it, but you cannot touch it."
+    de: "Die Lern-App ist ein Programm. Du kannst sie benutzen, aber nicht anfassen."
+    en: "The learning app is a program. You can use it, but you cannot touch it."
 - name:
     de: "Wetter-App"
     en: "weather app"

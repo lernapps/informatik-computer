@@ -58,11 +58,11 @@
     de: "Im Arbeitsspeicher liegt alles, woran der Prozessor gerade arbeitet."
     en: "Memory holds everything the processor is working on right now."
 - name:
-    de: "Monitor"
+    de: "Bildschirm am PC"
     en: "monitor"
   phase: 2
   grund:
-    de: "Der Monitor zeigt dir Bilder und Text. Tippen kannst du auf ihm nicht."
+    de: "Der Bildschirm am PC zeigt dir Bilder und Text. Tippen kannst du auf ihm nicht."
     en: "A monitor shows you pictures and text. You cannot tap on it."
 - name:
     de: "Lautsprecher"
