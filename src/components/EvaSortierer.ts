@@ -21,8 +21,10 @@ export interface Props {
   boxes: string[];
   /** The message when a device is not placed yet. */
   unplaced: string;
-  /** The message for a device in a wrong box, with {name} and {grund}. */
+  /** The message for one device in a wrong box, with {name} and {grund}. */
   wrong: string;
+  /** The message for several devices in a wrong box, with {count}, and {name} and {grund} of the first. */
+  wrongMany: string;
 }
 
 /** The devices of a task, in the order shown. */
@@ -89,16 +91,23 @@ export function mistakes(task: Task, _props?: Props): (Answer | undefined)[] {
   return [wrong(task), task.devices.map((device) => (device.phase === 1 ? 2 : device.phase))];
 }
 
-/** A text with {name} and {grund} of `device` filled in. */
-const fill = (text: string, device: Device) =>
-  text.replace(/\{name\}/g, device.name).replace(/\{grund\}/g, device.grund);
+/** A text with {name}, {grund} and {count} filled in. */
+const fill = (text: string, device: Device, count: number) =>
+  text
+    .replace(/\{name\}/g, device.name)
+    .replace(/\{grund\}/g, device.grund)
+    .replace(/\{count\}/g, String(count));
 
-/** The app's message for a wrong answer: a device not placed yet, or the first device in a wrong box with what it does. */
+/**
+ * The app's message for a wrong answer: a device not placed yet, or how many devices lie in a wrong box and the first
+ * of them with what it does (never its box).
+ */
 export function reason(task: Task, answer: Answer, props: Props, _lang?: string): string | undefined {
   if (task.devices.some((_, i) => (answer[i] ?? -1) < 0)) return props.unplaced;
-  const index = task.devices.findIndex((device, i) => answer[i] !== device.phase);
-  const device = task.devices[index];
-  return device === undefined ? undefined : fill(props.wrong, device);
+  const misplaced = task.devices.filter((device, i) => answer[i] !== device.phase);
+  const device = misplaced[0];
+  if (device === undefined) return undefined;
+  return fill(misplaced.length === 1 ? props.wrong : props.wrongMany, device, misplaced.length);
 }
 
 /** An answer as text: each device with its box. */

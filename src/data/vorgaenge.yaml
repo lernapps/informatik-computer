@@ -3,71 +3,71 @@
     de: "Selin macht mit dem Tablet ein Foto."
     en: "Selin takes a photo with the tablet."
   eingabe:
-    de: "Die Kamera nimmt das Bild auf."
-    en: "The camera takes the picture."
+    de: "Die Kamera nimmt das Bild auf"
+    en: "The camera takes the picture"
   verarbeitung:
-    de: "Der Prozessor macht das Bild heller und schärfer."
-    en: "The processor makes the picture brighter and sharper."
+    de: "Der Prozessor macht das Bild heller und schärfer"
+    en: "The processor makes the picture brighter and sharper"
   ausgabe:
-    de: "Der Bildschirm zeigt das fertige Foto."
-    en: "The screen shows the finished photo."
+    de: "Der Bildschirm zeigt das fertige Foto"
+    en: "The screen shows the finished photo"
 - vorgang:
     de: "Jona rechnet 3 + 4 mit dem Taschenrechner."
     en: "Jona works out 3 + 4 on the calculator."
   eingabe:
-    de: "Jona tippt 3, +, 4 und = auf den Tasten."
-    en: "Jona presses 3, +, 4 and = on the keys."
+    de: "Jona tippt 3, +, 4 und = auf den Tasten"
+    en: "Jona presses 3, +, 4 and = on the keys"
   verarbeitung:
-    de: "Der Prozessor rechnet 3 + 4 = 7."
-    en: "The processor works out 3 + 4 = 7."
+    de: "Der Prozessor rechnet 3 + 4 = 7"
+    en: "The processor works out 3 + 4 = 7"
   ausgabe:
-    de: "Die Anzeige zeigt die 7."
-    en: "The display shows 7."
+    de: "Die Anzeige zeigt die 7"
+    en: "The display shows 7"
 - vorgang:
     de: "An der Kasse wird ein Saft bezahlt."
     en: "A juice is paid for at the till."
   eingabe:
-    de: "Der Scanner liest den Strichcode des Safts."
-    en: "The scanner reads the barcode of the juice."
+    de: "Der Scanner liest den Strichcode des Safts"
+    en: "The scanner reads the barcode of the juice"
   verarbeitung:
-    de: "Die Kasse sucht den Preis und zählt ihn zur Summe dazu."
-    en: "The till looks up the price and adds it to the total."
+    de: "Die Kasse sucht den Preis und zählt ihn zur Summe dazu"
+    en: "The till looks up the price and adds it to the total"
   ausgabe:
-    de: "Die Anzeige zeigt den Preis und der Drucker druckt den Kassenbon."
-    en: "The display shows the price and the printer prints the receipt."
+    de: "Die Anzeige zeigt den Preis und der Drucker druckt den Kassenbon"
+    en: "The display shows the price and the printer prints the receipt"
 - vorgang:
     de: "Mia schickt eine Sprachnachricht."
     en: "Mia sends a voice message."
   eingabe:
-    de: "Das Mikrofon nimmt Mias Stimme auf."
-    en: "The microphone picks up Mia's voice."
+    de: "Das Mikrofon nimmt Mias Stimme auf"
+    en: "The microphone picks up Mia's voice"
   verarbeitung:
-    de: "Der Prozessor macht aus der Stimme eine Datei zum Verschicken."
-    en: "The processor turns the voice into a file to send."
+    de: "Der Prozessor macht aus der Stimme eine Datei zum Verschicken"
+    en: "The processor turns the voice into a file to send"
   ausgabe:
-    de: "Beim Freund spielt der Lautsprecher die Nachricht ab."
-    en: "On her friend's phone the loudspeaker plays the message."
+    de: "Beim Freund spielt der Lautsprecher die Nachricht ab"
+    en: "On her friend's phone the loudspeaker plays the message"
 - vorgang:
     de: "Jona spielt ein Spiel an der Konsole."
     en: "Jona plays a game on the console."
   eingabe:
-    de: "Jona drückt einen Knopf am Controller."
-    en: "Jona presses a button on the controller."
+    de: "Jona drückt einen Knopf am Controller"
+    en: "Jona presses a button on the controller"
   verarbeitung:
-    de: "Der Prozessor berechnet den Sprung der Spielfigur."
-    en: "The processor works out the jump of the character."
+    de: "Der Prozessor berechnet den Sprung der Spielfigur"
+    en: "The processor works out the jump of the character"
   ausgabe:
-    de: "Der Fernseher zeigt, wie die Figur springt."
-    en: "The TV shows the character jumping."
+    de: "Der Fernseher zeigt, wie die Figur springt"
+    en: "The TV shows the character jumping"
 - vorgang:
     de: "Die Smartwatch zählt Selins Schritte."
     en: "The smartwatch counts Selin's steps."
   eingabe:
-    de: "Ein Bewegungsmesser in der Uhr merkt jede Bewegung des Arms."
-    en: "A motion detector in the watch notices every movement of the arm."
+    de: "Ein Bewegungsmesser in der Uhr merkt jede Bewegung des Arms"
+    en: "A motion detector in the watch notices every movement of the arm"
   verarbeitung:
-    de: "Der Prozessor zählt die Bewegungen als Schritte zusammen."
-    en: "The processor adds up the movements as steps."
+    de: "Der Prozessor zählt die Bewegungen als Schritte zusammen"
+    en: "The processor adds up the movements as steps"
   ausgabe:
-    de: "Das Display der Uhr zeigt die Zahl der Schritte."
-    en: "The watch display shows the number of steps."
+    de: "Das Display der Uhr zeigt die Zahl der Schritte"
+    en: "The watch display shows the number of steps"

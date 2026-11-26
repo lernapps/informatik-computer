@@ -17,6 +17,7 @@ const props = {
   boxes: ["Eingabe", "Verarbeitung", "Ausgabe"],
   unplaced: "Lege erst jedes Gerät in einen Kasten.",
   wrong: "Schau noch einmal auf {name}: {grund}",
+  wrongMany: "{count} Geräte liegen falsch. Fang mit {name} an: {grund}",
 };
 
 test("each task has two inputs, one part that processes and two outputs, all different", () => {
@@ -45,7 +46,9 @@ test("the reason names a device not placed, or the first device in a wrong box, 
   const task = { devices: [devices[0]!, devices[3]!, devices[5]!] };
   expect(reason(task, [0, -1, 2], props)).toBe("Lege erst jedes Gerät in einen Kasten.");
   expect(reason(task, [0, 2, 2], props)).toBe("Schau noch einmal auf Prozessor: Der Prozessor rechnet.");
-  expect(reason(task, [2, 1, 0], props)).toBe("Schau noch einmal auf Tastatur: Mit der Tastatur tippst du.");
+  expect(reason(task, [2, 1, 0], props)).toBe(
+    "2 Geräte liegen falsch. Fang mit Tastatur an: Mit der Tastatur tippst du.",
+  );
   expect(reason(task, [0, 1, 2], props)).toBeUndefined();
 });
 

@@ -48,8 +48,8 @@
     en: "processor"
   phase: 1
   grund:
-    de: "Der Prozessor rechnet und arbeitet die Befehle des Programms ab."
-    en: "The processor calculates and carries out the instructions of the program."
+    de: "Der Prozessor rechnet mit den Daten."
+    en: "The processor calculates with the data."
 - name:
     de: "Arbeitsspeicher"
     en: "memory"

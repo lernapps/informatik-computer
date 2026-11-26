@@ -134,4 +134,10 @@ jede Seite hat mindestens vier Übungen im Abschnitt `uebung` (eine im Abschnitt
 
 ## Rules learned from mistakes
 
-None yet.
+- Die Einstiegsfrage darf nicht im Text direkt davor beantwortet sein (Lernenden-Prüfung der Musterseite: „Was
+  passiert zuerst?“ stand schon im Text). Die Szene stellt die Frage, die Erklärung kommt danach.
+- Jedes Bild, das ein neues Ding zeigt (die Schublade), braucht eine Übung dazu (Musterseite: Festspeicher kam nur im
+  Bild vor).
+- Farben und Buchstaben eines Bildes im Text nennen; „Daten“ als Wort erklären, bevor ein Text es nutzt.
+- Höchstens 350 Wörter in Aufgaben und Rückmeldungen: `info` kurz halten, eine Frage am Ende einer Rückmeldung nur
+  einmal je Übung.

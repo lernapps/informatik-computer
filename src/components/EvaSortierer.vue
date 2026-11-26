@@ -21,8 +21,10 @@ const props = defineProps<{
   reset: string;
   /** The message when a device is not placed yet. */
   unplaced: string;
-  /** The message for a device in a wrong box, with {name} and {grund}. */
+  /** The message for one device in a wrong box, with {name} and {grund}. */
   wrong: string;
+  /** The message for several devices in a wrong box, with {count}, and {name} and {grund} of the first. */
+  wrongMany: string;
   /** The task number, which the explainer gives. */
   seed: number;
   /** Whether the explainer checked the answer shown now. */
@@ -104,19 +106,29 @@ const inBox = (box: number) => current.value.devices.filter((_, i) => placed.val
 
 .eva-sortierer-choices {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+  flex: 1 1 18rem;
+  gap: 0.25rem;
 }
 
 .eva-sortierer-choices button {
+  flex: 1 1 auto;
+  min-width: 0;
   min-height: 44px;
-  padding: 0 0.75rem;
+  padding: 0.25rem;
+  font-size: 0.95em;
+  line-height: 1.2;
+  hyphens: auto;
   border: 2px solid var(--box);
   border-radius: 0.5rem;
   background: var(--page-surface);
   color: var(--page-text);
   font: inherit;
   cursor: pointer;
+}
+
+.eva-sortierer button:focus-visible {
+  outline: 3px solid var(--page-text);
+  outline-offset: 2px;
 }
 
 .eva-sortierer-choices button[aria-pressed="true"] {
@@ -153,8 +165,9 @@ const inBox = (box: number) => current.value.devices.filter((_, i) => placed.val
 
 .eva-sortierer-boxes {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(6.5rem, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.5rem;
+  hyphens: auto;
 }
 
 .eva-sortierer-target {
@@ -192,5 +205,21 @@ const inBox = (box: number) => current.value.devices.filter((_, i) => placed.val
   color: var(--page-text);
   font: inherit;
   cursor: pointer;
+}
+@media (max-width: 30rem) {
+  .eva-sortierer-boxes {
+    grid-template-columns: 1fr;
+  }
+
+  .eva-sortierer-target {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 3rem;
+  }
+
+  .eva-sortierer-target strong {
+    flex: 1 1 100%;
+  }
 }
 </style>

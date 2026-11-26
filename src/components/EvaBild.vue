@@ -35,6 +35,7 @@ const shown = computed(() => boxes(props));
           <span v-if="box.item" class="eva-bild-item">{{ box.item }}</span>
         </div>
         <div v-if="i === 1" class="eva-bild-drawer">
+          <span class="eva-bild-both">⇅</span>
           <strong>{{ drawer }}</strong>
           <span v-if="drawerItem" class="eva-bild-item">{{ drawerItem }}</span>
         </div>
@@ -115,6 +116,12 @@ const shown = computed(() => boxes(props));
   text-align: center;
 }
 
+.eva-bild-both {
+  display: inline-block;
+  font-size: 1.2em;
+  line-height: 1;
+}
+
 .eva-bild-arrow {
   flex: 0 0 1.5rem;
   align-self: center;
@@ -132,6 +139,29 @@ const shown = computed(() => boxes(props));
 
   .eva-bild-box {
     min-height: 0;
+  }
+
+  /* the drawer beside the box Verarbeitung, not on the way to Ausgabe */
+  .eva-bild-column {
+    flex-direction: row;
+  }
+
+  .eva-bild-column > .eva-bild-box {
+    flex: 2 1 0;
+  }
+
+  .eva-bild-drawer {
+    flex: 1 1 0;
+    justify-content: center;
+    margin: 0.75rem 0;
+    border-top: 2px dashed #23704a;
+    border-left: 0;
+    border-radius: 0 0.6rem 0.6rem 0;
+    hyphens: auto;
+  }
+
+  .eva-bild-both {
+    transform: rotate(90deg);
   }
 
   .eva-bild-arrow {
