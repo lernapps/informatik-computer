@@ -52,8 +52,10 @@ jede Seite hat mindestens vier Übungen im Abschnitt `uebung` (eine im Abschnitt
   2. `idee` – das Neue: ein Bild (Abbildung oder Komponente), höchstens zwei kurze Texte, `definition` für jedes neue
      Fachwort, ein Kasten `note` „Merke“ zum typischen Fehler.
   3. `beispiel` – ein Kasten `example` oder eine Anleitung zum Mitmachen ohne Computer (unplugged), als `note`.
-  4. `uebung` – vier Übungen oder mehr, von leicht (wiedererkennen) zu schwer (neue Lage); am Ende ein Text mit dem
-     Lohn der Station und dem nächsten Schritt („An der nächsten Station …“).
+  4. `uebung` – vier Übungen oder mehr (mit der Frage im `einstieg` und einer Übung, die in `idee` zwischen Texten
+     steht), von leicht (wiedererkennen) zu schwer (neue Lage); am Ende ein Text mit dem Lohn der Station und dem
+     nächsten Schritt („An der nächsten Station …“).
+  5. Nur die letzte Seite: `rueckblick` mit allen sechs Stationen.
 - Länge: höchstens 350 Wörter zum Lesen, höchstens 4 Textblöcke hintereinander.
 
 ## Terminology
@@ -77,27 +79,37 @@ jede Seite hat mindestens vier Übungen im Abschnitt `uebung` (eine im Abschnitt
 
 ## Exercise patterns
 
-- **Ja oder nein mit Grund** (`informatiksysteme-im-alltag`): `generated` mit `pick: 1` aus `data/gegenstaende.yaml`
-  (`name`, `istSystem`, `grund`), `compare: { choice: [ja, nein] }`; der `grund` steht in `steps`.
-- **Hardware oder Software** (`hardware-und-software`): `generated` aus `data/hardware-software.yaml`, `choice`
-  [Hardware, Software].
-- **Befehle zählen** (`programme-bedienen`): `generated` `number` aus `data/befehlsfolgen.yaml` (Felder `folge`,
-  `sonnen`, `fehlerKopieren`, `fehlerAusschneiden`): „Wie viele Sonnen sind danach auf dem Bild?“; die Fehlerfelder
-  sind die Zahl, die mit dem typischen Fehler herauskommt, und immer verschieden von `sonnen`.
+- **Ja oder nein mit Grund** (`informatiksysteme-im-alltag`, Übung `system-oder-nicht`): `generated` mit `pick: 1`
+  aus `data/gegenstaende.yaml` (`name`, `antwort` ja/nein, `gegenteil`, `grund`), `compare: { choice: [ja, nein] }`
+  (en yes/no); `gegenteil` ist der Fehler, `grund` steht in `steps`.
+- **Hardware oder Software** (`hardware-und-software`, Übung `hardware-oder-software`): `generated` aus
+  `data/hardware-software.yaml` (`name`, `art`, `gegenteil`, `grund`), `choice` [Hardware, Software].
+- **Befehle zählen** (`programme-bedienen`, Übung `sonnen-zaehlen`): `generated` `number` aus
+  `data/befehlsfolgen.yaml` (Felder `folge`, `sonnen`, `fehlerKopieren`, `fehlerAusschneiden`): „Wie viele Sonnen sind
+  danach auf dem Bild?“ Regel: Am Anfang ist eine Sonne markiert; Eingefügtes ist danach markiert; Ausschneiden nimmt
+  die markierte Sonne weg. Jede Folge hat Kopieren und Ausschneiden, unterschiedlich oft, damit beide Fehlerzahlen
+  verschieden von `sonnen` und voneinander sind.
 - **Marker zuordnen** (`computer-bestandteile`): `matching` mit `pairsFrom: material` am `labelled-figure`
   `glaeserner-computer.svg`.
-- **In die EVA-Kästen legen** (`eva-prinzip`): Komponente `EvaSortierer`, Geräte aus `data/eva-geraete.yaml`
-  (`name`, `phase` eingabe|verarbeitung|ausgabe, `grund`); der Touchscreen ist nicht in der Datei, er hat eine eigene
-  Frage.
+- **In die EVA-Kästen legen** (`eva-prinzip`, Block `eva-sortieren`): Komponente `EvaSortierer`, Geräte aus
+  `data/eva-geraete.yaml` (`name`, `phase` 0 Eingabe, 1 Verarbeitung, 2 Ausgabe, `grund` ohne den Namen des
+  Kastens); je Aufgabe 2 Eingabe, 1 Verarbeitung, 2 Ausgabe. Props `wrong` (ein Gerät falsch) und `wrongMany` (mit
+  `{count}`). Der Touchscreen ist nicht in der Datei, er hat eine eigene Frage.
 - **Vorgang in EVA-Reihenfolge** (`eva-prinzip`): `generated` mit `pick: 1` aus `data/vorgaenge.yaml` (`vorgang`,
   `eingabe`, `verarbeitung`, `ausgabe`) und `compare: order`.
-- **Gerät für eine Aufgabe** (`informatiksystem-auswaehlen`): `generated` aus `data/aufgaben.yaml`, `choice` der Geräte.
+- **Gerät für eine Aufgabe** (`informatiksystem-auswaehlen`, Übung `welches-geraet`): `generated` aus
+  `data/aufgaben.yaml` (`aufgabe`, `geraet`, `falschA`/`grundA`, `falschB`/`grundB`, `grund`), `choice` [Smartwatch,
+  Smartphone, Laptop]; jede Aufgabe hat genau ein klar passendes Gerät.
 - Dazu je Seite Fragen (`single-choice`, `multiple-choice`, `true-false`, `ordering`, `matching`); jede falsche Option
   sagt im `info`, warum sie nicht passt. Höchstens drei von fünf Übungen sind reine Auswahl.
 
 ## Figures
 
-- Alles eigene SVG in `src/images/`, `source: eigene Zeichnung`, `licence: CC-BY-4.0`. Keine Screenshots fremder
+- Alles eigene SVG in `src/images/`, `source: { de: eigene Zeichnung, en: own drawing }`, `licence: CC-BY-4.0`:
+  Szenen `ausstellung.svg` (S. 1), `eva-station.svg` (S. 5), `auswahl-station.svg` (S. 6); `hardware-software.svg`
+  (S. 2), `malprogramm.svg` (S. 3, Marker unter den Knöpfen), `glaeserner-computer.svg` (S. 4); `klasse-6b.svg` hält
+  nur die Figuren als Vorlage für andere Apps (in keiner Seite benutzt).
+- Tabellen bei 360 px höchstens zwei Spalten mit langen Zellen; sonst Text oder E:/A: in einer Zelle. Keine Screenshots fremder
   Software. Kein Text im Bild (Bilder gelten für beide Sprachen); Wörter stehen im Seitentext, in der Legende eines
   `labelled-figure` oder in den Props einer Komponente.
 - Figuren (Stil der Vorlage `story-characters.svg`: Kopf, runder Körper, Umriss #333, keine Arme und Beine), Klasse 6b,
@@ -118,8 +130,11 @@ jede Seite hat mindestens vier Übungen im Abschnitt `uebung` (eine im Abschnitt
 ## Sources
 
 - Lernlandkarte, GI-Standards 2025, Lehrpläne NRW, BY, HE (siehe Curriculum), selbst geöffnet.
-- Tastenkürzel: Microsoft Support „Tastenkombinationen in Windows“, Apple Support „Tastaturkurzbefehle auf dem Mac“
-  (beide geöffnet beim Bau der Seite `programme-bedienen`, Links dort in `links`).
+- Tastenkürzel: Microsoft Support „Tastenkombinationen in Windows“ (Strg+C/V/X/Z) und Apple Support
+  „Mac-Tastaturkurzbefehle“ (⌘C/V/X/Z/S/O), geöffnet beim Bau der Seite `programme-bedienen`; Links in `sources` von
+  `src/app.yaml`. Strg+S und Strg+O stehen nicht auf der Windows-Seite: Öffnen und Speichern nennt die App nur über
+  das Menü „Datei“.
+- `src/app.yaml` `sources`: GI 2025, KLP NRW 5/6, LehrplanPLUS MS Informatik 5, Microsoft, Apple.
 - Keine Videos, keine fremden Bilder.
 
 ## Adding a chapter or round
