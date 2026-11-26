@@ -76,6 +76,34 @@ Bausteine haben `practisedBy: []` (Lücken). Kein Baustein braucht etwas von au�
 
 Voraussetzungen von außerhalb: keine. Keine Wiederholungsseite.
 
+### Quellen (geöffnet und gelesen)
+
+- Lernlandkarte Informatik: https://lernapps.net/apps/map/informatik.json (Strang informatiksysteme).
+- GI: Bildungsstandards Informatik Sek I (Januar 2025), doi:10.18420/rec2025_052,
+  https://www.mnu.de/images/fachbereiche/Informatik/Bildungsstandards_Sek_I_2025__pdf-A_.pdf, S. 18, Abschnitt 5.4:
+  Informatiksystem = „Zusammenstellung von Hard- und Softwarekomponenten sowie deren Vernetzung“; Jg. 5-6: IS-1
+  (identifizieren Informatiksysteme aus ihrer Lebenswelt), IS-2 (beschreiben Bestandteile und deren Funktion), IS-3
+  (öffnen und speichern Dateien). IS-10 „wählen zielgerecht Informatiksysteme aus“ steht erst in Jg. 7-10. Das Wort
+  „EVA“ kommt im Text nicht vor.
+- NRW: Kernlehrplan Informatik Klasse 5 und 6, MSB NRW 2021,
+  https://lehrplannavigator.nrw.de/system/files/media/document/file/si_kl5u6_if_klp_2021_07_01.pdf, S. 19: „beschreiben
+  das Prinzip der Eingabe, Verarbeitung und Ausgabe (EVA-Prinzip) als grundlegendes Prinzip der Datenverarbeitung“,
+  „benennen Grundkomponenten … und beschreiben ihre Funktionen“; S. 15: „begründen die Auswahl eines
+  Informatiksystems“.
+- Bayern LehrplanPLUS, Mittelschule Informatik 5, LB 1:
+  https://www.lehrplanplus.bayern.de/fachlehrplan/mittelschule/5/informatik – „benennen die Komponenten von
+  Rechensystemen, um daran das Prinzip Eingabe-Verarbeitung-Ausgabe (EVA) nachzuvollziehen“. Gymnasium Natur und
+  Technik 6, 2.1: https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/6/nt_gym – „grundlegende Funktionen von
+  Standardsoftware (z. B. Speichern, Öffnen, Schließen, Kopieren, Einfügen)“; dort kein EVA.
+- Hessen: Handreichung Schulversuch „Digitale Welt“, HMKB/HMDI, November 2024,
+  https://kultus.hessen.de/sites/kultus.hessen.de/files/2024-11/hmkb_digwelt_nov24_barrierefrei_v2.pdf, S. 8, 13, 25:
+  Hardware/Software, zentrale Hardwarebestandteile (Eingabegeräte, Festplattenspeicher, Arbeitsspeicher, Prozessor,
+  Ausgabegeräte), EVA-Prinzip, Jg. 5. **Nicht geprüft:** die Entwürfe der Kerncurricula „KI und Digitale Welt“ 5/6
+  (PDF-Adressen liefern 404).
+- Lehrpläne hat ein Hilfsagent gelesen; die EVA-Stellen in NRW, BY-MS und HE habe ich in den Texten nachgesehen.
+- Tastenkürzel (Windows, macOS) prüfe ich vor dem Schreiben in der Herstellerdokumentation (Microsoft, Apple Support).
+  Noch ungeprüft.
+
 ### Didaktik
 
 - Leitbild **gläserner Computer**: Kapitel 1 zeigt Geräte von außen (Tablet, Smartwatch, Kasse), Kapitel 2 klappt ein
@@ -153,13 +181,13 @@ Voraussetzungen von außerhalb: keine. Keine Wiederholungsseite.
 - [x] Interview: ask every other topic of "Answers", in order. Leave out only a topic that an answer of the creator
       already covers, and note which answer. A topic nobody answered is asked once before you write an assumption
       with "(guess)".
-- [ ] Load skill `lernapps-content-research` and research as it says. Write under "Notes": the strand or subject, the
+- [x] Load skill `lernapps-content-research` and research as it says. Write under "Notes": the strand or subject, the
       competencies by chapter with their ids, the sources you opened.
-- [ ] Write under "Notes" which competency goes on which page and which pages form a chapter, as "Map the content" of
+- [x] Write under "Notes" which competency goes on which page and which pages form a chapter, as "Map the content" of
       skill `lernapps-explainer-design` says. Per page, name the prerequisites the app does not practise.
-- [ ] Write under "Notes", one line per competency: how learners get there (they derive it, they do not only read it
+- [x] Write under "Notes", one line per competency: how learners get there (they derive it, they do not only read it
       off), and which misconception the feedback catches.
-- [ ] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
+- [x] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
       elements", never a silent "1–20"), the languages.
 - [ ] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
       approach, the scope, every "(guess)", the sources and what is unchecked, the archetype and its reason. Stop and
