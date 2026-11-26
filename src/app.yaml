@@ -1,10 +1,17 @@
 # yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 format: 2
-# The strand of the learning map the app stays in, <subject>/<strand> (e.g. mathematik/stochastik); then each page
-# names its competencies. none: the app is on no strand, and no page names competencies. A unit app across the strands
-# of a subject whose map allows it names subject: <subject> (e.g. franzoesisch) instead of strand.
-strand: none
-title: Platzhalter
-intro: Dieses Kapitel hält den Platz frei, bis der geplante Inhalt da ist.
-languages: [de]
-chapters: [thema]
+strand: informatik/informatiksysteme
+title:
+  de: Wie ein Computer arbeitet
+  en: How a computer works
+intro:
+  de: >-
+    Die Computer-AG zeigt die Ausstellung „Der gläserne Computer“. Jona und Selin führen dich durch die Stationen.
+    Du findest Informatiksysteme in deinem Alltag, schaust in einen Computer hinein und lernst das EVA-Prinzip:
+    Eingabe, Verarbeitung, Ausgabe.
+  en: >-
+    The computer club is showing the exhibition “The glass computer”. Jona and Selin guide you through the stations.
+    You find computer systems in your everyday life, look inside a computer and learn the IPO model: input, process,
+    output.
+languages: [de, en]
+chapters: [innen]

@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Ein Blick ins Innere: das EVA-Prinzip"
+  en: "A look inside: the IPO model"
+summary:
+  de: Du klappst den gläsernen Computer auf, legst seine Teile in die drei EVA-Kästen und wählst ein Gerät für eine Aufgabe.
+  en: You open the glass computer, put its parts into the three IPO boxes and choose a device for a task.
+pages: [eva-prinzip]

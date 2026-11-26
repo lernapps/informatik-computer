@@ -42,6 +42,7 @@ EVA-Bild begründet ein Gerät für eine Aufgabe.
   Musterseite fest und melde sie dem Orchestrator.
 - EVA-Bild als Anzeige-Komponente `EvaBild` (Props je Sprache), nicht als SVG-Datei: `image` ist ein Pfad für alle
   Sprachen, Text im Bild ließe sich nicht übersetzen (Fund an der Vorlage, gemeldet). Alle anderen SVGs ohne Text.
+- Kein `scope`: keine `open-task` und kein Material eines Erstellers; optional laut structure.md, also weggelassen.
 - Sprachen `[de, en]` (Nachtrag 1 des Orchestrators): Deutsch ist Ausgangssprache, Englisch vollständige Übersetzung
   in Plain English mit „you“; Fachbegriffe wie im Computing curriculum England (input – process – output, IPO model,
   hardware, software, processor, memory, storage). Bildtexte werden übersetzt, Namen bleiben.
@@ -362,12 +363,12 @@ Geräten oft über ein Menü geht. Keine Übung hängt vom System ab.
       `npx --no -- lernapps create --archetype explainer`.
 - [x] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
       no "FILL IN" left. Commit it before any content.
-- [ ] Load skill `lernapps-explainer`.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer`.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [ ] Musterseite innen/eva-prinzip in de und en: EVA-Bild eva-kaesten (mit Schublade Speicher), Figuren Jona und Selin, Rollenspiel-Anleitung, Komponente EvaSortierer mit Test, generated Vorgänge ordnen, Data vorgaenge und eva-geraete; zeigt das wiederkehrende Bild und das Seitenmuster
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->

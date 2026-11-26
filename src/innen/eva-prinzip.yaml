@@ -1,0 +1,316 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: Das EVA-Prinzip
+  en: The IPO model
+description:
+  de: "Eingabe, Verarbeitung, Ausgabe: Geräte und Schritte den drei EVA-Kästen zuordnen."
+  en: "Input, process, output: sort devices and steps into the three IPO boxes."
+competencies: [eva-prinzip]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Station 5: der große Taschenrechner"
+      en: "Station 5: the big calculator"
+    blocks:
+      - type: figure
+        image: images/eva-station.svg
+        source: { de: eigene Zeichnung, en: own drawing }
+        licence: CC-BY-4.0
+        alt:
+          de: Jona steht links neben einem großen Taschenrechner aus Glas auf einem Tisch. Rechts steht Selin.
+          en: Jona stands on the left next to a big glass calculator on a table. Selin stands on the right.
+        caption:
+          de: Jona und Selin an Station 5 der Ausstellung „Der gläserne Computer“.
+          en: Jona and Selin at station 5 of the exhibition “The glass computer”.
+      - type: text
+        text:
+          de: |
+            An der letzten Station hast du die Teile im gläsernen Computer gesehen. Jetzt geht es darum, wie sie
+            zusammenarbeiten. Jona tippt auf dem großen Taschenrechner **3 + 4 =**. Kurz danach steht **7** in der
+            Anzeige.
+
+            Auf dieser Seite lernst du das EVA-Prinzip. Danach kannst du Geräte und Schritte in drei Kästen
+            einordnen.
+          en: |
+            At the last station you saw the parts inside the glass computer. Now you find out how they work together.
+            Jona presses **3 + 4 =** on the big calculator. A moment later the display shows **7**.
+
+            On this page you learn the IPO model. Then you can sort devices and steps into three boxes.
+      - type: single-choice
+        id: was-zuerst
+        text:
+          de: Was passiert beim Taschenrechner zuerst?
+          en: What happens first in the calculator?
+        options:
+          - text:
+              de: Jona tippt die Zahlen ein.
+              en: Jona types in the numbers.
+            correct: true
+            info:
+              de: Ohne Zahlen hat der Taschenrechner nichts, womit er rechnen kann. Darum kommt das Eintippen zuerst.
+              en: Without numbers the calculator has nothing to work with. That is why typing comes first.
+          - text:
+              de: Der Taschenrechner rechnet 3 + 4 aus.
+              en: The calculator works out 3 + 4.
+            correct: false
+            info:
+              de: Rechnen kann er erst, wenn er die Zahlen kennt. Die bekommt er von Jona.
+              en: It can only calculate once it knows the numbers. It gets them from Jona.
+          - text:
+              de: Die Anzeige zeigt die 7.
+              en: The display shows 7.
+            correct: false
+            info:
+              de: Die 7 ist das Ergebnis. Es kommt am Schluss, nach dem Rechnen.
+              en: The 7 is the result. It comes at the end, after the calculation.
+        explanation:
+          de: "Erst kommen die Zahlen hinein, dann wird gerechnet, dann kommt das Ergebnis heraus."
+          en: "First the numbers go in, then the calculation happens, then the result comes out."
+  - type: section
+    id: idee
+    title:
+      de: "Drei Kästen: Eingabe, Verarbeitung, Ausgabe"
+      en: "Three boxes: input, process, output"
+    blocks:
+      - type: text
+        text:
+          de: |
+            Jeder Computer arbeitet in drei Schritten. Im Bild ist jeder Schritt ein Kasten. Die Pfeile zeigen, in
+            welcher Reihenfolge die Daten wandern: von links nach rechts.
+          en: |
+            Every computer works in three steps. In the picture each step is a box. The arrows show the order in
+            which the data travels: from left to right.
+      - type: vue-component
+        component: EvaBild
+        props:
+          boxes:
+            - { de: Eingabe, en: Input }
+            - { de: Verarbeitung, en: Process }
+            - { de: Ausgabe, en: Output }
+          letters:
+            - { de: E, en: I }
+            - { de: V, en: P }
+            - { de: A, en: O }
+          items:
+            - { de: "Tasten: 3 + 4 =", en: "keys: 3 + 4 =" }
+            - { de: "Prozessor und Arbeitsspeicher: rechnen 7 aus", en: "processor and memory: work out 7" }
+            - { de: "Anzeige: 7", en: "display: 7" }
+          drawer: { de: Speicher – hebt auf, en: storage – keeps }
+          drawerItem: { de: Festspeicher, en: storage }
+        nojs:
+          de: >-
+            Das EVA-Bild: drei Kästen mit Pfeilen von links nach rechts. Kasten E „Eingabe“: die Tasten, 3 + 4 =.
+            Pfeil zu Kasten V „Verarbeitung“: Prozessor und Arbeitsspeicher rechnen 7 aus. Pfeil zu Kasten A
+            „Ausgabe“: die Anzeige zeigt 7. Unter dem Kasten Verarbeitung hängt eine Schublade „Speicher – hebt auf“
+            mit dem Festspeicher.
+          en: >-
+            The IPO picture: three boxes with arrows from left to right. Box I “Input”: the keys, 3 + 4 =. Arrow to
+            box P “Process”: processor and memory work out 7. Arrow to box O “Output”: the display shows 7. Under the
+            box Process hangs a drawer “storage – keeps” with the storage.
+      - type: definition
+        term:
+          de: EVA-Prinzip
+          en: IPO model
+        explanation:
+          de: >-
+            So arbeitet jeder Computer: **E**ingabe (Daten kommen hinein), **V**erarbeitung (der Prozessor arbeitet mit
+            den Daten), **A**usgabe (das Ergebnis kommt heraus).
+          en: >-
+            This is how every computer works: **I**nput (data goes in), **P**rocess (the processor works with the
+            data), **O**utput (the result comes out).
+      - type: text
+        text:
+          de: |
+            Unter dem Kasten Verarbeitung hängt eine Schublade. Was der Computer aufheben will, legt er in den
+            Festspeicher, zum Beispiel ein Foto. Darum nennen manche Bücher es auch EVAS-Prinzip: mit S für Speicher.
+          en: |
+            Under the box Process there is a drawer. What the computer wants to keep, it puts into storage, for
+            example a photo. That is why some books call it the IPOS model: with S for storage.
+      - type: note
+        title:
+          de: Merke
+          en: Remember
+        blocks:
+          - type: text
+            text:
+              de: |
+                Eingabe heißt: **hinein** in den Computer. Ausgabe heißt: **heraus** aus dem Computer. Ein
+                Lautsprecher gibt Töne heraus, also ist er ein Ausgabegerät, auch wenn du dabei etwas hörst.
+              en: |
+                Input means: **into** the computer. Output means: **out of** the computer. A loudspeaker sends sounds
+                out, so it is an output device, even though you take in what you hear.
+  - type: section
+    id: beispiel
+    title:
+      de: "Mitmachen: Wir sind ein Computer"
+      en: "Join in: we are a computer"
+    blocks:
+      - type: note
+        title:
+          de: Ein Spiel für drei Kinder, ohne Computer
+          en: A game for three children, without a computer
+        blocks:
+          - type: text
+            text:
+              de: |
+                1. Verteilt drei Rollen: **Eingabe**, **Verarbeitung**, **Ausgabe**. Jede Rolle bekommt ein Schild.
+                2. Die Eingabe denkt sich zwei kleine Zahlen aus, schreibt sie auf einen Zettel und gibt ihn weiter.
+                3. Die Verarbeitung rechnet die Zahlen zusammen und schreibt nur das Ergebnis auf einen neuen Zettel.
+                4. Die Ausgabe ruft das Ergebnis laut in die Klasse.
+                5. Tauscht die Rollen. Wer darf mit wem reden? Nur entlang der Pfeile: Eingabe → Verarbeitung →
+                   Ausgabe.
+              en: |
+                1. Share out three roles: **input**, **process**, **output**. Each role gets a sign.
+                2. Input thinks of two small numbers, writes them on a note and passes it on.
+                3. Process adds the numbers and writes only the result on a new note.
+                4. Output calls out the result to the class.
+                5. Swap roles. Who may talk to whom? Only along the arrows: input → process → output.
+  - type: section
+    id: uebung
+    title:
+      de: Üben an der Station
+      en: Practise at the station
+    blocks:
+      - type: vue-component
+        id: eva-sortieren
+        component: EvaSortierer
+        props:
+          task:
+            de: "Selin hat Schilder für fünf Geräte. Lege jedes Gerät in seinen Kasten:"
+            en: "Selin has signs for five devices. Put each device into its box:"
+          devices: { data: eva-geraete }
+          boxes:
+            - { de: Eingabe, en: Input }
+            - { de: Verarbeitung, en: Process }
+            - { de: Ausgabe, en: Output }
+          letters:
+            - { de: E, en: I }
+            - { de: V, en: P }
+            - { de: A, en: O }
+          empty: { de: noch leer, en: still empty }
+          reset: { de: Alle Geräte zurücklegen, en: Take all devices out again }
+          unplaced:
+            de: Lege erst jedes Gerät in einen Kasten.
+            en: First put every device into a box.
+          wrong:
+            de: "Schau dir {name} noch einmal an: {grund} Kommt dabei etwas hinein, wird etwas bearbeitet oder kommt etwas heraus?"
+            en: "Look at the {name} again: {grund} Does something go in, is something worked on, or does something come out?"
+        examples:
+          accepted:
+            - { answer: [0, 2, 2, 0, 1], seed: 1 }
+          rejected:
+            - { answer: [2, 0, 0, 2, 1], seed: 1 }
+            - { answer: [0, 2, 2, 0, -1], seed: 1 }
+      - type: generated
+        id: vorgang-ordnen
+        given:
+          v: { pick: 1, from: { data: vorgaenge } }
+        task:
+          text:
+            de: "{{v.vorgang}} Bring die drei Schritte in die Reihenfolge von Eingabe, Verarbeitung und Ausgabe."
+            en: "{{v.vorgang}} Put the three steps in the order input, process, output."
+        answer:
+          value: "[v.eingabe, v.verarbeitung, v.ausgabe]"
+          compare: order
+        mistakes:
+          - value: "[v.ausgabe, v.verarbeitung, v.eingabe]"
+            message:
+              de: Du hast mit dem Ergebnis angefangen. Das Ergebnis kommt am Schluss heraus. Was kommt zuerst hinein?
+              en: You started with the result. The result comes out at the end. What goes in first?
+          - value: "[v.verarbeitung, v.eingabe, v.ausgabe]"
+            message:
+              de: Der Computer kann erst arbeiten, wenn etwas hineingekommen ist. Was ist hier die Eingabe?
+              en: The computer can only work once something has gone in. What is the input here?
+        hint:
+          de: "Frag bei jedem Schritt: Kommt etwas hinein, wird etwas bearbeitet oder kommt etwas heraus?"
+          en: "For each step, ask: does something go in, is something worked on, or does something come out?"
+        steps:
+          - de: "Eingabe: {{v.eingabe}}"
+            en: "Input: {{v.eingabe}}"
+          - de: "Verarbeitung: {{v.verarbeitung}}"
+            en: "Process: {{v.verarbeitung}}"
+          - de: "Ausgabe: {{v.ausgabe}}"
+            en: "Output: {{v.ausgabe}}"
+      - type: single-choice
+        id: touchscreen
+        text:
+          de: Auf dem Tablet tippst du auf ein Bild und es wird groß. In welchen Kasten gehört der Touchscreen?
+          en: On the tablet you tap a picture and it gets bigger. Which box does the touchscreen belong in?
+        options:
+          - text:
+              de: Nur in Eingabe
+              en: Only in input
+            correct: false
+            info:
+              de: Dein Tippen geht zwar hinein. Aber der Touchscreen zeigt dir danach auch das große Bild.
+              en: Your tap does go in. But afterwards the touchscreen also shows you the big picture.
+          - text:
+              de: Nur in Ausgabe
+              en: Only in output
+            correct: false
+            info:
+              de: Der Touchscreen zeigt Bilder. Er merkt aber auch, wo dein Finger tippt.
+              en: The touchscreen shows pictures. But it also notices where your finger taps.
+          - text:
+              de: In Eingabe und in Ausgabe
+              en: In input and in output
+            correct: true
+            info:
+              de: Der Touchscreen nimmt dein Tippen auf und zeigt das Ergebnis. Er ist zwei Geräte in einem.
+              en: The touchscreen takes in your tap and shows the result. It is two devices in one.
+          - text:
+              de: In Verarbeitung
+              en: In process
+            correct: false
+            info:
+              de: Gerechnet wird im Prozessor im Innern des Tablets, nicht im Bildschirm.
+              en: The calculating happens in the processor inside the tablet, not in the screen.
+        explanation:
+          de: Ein Touchscreen ist Eingabegerät und Ausgabegerät zugleich.
+          en: A touchscreen is an input device and an output device at the same time.
+      - type: multiple-choice
+        id: ausgabegeraete
+        text:
+          de: Die Kasse am Schulfest gibt dem Kunden etwas heraus. Welche Teile der Kasse sind Ausgabegeräte?
+          en: The till at the school fair gives the customer something back. Which parts of the till are output devices?
+        options:
+          - text:
+              de: Die Anzeige mit dem Preis
+              en: The display with the price
+            correct: true
+            info:
+              de: Die Anzeige zeigt dem Kunden den Preis. Das ist eine Ausgabe.
+              en: The display shows the customer the price. That is output.
+          - text:
+              de: Der Drucker für den Kassenbon
+              en: The printer for the receipt
+            correct: true
+            info:
+              de: Der Drucker bringt den Kassenbon auf Papier. Das ist eine Ausgabe.
+              en: The printer puts the receipt on paper. That is output.
+          - text:
+              de: Der Scanner für den Strichcode
+              en: The barcode scanner
+            correct: false
+            info:
+              de: Der Scanner liest den Strichcode ein. Damit kommen Daten hinein, also ist er ein Eingabegerät.
+              en: The scanner reads in the barcode. Data goes in, so it is an input device.
+          - text:
+              de: Der Prozessor in der Kasse
+              en: The processor in the till
+            correct: false
+            info:
+              de: Der Prozessor zählt die Preise zusammen. Das ist Verarbeitung. Heraus kommt nichts aus ihm selbst.
+              en: The processor adds up the prices. That is process. Nothing comes out of it by itself.
+        explanation:
+          de: Ausgabegeräte bringen das Ergebnis zum Menschen, zum Beispiel als Bild, Ton oder Papier.
+          en: Output devices bring the result to people, for example as a picture, a sound or paper.
+      - type: text
+        text:
+          de: |
+            Geschafft: Jedes Gerät der Ausstellung hat jetzt sein Schild mit E, V oder A. An der nächsten Station
+            kommt Mia. Sie fragt, welches Gerät sie für ihr Referat nehmen soll.
+          en: |
+            Well done: every device in the exhibition now has its sign with I, P or O. At the next station Mia
+            arrives. She asks which device she should use for her talk.
