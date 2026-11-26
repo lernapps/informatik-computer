@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -110,9 +110,12 @@ Voraussetzungen von außerhalb: keine. Keine Wiederholungsseite.
   Tablet „aus Glas“ auf: innen Prozessor, Arbeitsspeicher, Festspeicher; außen Ein- und Ausgabegeräte. Darüber die
   **drei EVA-Kästen mit Pfeilen** (Eingabe → Verarbeitung → Ausgabe). Alles eigene SVG-Zeichnungen.
 - Geschichte (bis Klasse 6: gezeichnete, erfundene Kinder): Die Computer-AG der Schule baut eine Ausstellung „Der
-  gläserne Computer“ für den Tag der offenen Tür. Zwei Kinder, Jona (11) und Selin (10), führen durch die Stationen;
-  jede Seite ist eine Station, die Aufgaben sind Schilder und Karten für die Ausstellung. (guess, Namen und Aussehen
-  lege ich mit der Musterseite fest)
+  gläserne Computer“. Klasse 6b des Epics: Jona (11) und Selin (11) führen durch die Stationen, Mia (11) darf als
+  Besucherin vorkommen (Orchestrator). Jede Seite ist eine Station, die Aufgaben sind Schilder und Karten für die
+  Ausstellung. Aussehen lege ich auf der Musterseite fest und melde es.
+- EVA-Bild (Orchestrator): Prozessor und Arbeitsspeicher in „Verarbeitung“; der Festspeicher ist eine Schublade unter
+  diesem Kasten, beschriftet „Speicher – hebt auf“ (en: „storage – keeps“). Kein vierter Kasten; eine Zeile nennt den
+  Namen EVAS-Prinzip. #492 knüpft an die Schublade an.
 - Unplugged steht als Anleitung auf der Seite: S. 1 Gerätesuche im Klassenzimmer und zu Hause (Liste), S. 5 Rollenspiel
   „Wir sind ein Computer“ (ein Kind gibt ein, eins rechnet, eins gibt aus). Geprüft wird mit Übungen der Seite.
 
@@ -189,9 +192,10 @@ Voraussetzungen von außerhalb: keine. Keine Wiederholungsseite.
       off), and which misconception the feedback catches.
 - [x] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
       elements", never a silent "1–20"), the languages.
-- [ ] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
+- [x] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
       approach, the scope, every "(guess)", the sources and what is unchecked, the archetype and its reason. Stop and
       wait. Changes: change them, then ask again.
+      Creator: Plan und Umfang passen, weiter. Speicher: ja, wie vorgeschlagen (Schublade „Speicher – hebt auf“ unter Verarbeitung, kein vierter Kasten). Figuren: Klasse 6b, Jona (11), Selin (11), Mia (11).
 
 ### Answers
 
@@ -230,15 +234,15 @@ Die „Ersteller“-Rolle hat in diesem Epic der Orchestrator (lernapps/apps#509
 
 ### Tasks
 
-- [ ] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
+- [x] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
       "Content method".
-- [ ] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
-- [ ] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
+- [x] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
+- [x] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
       opening task, the change of activity, the reward, the story.
-- [ ] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
+- [x] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
       screen, `npx --no -- lernapps plan add --at pattern "<task>"`. Then the others, one call each:
       `npx --no -- lernapps plan add --at pages "<task>"`. Each task says what it builds and what it shows.
-- [ ] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
+- [x] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
       learners see after each. Keep the files in `.vibe/sketches/`.
 - [ ] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
       plain words (what learners see and do, what the app cannot do). At most 2 questions.
@@ -247,11 +251,94 @@ Die „Ersteller“-Rolle hat in diesem Epic der Orchestrator (lernapps/apps#509
 
 ### Content method
 
-<!-- One line each: the patterns and where; the figures and how they are made; the data files; each component, what it
-checks and what it cannot; how a later agent adds a chapter. It becomes the content guide in Code. -->
-<!-- An explainer: per figure, model and component its learning action in two to four sentences
-(`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
-page, which a link. -->
+**Aufbau.** `src/app.yaml` mit `format: 2`, `strand: informatik/informatiksysteme`, `languages: [de, en]`. Kapitel
+`alltag` (Seiten `informatiksysteme`, `hardware-software`, `programme-bedienen`) und `innen` (Seiten `bestandteile`,
+`eva-prinzip`, `geraet-auswaehlen`), je Seite `competencies: [<id>]`. Keine Wiederholungsseite: keine Voraussetzung
+von außerhalb. Abschnitte mit gleichen ids auf jeder Seite: `einstieg` (Station und erste Aufgabe), `idee` (das Neue,
+mit Bild), `beispiel` (Kasten `example` oder Anleitung zum Mitmachen), `uebung`. Titel passen zur Seite.
+
+**Muster je Baustein** (Fehler und Rückmeldung wie unter Notes):
+- informatiksysteme-im-alltag (erkennen): `multiple-choice` „Welche Dinge sind Informatiksysteme?“; `true-false` gegen
+  „nur mit Bildschirm“; `matching` Gerät → was sein Computer tut; `generated` mit `choice` [ja, nein] aus
+  `data/gegenstaende.yaml` (Felder `name`, `istSystem`, `grund`), der Grund steht in der Rückmeldung.
+- hardware-und-software (unterscheiden, erklären): `multiple-choice` „Was kannst du anfassen?“; `generated` mit
+  `choice` [Hardware, Software] aus `data/hardware-software.yaml`; `matching` Hardware → Software, die sie nutzt
+  (Kamera → Kamera-App); `single-choice` zum Zusammenwirken („neues Tablet ohne Software“).
+- programme-bedienen (nutzen): `labelled-figure` Malprogramm-Fenster mit Markern; `ordering` „Sonne in ein neues Bild
+  kopieren und speichern“; `matching` Befehl → was passiert; `generated` `number` aus `data/befehlsfolgen.yaml`: „Wie
+  viele Sonnen sind nach diesen Befehlen auf dem Bild?“ mit den Fehlern „Kopieren fügt schon ein“ und „Ausschneiden
+  lässt das Original stehen“ (Felder je Datensatz, verschieden von der Antwort).
+- computer-bestandteile (benennen, beschreiben): `matching` mit `pairsFrom: material` am gläsernen Computer (Marker →
+  Bauteil); `matching` Bauteil → Aufgabe; `single-choice` „Strom weg, Bild nicht gespeichert – wo war es?“
+  (Arbeitsspeicher); `true-false` „Akku leer – gespeichertes Foto weg?“ (falsch, Festspeicher).
+- eva-prinzip (erklären, zuordnen): Komponente `EvaSortierer` (Geräte in die drei Kästen); `generated` mit `order` aus
+  `data/vorgaenge.yaml`: die drei Schritte eines Vorgangs in die EVA-Reihenfolge bringen; `single-choice` Touchscreen
+  (Eingabe und Ausgabe); `multiple-choice` „Welche Geräte geben aus?“.
+- informatiksystem-auswaehlen (auswählen, begründen): `generated` mit `choice` aus `data/aufgaben.yaml` (Aufgabe →
+  passendes Gerät, Fehler je falsches Gerät); `matching` Aufgabe → Art von Programm (Textverarbeitung,
+  Präsentationsprogramm, Malprogramm, Musik-App); `single-choice` „Welche Begründung passt?“ (EVA-Begründung gegen
+  „das neueste“/„das teuerste“); `true-false` „Das neueste Gerät ist immer das beste“.
+- Jede Seite: mindestens 4 Übungen, höchstens 3 von 5 „ratbar“ (Auswahl), Pflichtübung ist eine Frage oder `generated`.
+  Jede falsche Option hat ihr `info`, `generated` hat `mistakes` und `hint`.
+
+**Bilder** (eigene SVG, `source: eigene Zeichnung`, `licence: CC-BY-4.0`; Text in Bildern je Sprache, sonst Marker
+mit Legende):
+- `ausstellung.svg` (S. 1): Jona und Selin vor drei Ausstellungstischen mit Tablet, Smartwatch und Kasse, von außen.
+  Die Kinder sehen den Ort der Geschichte und die drei Geräte, die später aufgeklappt werden. Ohne Antwort zu den
+  Aufgaben (kein Häkchen an Geräten).
+- `hardware-software.svg` (S. 2): ein Tablet, links die Teile zum Anfassen (Gehäuse, Bildschirm, Kamera), rechts als
+  Wolke die Apps. Bezug: die Probe „Kann ich es anfassen?“; die Pfeile zeigen das Zusammenwirken.
+- `malprogramm.svg` (S. 3, `labelled-figure`): ein erfundenes Malprogramm-Fenster mit Menü „Datei“ und „Bearbeiten“,
+  Sonne auf der Leinwand; Marker an Öffnen, Speichern, Kopieren, Einfügen, Ausschneiden, Rückgängig. Keine fremde
+  Software, kein Screenshot.
+- `glaeserner-computer.svg` (S. 4, `labelled-figure`, `legend: false` für die Zuordnung): das Tablet aus Glas,
+  aufgeklappt; innen Prozessor, Arbeitsspeicher, Festspeicher, außen Touchscreen, Kamera, Mikrofon, Lautsprecher.
+  Die Kinder lesen die Marker, ordnen dann zu.
+- `eva-kaesten.svg` (S. 5, wiederkehrendes Bild, auch S. 6): drei Kästen „Eingabe → Verarbeitung → Ausgabe“ mit
+  Pfeilen; im Kasten Verarbeitung Prozessor und Arbeitsspeicher; darunter eine Schublade „Speicher – hebt auf“ mit
+  Festspeicher. en: „Input → Process → Output“, „storage – keeps“. Die Kinder lesen Pfeilrichtung und Kästen, dann
+  sortieren sie selbst. Text im Bild → eine Datei je Sprache, falls die Runtime das kann; sonst Marker E/V/A mit
+  Legende (guess, kläre ich beim Bauen).
+- Figuren Jona, Selin (und Mia) nach `story-characters.svg` der Vorlage, Aussehen fest im Inhaltsleitfaden.
+
+**Datendateien** (`src/data/`, Texte als `{ de, en }`): `gegenstaende.yaml`, `hardware-software.yaml`,
+`befehlsfolgen.yaml`, `vorgaenge.yaml` (Felder `name`, `eingabe`, `verarbeitung`, `ausgabe`), `aufgaben.yaml`
+(`aufgabe`, `geraet`, `grund`, falsche Geräte mit Grund), `eva-geraete.yaml` (`name`, `phase`, `grund`) für die
+Komponente.
+
+**Komponente `EvaSortierer`** (S. 5, Übungskomponente; kein Block kann „in Kästen einordnen“ mit mehreren gleichen
+Zielen ausdrücken, `matching` braucht verschiedene rechte Seiten): zieht je Aufgabe 5 Geräte aus `eva-geraete.yaml`
+(Touchscreen ausgenommen, weil er in zwei Kästen gehört). Die Kinder legen jedes Gerät mit Tippen oder Tastatur in
+einen der drei Kästen (je Gerät drei Knöpfe, das Gerät erscheint im gewählten Kasten). Prüft: jedes Gerät im richtigen
+Kasten. `reason` nennt das erste falsch gelegte Gerät mit seinem Grund („Ein Lautsprecher gibt Töne aus“), nicht die
+Lösung. Kann nicht: Geräte mit zwei Phasen prüfen, frei beschriftete Geräte. Budget: nur Variablen der Seite, kein
+eigenes CSS-Framework. Text ohne JavaScript: kommt aus `describe`.
+
+**Engagement je Seite:**
+1. informatiksysteme: Einstieg „Selin zeigt auf Fahrrad, Smartwatch, Lineal: Wo steckt ein Computer drin?“ – Wechsel:
+   Bild ansehen, Merkmal lesen, Klassenzimmer-Suche (unplugged), sortieren – Lohn: die Liste der Geräte für die
+   Ausstellung – Geschichte: Die AG sammelt Geräte für die Ausstellung; nächste Station: Was steckt in jedem Gerät?
+2. hardware-software: Einstieg „Was am Tablet kannst du anfassen?“ – Wechsel: Bild, Probe, Beispielkasten Kamera,
+   zuordnen – Lohn: Schild „Hardware / Software“ für jedes Gerät – Geschichte: Jona klebt Schilder; nächste Station:
+   eine Software bedienen.
+3. programme-bedienen: Einstieg „Selins Bild ist weg. Warum?“ – Wechsel: Fenster mit Markern, Tabelle der Befehle,
+   Reihenfolge legen, Sonnen zählen – Lohn: das Plakat der Ausstellung ist gemalt und gespeichert – Geschichte: Plakat
+   malen; nächste Station: Wir klappen das Tablet auf.
+4. bestandteile: Einstieg „Wo denkt das Tablet?“ – Wechsel: gläserner Computer, Vergleich Schreibtisch/Schrank, zuordnen
+   – Lohn: Steckbrief des Tablets – Geschichte: Der gläserne Computer wird aufgeklappt; nächste Station: Wie arbeiten
+   die Teile zusammen?
+5. eva-prinzip: Einstieg „Jona tippt 3 + 4: Was passiert zuerst?“ – Wechsel: EVA-Bild, Rollenspiel (unplugged),
+   sortieren, Vorgänge ordnen – Lohn: jedes Gerät der Ausstellung hat seinen Kasten – Geschichte: Rollenspiel an der
+   Station; nächste Station: Besucherin Mia fragt, welches Gerät sie nehmen soll.
+6. geraet-auswaehlen: Einstieg „Mia will ein Referat schreiben: Smartwatch, Smartphone oder Laptop?“ – Wechsel:
+   Vergleichstabelle, Drei-Fragen-Methode im Beispielkasten, Aufgaben zuordnen – Lohn: Rückblick auf die ganze
+   Ausstellung (alle Stationen) – Geschichte: Mia geht mit einer Wahl nach Hause; Ende der Ausstellung.
+
+**Wiederholen mit Absicht:** Die EVA-Kästen kommen auf S. 6 wieder, jetzt als Werkzeug zum Auswählen. Hardware und
+Software kommen auf S. 4 wieder, jetzt im Innern.
+
+**Ein neues Kapitel** (z. B. Stufe 7-8): eigener Ordner unter `src/`, gleiche Abschnitts-ids, das EVA-Bild
+`eva-kaesten.svg` wiederverwenden, Figuren wie im Inhaltsleitfaden.
 
 ## Code
 
@@ -276,11 +363,17 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: pattern: the one page or screen that is the pattern for the others -->
+- [ ] Musterseite innen/eva-prinzip in de und en: EVA-Bild eva-kaesten (mit Schublade Speicher), Figuren Jona und Selin, Rollenspiel-Anleitung, Komponente EvaSortierer mit Test, generated Vorgänge ordnen, Data vorgaenge und eva-geraete; zeigt das wiederkehrende Bild und das Seitenmuster
+<!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-<!-- tasks: pages: the other pages or screens, after the pattern -->
+- [ ] Seite alltag/informatiksysteme (de, en): Bild ausstellung, Gerätesuche unplugged, generated aus gegenstaende; zeigt Informatiksysteme im Alltag erkennen
+- [ ] Seite alltag/hardware-software (de, en): Bild hardware-software, generated aus hardware-software, matching Hardware zu Software; zeigt Unterscheiden und Zusammenwirken
+- [ ] Seite alltag/programme-bedienen (de, en): labelled-figure malprogramm, Befehlstabelle mit Tastenkürzeln (Quellen Microsoft und Apple Support), ordering, generated Sonnen zählen; zeigt Öffnen, Speichern, Kopieren, Einfügen
+- [ ] Seite innen/bestandteile (de, en): labelled-figure glaeserner-computer, Vergleich Schreibtisch und Schrank, matching pairsFrom material; zeigt Bestandteile und Aufgaben
+- [ ] Seite innen/geraet-auswaehlen (de, en): Vergleichstabelle, Drei-Fragen-Methode mit EVA-Bild, generated aus aufgaben, Rückblick auf die Ausstellung; zeigt Auswählen und Begründen
+<!-- tasks: pages (5 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
