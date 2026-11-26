@@ -40,6 +40,8 @@ EVA-Bild begründet ein Gerät für eine Aufgabe.
   oder sind leer).
 - Wiederkehrendes Bild „gläserner Computer mit drei EVA-Kästen“ (Auftrag); Name und Aussehen lege ich mit der
   Musterseite fest und melde sie dem Orchestrator.
+- EVA-Bild als Anzeige-Komponente `EvaBild` (Props je Sprache), nicht als SVG-Datei: `image` ist ein Pfad für alle
+  Sprachen, Text im Bild ließe sich nicht übersetzen (Fund an der Vorlage, gemeldet). Alle anderen SVGs ohne Text.
 - Sprachen `[de, en]` (Nachtrag 1 des Orchestrators): Deutsch ist Ausgangssprache, Englisch vollständige Übersetzung
   in Plain English mit „you“; Fachbegriffe wie im Computing curriculum England (input – process – output, IPO model,
   hardware, software, processor, memory, storage). Bildtexte werden übersetzt, Namen bleiben.
@@ -356,9 +358,9 @@ Geräten oft über ein Menü geht. Keine Übung hängt vom System ab.
 
 ### Tasks
 
-- [ ] Load skill `lernapps-cli`. Create the app as its section "Create" says:
+- [x] Load skill `lernapps-cli`. Create the app as its section "Create" says:
       `npx --no -- lernapps create --archetype explainer`.
-- [ ] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
+- [x] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
       no "FILL IN" left. Commit it before any content.
 - [ ] Load skill `lernapps-explainer`.
 - [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
