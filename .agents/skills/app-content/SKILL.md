@@ -145,7 +145,9 @@ jede Seite hat mindestens vier Übungen im Abschnitt `uebung` (eine im Abschnitt
    `recap`.
 3. Das Kapitel in `chapters` von `src/app.yaml` eintragen, beide Sprachen schreiben.
 4. EVA-Bild über die Komponente `EvaBild`, Figuren aus `klasse-6b.svg`, Übungen aus den Mustern oben.
-5. `npx vp build`, `npx --no -- lernapps check`, Commit.
+5. 1 bis 3 ihrer Übungen in `selfAssessment` im `chapter.yaml` aufnehmen, wie Skill
+   `lernapps-explainer-self-assessment` sagt (heute: je Kapitel 3 Schritte mit 3 Übungen, generierte zweimal).
+6. `npx vp build`, `npx --no -- lernapps check`, Commit.
 
 ## Rules learned from mistakes
 
