@@ -1,0 +1,16 @@
+{
+  "format": 1,
+  "strand": "informatik/informatiksysteme",
+  "pages": [
+    {
+      "path": "innen/eva-prinzip/",
+      "title": {
+        "de": "Das EVA-Prinzip",
+        "en": "The IPO model"
+      },
+      "competencies": [
+        "eva-prinzip"
+      ]
+    }
+  ]
+}
