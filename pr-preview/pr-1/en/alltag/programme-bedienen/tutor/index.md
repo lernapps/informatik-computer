@@ -101,17 +101,17 @@ there?
 - Exercise `schliessen-speichert` (below)
 
 Well done: the poster is up, with two suns, and it is saved. That ends the tour from the outside. In the
-next chapter you open the computer and look inside.
+next chapter you look inside a computer.
 
 ### Exercise plakat-weg
 
 - Task: Why is Selin's poster gone?
 - Answer format: choose one answer
 - Choices (✓ right, ✗ wrong, with the app's message):
-  - ✓ She did not save it before closing. – What is not saved is lost when you close the program.
-  - ✗ The drawing program deletes all pictures every night. – A drawing program does not delete saved pictures by itself.
-  - ✗ The screen was too small for the poster. – The screen only shows what is open right now. It does not keep anything.
-- Solution: She did not save it before closing.
+  - ✓ She did not save it before closing – What is not saved is lost when you close the program.
+  - ✗ The drawing program deletes all pictures every night – A drawing program does not delete saved pictures by itself.
+  - ✗ The screen was too small for the poster – The screen only shows what is open right now. It does not keep anything.
+- Solution: She did not save it before closing
 - Explanation: You have to save before closing. Otherwise your work is gone.
 - Link: [../?via=tutor#plakat-weg](../?via=tutor#plakat-weg)
 
@@ -128,7 +128,7 @@ next chapter you open the computer and look inside.
 - Task: What happens with which command?
 - Answer format: match each item on the left with one on the right
 - Solution: copy – A copy goes onto the clipboard.; paste – What is on the clipboard goes into the picture.; cut – What is selected disappears and goes onto the clipboard.; open – A saved picture comes back onto the screen.; undo – The last step is taken back.; save – The picture is kept even after closing.
-- Explanation: Printing is a command of its own. It belongs to none of the five commands here.
+- Explanation: Printing is a command of its own. It belongs to none of the six commands here.
 - Link: [../?via=tutor#befehl-wirkung](../?via=tutor#befehl-wirkung)
 
 ### Exercise sonnen-zaehlen
@@ -138,7 +138,7 @@ next chapter you open the computer and look inside.
 - The app's hint: „Count step by step: only paste adds a sun, only cut takes one away.“
 - Steps of the solution:
   - Copy changes nothing in the picture. Paste: one more sun. Cut: one sun fewer.
-  - With **{e.folge}** there are {answer} suns in the picture at the end.
+  - With **{e.folge}** the number of suns at the end is: {answer}.
 - Typical mistakes and what the app says:
   - F1: „Too many: copying does not put a sun in yet. Only pasting brings one into the picture.“
   - F2: „Too many: cutting takes the selected sun away from the picture.“

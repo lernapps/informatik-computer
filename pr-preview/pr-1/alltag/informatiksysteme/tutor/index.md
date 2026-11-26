@@ -45,8 +45,8 @@ Informatiksysteme erkennen: In welchen Geräten steckt ein kleiner Computer?
 
 Bild: Drei Ausstellungstische mit einem Tablet, einer Smartwatch und einer Kasse. Links steht Jona, rechts Selin. Bildunterschrift: Die ersten drei Geräte der Ausstellung „Der gläserne Computer“, von außen.
 
-Die Computer-AG baut die Ausstellung „Der gläserne Computer“. Jona und Selin aus der Klasse 6b sammeln
-Geräte dafür. Auf den Tischen liegen schon ein Tablet, eine Smartwatch und eine Kasse. Selin bringt ein
+Die Computer-AG baut die Ausstellung „Der gläserne Computer“. Jona und Selin aus der Klasse 6b, beide 11 Jahre
+alt, sammeln Geräte dafür und zeigen sie später den Besuchern. Auf den Tischen liegen schon ein Tablet, eine Smartwatch und eine Kasse. Selin bringt ein
 Fahrrad, eine Spielkonsole und ein Lineal. Was davon passt in die Ausstellung?
 
 Auf dieser Seite lernst du, Informatiksysteme in deinem Alltag zu erkennen.
@@ -55,7 +55,7 @@ Auf dieser Seite lernst du, Informatiksysteme in deinem Alltag zu erkennen.
 
 ### Woran du ein Informatiksystem erkennst
 
-- **Informatiksystem**: Ein Gerät, in dem Hardware und Software zusammenarbeiten: Ein Computer arbeitet darin nach einem Programm. Ein Programm ist eine genaue Anleitung für den Computer.
+- **Informatiksystem**: Ein Gerät, in dem ein Computer nach einem Programm arbeitet. Ein Programm ist eine genaue Anleitung für den Computer. Zu jedem Informatiksystem gehören Teile zum Anfassen und Programme.
 
 Du merkst es oft daran: Das Gerät rechnet, zählt oder merkt sich etwas. Ein Smartphone, eine Spielkonsole
 und eine Kasse sind Informatiksysteme. Was Hardware und Software sind, lernst du an der nächsten Station.
@@ -134,7 +134,7 @@ Anfassen ist und was nicht.
 
 ### Aufgabe system-oder-nicht
 
-- Aufgabe: „Gehört **{e.name}** als Informatiksystem in die Ausstellung? Antworte mit ja oder nein.“
+- Aufgabe: „Jona hält ein neues Schild hoch: **{e.name}**. Ist das ein Informatiksystem? Antworte mit ja oder nein.“
 - Antwortformat: eine Antwort wählen
 - Tipp der App: „Strom allein reicht nicht, und ein Bildschirm ist kein Muss.“
 - Lösungsweg:
@@ -156,5 +156,5 @@ Nr. | e.name | e.grund | Zur Wahl | Lösung | F1
 8 | einfacher Föhn | Der einfache Föhn hat Strom, aber keinen Computer. Er macht nur warme Luft, solange der Schalter an ist. | ja; nein | nein | ja
 9 | Lineal | Ein Lineal hat weder Strom noch einen Computer. Du misst selbst damit. | ja; nein | nein | ja
 10 | Waschmaschine mit Anzeige | Ein kleiner Computer steuert Wasser, Wärme und Zeit. Er arbeitet das Waschprogramm ab, das du wählst. | ja; nein | ja | nein
-11 | Kasse im Supermarkt | Ein Computer in der Kasse zählt die Preise zusammen und druckt den Kassenbon. | ja; nein | ja | nein
+11 | Kasse | Ein Computer in der Kasse zählt die Preise zusammen und druckt den Kassenbon. | ja; nein | ja | nein
 ```

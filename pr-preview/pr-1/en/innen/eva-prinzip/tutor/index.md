@@ -58,20 +58,18 @@ Jona types **3 + 4 =**. A moment later the display shows **7**. In between, the 
 steps. In the picture each step is a box with its own colour and letter: I blue, P green, O orange. The
 arrows show the order in which the data travels.
 
-- **data**: Everything a computer works with, for example numbers, letters, pictures and sounds.
-
 Interactive: The IPO picture: three boxes with arrows in this order. Box I “Input” (blue): the keys, 3 + 4 =. Box P “Process” (green): the processor works out 7, memory holds the numbers. Box O “Output” (orange): the display shows 7. A dashed drawer is attached to the box Process: “storage – keeps”, a storage chip. A double arrow shows that data goes into it and comes back out.
 
 - **IPO model**: This is how every computer works: **I**nput (data goes in), **P**rocess (the processor works with the data in memory), **O**utput (the result comes out).
 
 The calculator forgets the 7 straight away. A tablet wants to keep many things, for example a photo. For
-that the box Process has a drawer: storage. That is why some books call it the IPOS model, with S for
+that the box Process has a drawer: storage. In the picture it says “storage – keeps”. That is why some books call it the IPOS model, with S for
 storage.
 
 **Remember: Remember**
 
-Input means: **into** the computer. Output means: **out of** the computer, to you or to another device,
-for example a motor. A loudspeaker brings
+Input means: **into** the computer. Output means: **out of** the computer, to you or to another part,
+for example to the drum of a washing machine. A loudspeaker brings
 sounds out of the computer. That is why it is an output device.
 
 ### Join in: we are a computer
@@ -98,25 +96,25 @@ sounds out of the computer. That is why it is an output device.
 
 - Exercise `foto-aufheben` (below)
 
-Well done: every device in the exhibition now has its sign with I, P or O. At the next station Mia
-arrives. She asks which device she should use for her talk.
+Well done: every device and part on Selin's signs now has its box: I, P or O. At the next station Mia
+arrives. She asks which device she should use for her report.
 
 ### Exercise woher-zahlen
 
 - Task: How does the calculator know which numbers to work with?
 - Answer format: choose one answer
 - Choices (✓ right, ✗ wrong, with the app's message):
-  - ✓ Someone types them in on the keys. – The numbers come into the calculator from outside.
-  - ✗ It makes up the numbers by itself. – It only works with what goes in.
-  - ✗ The numbers are already on the display. – The display only shows what the calculator puts out. Nothing can go in through it.
-- Solution: Someone types them in on the keys.
+  - ✓ Someone types them in on the keys – The numbers come into the calculator from outside.
+  - ✗ It makes up the numbers by itself – It only works with what goes in.
+  - ✗ The numbers are already on the display – The display only shows what the calculator puts out. Nothing can go in through it.
+- Solution: Someone types them in on the keys
 - Explanation: First the numbers go in. Then the calculation happens. At the end the result comes out.
 - Link: [../?via=tutor#woher-zahlen](../?via=tutor#woher-zahlen)
 
 ### Exercise eva-sortieren
 
 - What to do: Five devices or parts of a computer are listed. The child puts each one into a box with one of three buttons: input, process or output. Then they press “Check”.
-- Task: „Selin has signs for five devices. Put each device into its box: {Geraete}“
+- Task: „Selin has signs for five devices and parts. Put each one into its box: {Geraete}“
 - Answer format: The box chosen for each device.
 - What counts as right: Right when each device is in its box: what puts data in goes to input, what calculates or holds data for the work goes to process, what shows, plays or prints goes to output.
 - Typical mistakes (the app's message fits one of them):
@@ -214,7 +212,7 @@ No. | Geraete | Solution | F1 | F2
 ```
 No. | v.vorgang | v.eingabe | v.verarbeitung | v.ausgabe | Solution | F1 | F2
 1 | Jona works out 3 + 4 on the calculator. | Jona presses 3, +, 4 and = on the keys | The processor works out 3 + 4 = 7 | The display shows 7 | 1. Jona presses 3, +, 4 and = on the keys, 2. The processor works out 3 + 4 = 7, 3. The display shows 7 | The display shows 7, The processor works out 3 + 4 = 7, Jona presses 3, +, 4 and = on the keys | The processor works out 3 + 4 = 7, Jona presses 3, +, 4 and = on the keys, The display shows 7
-2 | Mia listens to a voice message. | Mia taps “Play” | The processor turns the message into sounds | The loudspeaker plays the message | 1. Mia taps “Play”, 2. The processor turns the message into sounds, 3. The loudspeaker plays the message | The loudspeaker plays the message, The processor turns the message into sounds, Mia taps “Play” | The processor turns the message into sounds, Mia taps “Play”, The loudspeaker plays the message
+2 | Jona listens to a voice message. | Jona taps “Play” | The processor turns the message into sounds | The loudspeaker plays the message | 1. Jona taps “Play”, 2. The processor turns the message into sounds, 3. The loudspeaker plays the message | The loudspeaker plays the message, The processor turns the message into sounds, Jona taps “Play” | The processor turns the message into sounds, Jona taps “Play”, The loudspeaker plays the message
 3 | Selin takes a photo with the tablet. | The camera takes the picture | The processor makes the picture brighter and sharper | The screen shows the finished photo | 1. The camera takes the picture, 2. The processor makes the picture brighter and sharper, 3. The screen shows the finished photo | The screen shows the finished photo, The processor makes the picture brighter and sharper, The camera takes the picture | The processor makes the picture brighter and sharper, The camera takes the picture, The screen shows the finished photo
 4 | Jona plays a game on the console. | Jona presses a button on the controller | The processor works out the jump of the character | The TV shows the character jumping | 1. Jona presses a button on the controller, 2. The processor works out the jump of the character, 3. The TV shows the character jumping | The TV shows the character jumping, The processor works out the jump of the character, Jona presses a button on the controller | The processor works out the jump of the character, Jona presses a button on the controller, The TV shows the character jumping
 5 | A juice is paid for at the till. | The scanner reads the barcode of the juice | The till looks up the price and adds it to the total | The display shows the price and the printer prints the receipt | 1. The scanner reads the barcode of the juice, 2. The till looks up the price and adds it to the total, 3. The display shows the price and the printer prints the receipt | The display shows the price and the printer prints the receipt, The till looks up the price and adds it to the total, The scanner reads the barcode of the juice | The till looks up the price and adds it to the total, The scanner reads the barcode of the juice, The display shows the price and the printer prints the receipt

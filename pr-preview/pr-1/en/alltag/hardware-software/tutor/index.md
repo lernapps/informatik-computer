@@ -58,7 +58,7 @@ Picture: On the left a hand holds a tablet. On the right floats a dashed cloud w
 
 - **software**: All the programs of a computer system. On tablets and smartphones they are often called apps. You cannot touch them.
 
-The dashed cloud only shows: not touchable. The apps are stored inside the device. The arrows in the
+The dashed cloud only shows: not touchable. The apps are inside the device. The arrows in the
 picture show: they need each other. The software tells the hardware what to do. The
 hardware does it. Without software the hardware does nothing useful. Without hardware the software has
 nowhere to run.
@@ -115,11 +115,11 @@ program yourselves: a drawing program.
 
 ### Exercise hardware-oder-software
 
-- Task: „Jona needs a sign for the **{e.name}**. Is it hardware or software?“
+- Task: „Jona's next sign says: **{e.name}**. Is it hardware or software?“
 - Answer format: choose one answer
 - The app's hint: „You can touch hardware, but not software.“
 - Steps of the solution:
-  - {e.grund} So it is {answer}.
+  - {e.grund} Answer: {answer}.
 - Typical mistakes and what the app says:
   - F1: „Do the test: can you hold it in your own hand?“
 - Link to number n: `../?hardware-oder-software=n&via=tutor#hardware-oder-software`
@@ -131,7 +131,7 @@ No. | e.name | e.grund | Choices | Solution | F1
 2 | headphones | You can touch headphones and put them on. | Hardware; Software | Hardware | Software
 3 | drawing app | The drawing app is a program. You see it on the screen, but you cannot touch it. | Hardware; Software | Software | Hardware
 4 | calculator app | The calculator app is a program. It runs on the device, you cannot touch it. | Hardware; Software | Software | Hardware
-5 | word processor | A program for writing texts. You can use it, but you cannot touch it. | Hardware; Software | Software | Hardware
+5 | learning app | The learning app is a program. You can use it, but you cannot touch it. | Hardware; Software | Software | Hardware
 6 | printer | You can touch the printer. | Hardware; Software | Hardware | Software
 7 | weather app | The weather app is a program. You can only touch the device it runs on. | Hardware; Software | Software | Hardware
 8 | keyboard | You can touch and press the keyboard. | Hardware; Software | Hardware | Software
@@ -142,7 +142,7 @@ No. | e.name | e.grund | Choices | Solution | F1
 
 ### Exercise wer-mit-wem
 
-- Task: Which app needs which hardware most?
+- Task: Which app goes with which piece of hardware?
 - Answer format: match each item on the left with one on the right
 - Solution: camera – camera app; loudspeaker – music app; microphone – voice recorder app
 - Explanation: Each app needs a piece of hardware to work with: the camera app needs the camera, music the loudspeaker, recordings the microphone. The weather app mainly needs the screen.
@@ -153,9 +153,9 @@ No. | e.name | e.grund | Choices | Solution | F1
 - Task: A tablet has no software at all, not even a program to start up. What happens when you switch it on?
 - Answer format: choose one answer
 - Choices (✓ right, ✗ wrong, with the app's message):
-  - ✓ It does nothing useful. – No program tells the hardware what to do. So the tablet stays useless.
-  - ✗ It still shows photos. – To show photos, the tablet needs a program. That is missing here.
-  - ✗ It makes its own apps. – People write apps. Hardware alone cannot invent programs.
-- Solution: It does nothing useful.
+  - ✓ It does nothing useful – No program tells the hardware what to do. So the tablet stays useless.
+  - ✗ It still shows photos – To show photos, the tablet needs a program. That is missing here.
+  - ✗ It makes its own apps – People write apps. Hardware alone cannot invent programs.
+- Solution: It does nothing useful
 - Explanation: Hardware needs software, otherwise it does not know what to do.
 - Link: [../?via=tutor#ohne-software](../?via=tutor#ohne-software)

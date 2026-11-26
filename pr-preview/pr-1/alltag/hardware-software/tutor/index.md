@@ -59,7 +59,7 @@ Bild: Links hält eine Hand ein Tablet. Rechts schwebt eine gestrichelte Wolke m
 
 - **Software**: Alle Programme eines Informatiksystems. Auf Tablet und Smartphone heißen sie oft Apps. Anfassen kannst du sie nicht.
 
-Die gestrichelte Wolke zeigt nur: nicht zum Anfassen. Die Apps sind im Gerät gespeichert. Die Pfeile im
+Die gestrichelte Wolke zeigt nur: nicht zum Anfassen. Die Apps stecken im Gerät. Die Pfeile im
 Bild zeigen: Beide brauchen einander. Die Software sagt der Hardware, was sie tun soll. Die
 Hardware führt es aus. Ohne Software tut die Hardware nichts Sinnvolles. Ohne Hardware kann die Software
 nirgends laufen.
@@ -115,11 +115,11 @@ Station bedient ihr selbst ein Programm: ein Malprogramm.
 
 ### Aufgabe hardware-oder-software
 
-- Aufgabe: „Jona braucht ein Schild für **{e.name}**. Ist das Hardware oder Software?“
+- Aufgabe: „Auf Jonas nächstem Schild steht: **{e.name}**. Ist das Hardware oder Software?“
 - Antwortformat: eine Antwort wählen
 - Tipp der App: „Hardware kannst du anfassen, Software nicht.“
 - Lösungsweg:
-  - {e.grund} Also ist es {answer}.
+  - {e.grund} Antwort: {answer}.
 - Typische Fehler und was die App sagt:
   - F1: „Mach die Probe: Kannst du es selbst in die Hand nehmen?“
 - Link zu Nummer n: `../?hardware-oder-software=n&via=tutor#hardware-oder-software`
@@ -131,7 +131,7 @@ Nr. | e.name | e.grund | Zur Wahl | Lösung | F1
 2 | Kopfhörer | Kopfhörer kannst du anfassen und aufsetzen. | Hardware; Software | Hardware | Software
 3 | Mal-App | Die Mal-App ist ein Programm. Du siehst sie auf dem Bildschirm, aber anfassen kannst du sie nicht. | Hardware; Software | Software | Hardware
 4 | Taschenrechner-App | Die Taschenrechner-App ist ein Programm. Sie läuft auf dem Gerät, anfassen kannst du sie nicht. | Hardware; Software | Software | Hardware
-5 | Textverarbeitung | Ein Programm zum Schreiben von Texten. Du kannst es benutzen, aber nicht anfassen. | Hardware; Software | Software | Hardware
+5 | Lern-App | Die Lern-App ist ein Programm. Du kannst sie benutzen, aber nicht anfassen. | Hardware; Software | Software | Hardware
 6 | Drucker | Den Drucker kannst du anfassen. | Hardware; Software | Hardware | Software
 7 | Wetter-App | Die Wetter-App ist ein Programm. Anfassen kannst du nur das Gerät, auf dem sie läuft. | Hardware; Software | Software | Hardware
 8 | Tastatur | Die Tastatur kannst du anfassen und drücken. | Hardware; Software | Hardware | Software
@@ -142,7 +142,7 @@ Nr. | e.name | e.grund | Zur Wahl | Lösung | F1
 
 ### Aufgabe wer-mit-wem
 
-- Aufgabe: Welche App braucht welche Hardware am dringendsten?
+- Aufgabe: Zu welcher Hardware passt welche App?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
 - Lösung: Kamera – Kamera-App; Lautsprecher – Musik-App; Mikrofon – Sprachaufnahme-App
 - Erklärung: Jede App braucht ein Stück Hardware, mit dem sie arbeitet: die Kamera-App die Kamera, Musik den Lautsprecher, Aufnahmen das Mikrofon. Die Wetter-App braucht vor allem den Bildschirm.
@@ -153,9 +153,9 @@ Nr. | e.name | e.grund | Zur Wahl | Lösung | F1
 - Aufgabe: Ein Tablet hat gar keine Software, nicht einmal ein Programm zum Starten. Was passiert beim Einschalten?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Es tut nichts Sinnvolles. – Kein Programm sagt der Hardware, was sie tun soll. Darum bleibt das Tablet nutzlos.
-  - ✗ Es zeigt trotzdem Fotos. – Um Fotos zu zeigen, braucht das Tablet ein Programm. Das fehlt hier.
-  - ✗ Es macht sich die Apps selbst. – Apps schreiben Menschen. Hardware allein kann keine Programme erfinden.
-- Lösung: Es tut nichts Sinnvolles.
+  - ✓ Es tut nichts Sinnvolles – Kein Programm sagt der Hardware, was sie tun soll. Darum bleibt das Tablet nutzlos.
+  - ✗ Es zeigt trotzdem Fotos – Um Fotos zu zeigen, braucht das Tablet ein Programm. Das fehlt hier.
+  - ✗ Es macht sich die Apps selbst – Apps schreiben Menschen. Hardware allein kann keine Programme erfinden.
+- Lösung: Es tut nichts Sinnvolles
 - Erklärung: Hardware braucht Software, sonst weiß sie nicht, was sie tun soll.
 - Link: [../?via=tutor#ohne-software](../?via=tutor#ohne-software)

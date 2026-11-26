@@ -45,7 +45,7 @@ Für eine Aufgabe ein passendes Gerät und Programm auswählen und die Wahl mit 
 
 Bild: Mia steht links vor einem Tisch mit einer Smartwatch, einem Smartphone und einem Laptop. Rechts steht Jona. Bildunterschrift: Mia aus der 6b besucht die Ausstellung. Drei Geräte liegen zur Auswahl.
 
-An Station 5 hast du jedes Gerät in die EVA-Kästen gelegt. Jetzt kommt Mia aus der 6b. Sie muss ein
+An Station 5 hast du Geräte und Teile in die EVA-Kästen gelegt. Jetzt kommt Mia, 11, aus der 6b zu Besuch. Sie muss ein
 Referat über Igel schreiben, zwei Seiten Text. Sie fragt Jona: „Welches Gerät soll ich nehmen?“
 
 Auf dieser Seite lernst du, für eine Aufgabe ein passendes Gerät und Programm auszuwählen und deine Wahl
@@ -101,7 +101,7 @@ Mia geht mit einer guten Wahl nach Hause. Und du hast alle sechs Stationen gesch
 
 1. Du erkennst Informatiksysteme in deinem Alltag.
 2. Du unterscheidest Hardware und Software.
-3. Du bedienst ein Programm: Öffnen, Speichern, Kopieren, Einfügen.
+3. Du bedienst ein Programm: Öffnen, Speichern, Kopieren, Einfügen, Ausschneiden, Rückgängig.
 4. Du kennst die Teile im gläsernen Computer.
 5. Du ordnest Geräte und Schritte mit dem EVA-Prinzip.
 6. Du wählst ein Gerät für eine Aufgabe und begründest deine Wahl.
@@ -133,12 +133,11 @@ Mia geht mit einer guten Wahl nach Hause. Und du hast alle sechs Stationen gesch
 
 ```
 Nr. | e.aufgabe | e.grund | e.grundA | e.grundB | Zur Wahl | Lösung | F1 | F2
-1 | Mia schreibt ein Referat über Igel, zwei Seiten Text. | Für viel Text brauchst du eine Tastatur zur Eingabe und einen großen Bildschirm zur Ausgabe. Das hat der Laptop. | Auf der Smartwatch kannst du kaum tippen, und der Bildschirm ist winzig. | Auf dem Smartphone kannst du tippen, aber zwei Seiten Text sind dort mühsam. Der Bildschirm ist klein. | Smartwatch; Smartphone; Laptop | Laptop | Smartwatch | Smartphone
+1 | Jona will beim Wandertag Fotos machen und sie gleich ansehen. | Fotos brauchen eine Kamera zur Eingabe und einen Bildschirm zur Ausgabe, und das Gerät muss in die Tasche passen. Das kann das Smartphone. | Der Laptop ist schwer zum Mitnehmen, und seine Kamera ist für Fotos von dir selbst am Bildschirm gedacht. | Die meisten Smartwatches haben keine Kamera. Ohne Eingabegerät für Bilder gibt es keine Fotos. | Smartwatch; Smartphone; Laptop | Smartphone | Laptop | Smartwatch
 2 | Mia will auf dem Fahrrad die Uhrzeit sehen, ohne anzuhalten. | Die Smartwatch zeigt die Uhrzeit am Arm. Ein kurzer Blick reicht. | Das Smartphone müsste Mia erst aus der Tasche holen. Dafür müsste sie anhalten. | Einen Laptop kann man beim Radfahren nicht ansehen. | Smartwatch; Smartphone; Laptop | Smartwatch | Smartphone | Laptop
 3 | Selin filmt beim Schulfest ein kurzes Video vom Tanz. | Ein Video braucht Kamera und Mikrofon zur Eingabe. Das Smartphone hat beides und lässt sich gut halten. | Die meisten Smartwatches haben keine Kamera. | Den Laptop müsste Selin hochhalten, und er filmt nur in eine Richtung, zu ihr hin. | Smartwatch; Smartphone; Laptop | Smartphone | Smartwatch | Laptop
-4 | Jona will beim Wandertag Fotos machen und sie gleich ansehen. | Fotos brauchen eine Kamera zur Eingabe und einen Bildschirm zur Ausgabe, und das Gerät muss in die Tasche passen. Das kann das Smartphone. | Der Laptop ist schwer zum Mitnehmen, und seine Kamera ist für Fotos von dir selbst am Bildschirm gedacht. | Die meisten Smartwatches haben keine Kamera. Ohne Eingabegerät für Bilder gibt es keine Fotos. | Smartwatch; Smartphone; Laptop | Smartphone | Laptop | Smartwatch
-5 | Jona tippt eine Liste mit allen 28 Namen der Klasse für den Ausflug. | Für lange Listen ist eine Tastatur zur Eingabe am besten. Das hat der Laptop. | Auf der Smartwatch kann man keine lange Liste tippen. | Auf dem Smartphone geht das, aber 28 Namen auf dem kleinen Bildschirm zu tippen dauert lange. | Smartwatch; Smartphone; Laptop | Laptop | Smartwatch | Smartphone
-6 | Selin will beim Joggen ihre Schritte zählen und immer wieder auf die Zahl schauen, ohne etwas aus der Tasche zu holen. | Die Smartwatch sitzt am Arm. Sie merkt die Bewegung (Eingabe) und zeigt die Schritte (Ausgabe), ohne dass Selin etwas aus der Tasche holt. | Das Smartphone kann Schritte zählen, aber Selin müsste es zum Nachschauen jedes Mal aus der Tasche holen. | Mit einem Laptop kann man nicht joggen. | Smartwatch; Smartphone; Laptop | Smartwatch | Smartphone | Laptop
+4 | Jona tippt eine Liste mit allen 28 Namen der Klasse für den Ausflug. | Für lange Listen ist eine Tastatur zur Eingabe am besten. Das hat der Laptop. | Auf der Smartwatch kann man keine lange Liste tippen. | Auf dem Smartphone geht das, aber 28 Namen auf dem kleinen Bildschirm zu tippen dauert lange. | Smartwatch; Smartphone; Laptop | Laptop | Smartwatch | Smartphone
+5 | Selin will beim Joggen ihre Schritte zählen und immer wieder auf die Zahl schauen, ohne etwas aus der Tasche zu holen. | Die Smartwatch sitzt am Arm. Sie merkt die Bewegung (Eingabe) und zeigt die Schritte (Ausgabe), ohne dass Selin etwas aus der Tasche holt. | Das Smartphone kann Schritte zählen, aber Selin müsste es zum Nachschauen jedes Mal aus der Tasche holen. | Mit einem Laptop kann man nicht joggen. | Smartwatch; Smartphone; Laptop | Smartwatch | Smartphone | Laptop
 ```
 
 ### Aufgabe aufgabe-programm
@@ -151,14 +150,14 @@ Nr. | e.aufgabe | e.grund | e.grundA | e.grundB | Zur Wahl | Lösung | F1 | F2
 
 ### Aufgabe beste-begruendung
 
-- Aufgabe: Jona nimmt für seine Liste mit 28 Namen den Laptop. Welche Begründung passt am besten?
+- Aufgabe: Selin nimmt ein Hörspiel für die Klasse auf und will es gleich anhören. Sie nimmt das Smartphone. Welche Begründung passt am besten?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Er hat eine Tastatur, mit der man schnell viele Namen tippt. – Die Begründung nennt, was die Aufgabe braucht: eine gute Eingabe für viel Text.
-  - ✗ Er ist das neueste Gerät auf dem Tisch. – Neu sagt nichts darüber, ob das Gerät zur Aufgabe passt.
-  - ✗ Er ist das teuerste Gerät auf dem Tisch. – Der Preis sagt nichts darüber, ob das Gerät zur Aufgabe passt.
-  - ✗ Er hat die beste Kamera. – Für eine Namensliste braucht Jona keine Kamera. Die Begründung passt nicht zur Aufgabe.
-- Lösung: Er hat eine Tastatur, mit der man schnell viele Namen tippt.
+  - ✓ Es hat ein Mikrofon zur Eingabe und einen Lautsprecher zur Ausgabe – Die Begründung nennt, was die Aufgabe braucht: Töne hinein und Töne heraus.
+  - ✗ Es ist das neueste Gerät in Selins Familie – Neu sagt nichts darüber, ob das Gerät zur Aufgabe passt.
+  - ✗ Es hat viel gekostet – Der Preis sagt nichts darüber, ob das Gerät zur Aufgabe passt.
+  - ✗ Es hat eine Kamera – Für ein Hörspiel braucht Selin keine Kamera. Die Begründung passt nicht zur Aufgabe.
+- Lösung: Es hat ein Mikrofon zur Eingabe und einen Lautsprecher zur Ausgabe
 - Erklärung: Eine gute Begründung nennt, was die Aufgabe als Eingabe und Ausgabe braucht.
 - Link: [../?via=tutor#beste-begruendung](../?via=tutor#beste-begruendung)
 

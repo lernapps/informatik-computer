@@ -104,17 +104,17 @@ wieder. Sind alle drei Sonnen noch da?
 - Aufgabe `schliessen-speichert` (unten)
 
 Geschafft: Das Plakat hängt, mit zwei Sonnen, und es ist gespeichert. Damit endet der Rundgang von außen.
-Im nächsten Kapitel klappt ihr den Computer auf und schaut hinein.
+Im nächsten Kapitel schaut ihr in einen Computer hinein.
 
 ### Aufgabe plakat-weg
 
 - Aufgabe: Warum ist Selins Plakat weg?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Sie hat es vor dem Schließen nicht gespeichert. – Was nicht gespeichert ist, geht beim Schließen verloren.
-  - ✗ Das Malprogramm löscht jede Nacht alle Bilder. – Ein Malprogramm löscht gespeicherte Bilder nicht von selbst.
-  - ✗ Der Bildschirm war zu klein für das Plakat. – Der Bildschirm zeigt nur, was gerade offen ist. Er hebt nichts auf.
-- Lösung: Sie hat es vor dem Schließen nicht gespeichert.
+  - ✓ Sie hat es vor dem Schließen nicht gespeichert – Was nicht gespeichert ist, geht beim Schließen verloren.
+  - ✗ Das Malprogramm löscht jede Nacht alle Bilder – Ein Malprogramm löscht gespeicherte Bilder nicht von selbst.
+  - ✗ Der Bildschirm war zu klein für das Plakat – Der Bildschirm zeigt nur, was gerade offen ist. Er hebt nichts auf.
+- Lösung: Sie hat es vor dem Schließen nicht gespeichert
 - Erklärung: Vor dem Schließen muss man speichern. Sonst ist die Arbeit weg.
 - Link: [../?via=tutor#plakat-weg](../?via=tutor#plakat-weg)
 
@@ -131,7 +131,7 @@ Im nächsten Kapitel klappt ihr den Computer auf und schaut hinein.
 - Aufgabe: Was passiert bei welchem Befehl?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
 - Lösung: Kopieren – Eine Kopie kommt in die Zwischenablage.; Einfügen – Was in der Zwischenablage liegt, kommt ins Bild.; Ausschneiden – Das Markierte verschwindet und kommt in die Zwischenablage.; Öffnen – Ein gespeichertes Bild kommt zurück auf den Bildschirm.; Rückgängig – Der letzte Schritt wird zurückgenommen.; Speichern – Das Bild bleibt auch nach dem Schließen erhalten.
-- Erklärung: Drucken ist ein eigener Befehl. Er gehört zu keinem der fünf Befehle hier.
+- Erklärung: Drucken ist ein eigener Befehl. Er gehört zu keinem der sechs Befehle hier.
 - Link: [../?via=tutor#befehl-wirkung](../?via=tutor#befehl-wirkung)
 
 ### Aufgabe sonnen-zaehlen
@@ -141,7 +141,7 @@ Im nächsten Kapitel klappt ihr den Computer auf und schaut hinein.
 - Tipp der App: „Zähl Schritt für Schritt mit: Nur Einfügen macht eine Sonne mehr, nur Ausschneiden eine weniger.“
 - Lösungsweg:
   - Kopieren ändert nichts am Bild. Einfügen: eine Sonne mehr. Ausschneiden: eine Sonne weniger.
-  - Bei **{e.folge}** sind am Ende {answer} Sonnen auf dem Bild.
+  - Bei **{e.folge}** ist die Zahl der Sonnen am Ende: {answer}.
 - Typische Fehler und was die App sagt:
   - F1: „Zu viele: Kopieren setzt noch keine Sonne ein. Erst Einfügen bringt eine ins Bild.“
   - F2: „Zu viele: Ausschneiden nimmt die markierte Sonne vom Bild weg.“

@@ -41,10 +41,11 @@ If the address of this page names `bedarf=`, each section it names holds, severa
 
 The glass computer: processor, memory, storage, input and output devices and their jobs.
 
-### Station 4: the glass tablet
+### Station 4: the glass computer
 
-You already know: hardware is what you can touch. But what is actually inside a tablet? At station 4
-there is a tablet made of glass. Jona says: “You can look inside here. Guess where the tablet does its
+At station 3 you used a program. From station 2 you know: hardware is what you can touch. But what is
+actually inside a tablet? At station 4 there is a tablet made of glass. The whole exhibition is named
+after it: the glass computer. Jona says: “You can look inside here. Guess where the tablet does its
 thinking.”
 
 On this page you get to know the most important parts of a computer and what each part does.
@@ -55,15 +56,17 @@ On this page you get to know the most important parts of a computer and what eac
 
 Picture: A tablet made of glass. Inside you can see a grey chip, a green bar and an orange box. Outside there is a finger tap on the screen, a camera at the top, three small holes at the bottom and a grille on the right. Curved lines show sound going in at the bottom and coming out on the right. Caption: The glass computer. The numbers belong to the names below: 1 to 3 are inside, 4 to 7 outside. Labels: 1 processor, 2 memory, 3 storage, 4 touchscreen, 5 camera, 6 microphone, 7 loudspeaker
 
+- **data**: Everything a computer works with, for example numbers, letters, pictures and sounds.
+
 - **input device**: A part that gets data into the computer, for example a camera, a microphone or a keyboard.
 
 - **output device**: A part the computer uses to show, play or print something for you, for example a screen, a loudspeaker or a printer.
 
 The parts inside, compared with your room:
-- Part | What it does | Like in your room
-- processor | calculates and works through the data | you yourself while working
-- memory | holds what is being worked on right now | your desk
-- storage | keeps photos, apps and texts, even without power | your cupboard
+- Part | What it does (like in your room)
+- processor | calculates with the data (like you yourself while working)
+- memory | holds what is being worked on right now (like your desk)
+- storage | keeps photos, apps and texts, even without power (like your cupboard)
 
 The comparison has a limit: your desk stays full when the light goes out. Memory forgets everything as soon
 as the power is gone. And the processor does not think for itself. It does exactly what the program says.
@@ -111,7 +114,7 @@ together.
 
 ### Exercise stromausfall
 
-- Task: Mia is drawing a picture on the computer. She has not saved yet. Suddenly the power goes off. Where was the picture?
+- Task: Selin is drawing a picture on the computer. She has not saved yet. Suddenly the power goes off. Where was the picture?
 - Answer format: choose one answer
 - Choices (✓ right, ✗ wrong, with the app's message):
   - ✓ In memory – Unsaved work sits in memory. Without power memory is empty, so the picture is gone.

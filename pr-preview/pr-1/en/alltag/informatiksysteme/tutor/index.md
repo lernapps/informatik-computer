@@ -45,8 +45,8 @@ Spot computer systems: which devices have a small computer inside?
 
 Picture: Three exhibition tables with a tablet, a smartwatch and a till. Jona stands on the left, Selin on the right. Caption: The first three devices of the exhibition “The glass computer”, from the outside.
 
-The computer club is building the exhibition “The glass computer”. Jona and Selin from class 6b are
-collecting devices for it. A tablet, a smartwatch and a till are already on the tables. Selin brings a
+The computer club is building the exhibition “The glass computer”. Jona and Selin from class 6b, both 11 years
+old, are collecting devices for it and will show them to visitors. A tablet, a smartwatch and a till are already on the tables. Selin brings a
 bicycle, a game console and a ruler. Which of them fits into the exhibition?
 
 On this page you learn to spot computer systems in your everyday life.
@@ -55,7 +55,7 @@ On this page you learn to spot computer systems in your everyday life.
 
 ### How to spot a computer system
 
-- **computer system**: A device in which hardware and software work together: a computer inside it follows a program. A program is an exact set of instructions for the computer.
+- **computer system**: A device in which a computer works by following a program. A program is an exact set of instructions for the computer. Every computer system has parts you can touch and programs.
 
 You can often tell like this: the device calculates, counts or remembers something. A smartphone, a game
 console and a till are computer systems. You learn what hardware and software are at the next station.
@@ -133,7 +133,7 @@ touch and what you cannot.
 
 ### Exercise system-oder-nicht
 
-- Task: „Does the **{e.name}** belong in the exhibition as a computer system? Answer yes or no.“
+- Task: „Jona holds up a new sign: **{e.name}**. Is that a computer system? Answer yes or no.“
 - Answer format: choose one answer
 - The app's hint: „Power alone is not enough, and a screen is not a must.“
 - Steps of the solution:
@@ -155,5 +155,5 @@ No. | e.name | e.grund | Choices | Solution | F1
 8 | simple hair dryer | The simple hair dryer has power, but no computer. It only blows warm air while the switch is on. | yes; no | no | yes
 9 | ruler | A ruler has neither power nor a computer. You do the measuring yourself. | yes; no | no | yes
 10 | washing machine with a display | A small computer controls the water, heat and time. It runs the washing program you choose. | yes; no | yes | no
-11 | till in the supermarket | A computer in the till adds up the prices and prints the receipt. | yes; no | yes | no
+11 | till | A computer in the till adds up the prices and prints the receipt. | yes; no | yes | no
 ```

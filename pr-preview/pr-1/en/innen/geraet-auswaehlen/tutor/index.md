@@ -45,8 +45,8 @@ Choose a suitable device and program for a task and explain your choice with the
 
 Picture: Mia stands on the left in front of a table with a smartwatch, a smartphone and a laptop. Jona stands on the right. Caption: Mia from class 6b visits the exhibition. Three devices are there to choose from.
 
-At station 5 you put every device into the IPO boxes. Now Mia from class 6b arrives. She has to write a
-talk about hedgehogs, two pages of text. She asks Jona: “Which device should I use?”
+At station 5 you put devices and parts into the IPO boxes. Now Mia, 11, from class 6b comes to visit. She has to
+write a report about hedgehogs, two pages of text. She asks Jona: “Which device should I use?”
 
 On this page you learn to choose a suitable device and program for a task and to explain your choice.
 
@@ -101,7 +101,7 @@ Mia goes home with a good choice. And you have completed all six stations:
 
 1. You can spot computer systems in your everyday life.
 2. You can tell hardware from software.
-3. You can use a program: open, save, copy, paste.
+3. You can use a program: open, save, copy, paste, cut, undo.
 4. You know the parts inside the glass computer.
 5. You can sort devices and steps with the IPO model.
 6. You can choose a device for a task and explain your choice.
@@ -133,12 +133,11 @@ Mia goes home with a good choice. And you have completed all six stations:
 
 ```
 No. | e.aufgabe | e.grund | e.grundA | e.grundB | Choices | Solution | F1 | F2
-1 | Mia writes a report about hedgehogs, two pages of text. | For a lot of text you need a keyboard for input and a big screen for output. The laptop has both. | On a smartwatch you can hardly type, and the screen is tiny. | On a smartphone you can type, but two pages of text are hard work there. The screen is small. | Smartwatch; Smartphone; Laptop | Laptop | Smartwatch | Smartphone
+1 | Jona wants to take photos on the class hike and look at them straight away. | Photos need a camera for input and a screen for output, and the device has to fit in a pocket. The smartphone can do that. | The laptop is heavy to carry, and its camera is meant for pictures of you at the screen. | Most smartwatches have no camera. Without an input device for pictures there are no photos. | Smartwatch; Smartphone; Laptop | Smartphone | Laptop | Smartwatch
 2 | Mia wants to see the time on her bike without stopping. | The smartwatch shows the time on the wrist. A quick look is enough. | Mia would first have to take the smartphone out of her pocket. She would have to stop for that. | You cannot look at a laptop while cycling. | Smartwatch; Smartphone; Laptop | Smartwatch | Smartphone | Laptop
 3 | Selin films a short video of the dance at the school fair. | A video needs a camera and a microphone for input. The smartphone has both and is easy to hold. | Most smartwatches have no camera. | Selin would have to hold the laptop up, and it only films in one direction, towards her. | Smartwatch; Smartphone; Laptop | Smartphone | Smartwatch | Laptop
-4 | Jona wants to take photos on the class hike and look at them straight away. | Photos need a camera for input and a screen for output, and the device has to fit in a pocket. The smartphone can do that. | The laptop is heavy to carry, and its camera is meant for pictures of you at the screen. | Most smartwatches have no camera. Without an input device for pictures there are no photos. | Smartwatch; Smartphone; Laptop | Smartphone | Laptop | Smartwatch
-5 | Jona types a list of all 28 names in the class for the trip. | For long lists a keyboard is best for input. The laptop has one. | You cannot type a long list on a smartwatch. | It works on a smartphone, but typing 28 names on the small screen takes a long time. | Smartwatch; Smartphone; Laptop | Laptop | Smartwatch | Smartphone
-6 | Selin wants to count her steps while jogging and keep checking the number without taking anything out of her pocket. | The smartwatch sits on the wrist. It notices the movement (input) and shows the steps (output) without Selin taking anything out of her pocket. | The smartphone can count steps, but Selin would have to take it out of her pocket every time to look. | You cannot go jogging with a laptop. | Smartwatch; Smartphone; Laptop | Smartwatch | Smartphone | Laptop
+4 | Jona types a list of all 28 names in the class for the trip. | For long lists a keyboard is best for input. The laptop has one. | You cannot type a long list on a smartwatch. | It works on a smartphone, but typing 28 names on the small screen takes a long time. | Smartwatch; Smartphone; Laptop | Laptop | Smartwatch | Smartphone
+5 | Selin wants to count her steps while jogging and keep checking the number without taking anything out of her pocket. | The smartwatch sits on the wrist. It notices the movement (input) and shows the steps (output) without Selin taking anything out of her pocket. | The smartphone can count steps, but Selin would have to take it out of her pocket every time to look. | You cannot go jogging with a laptop. | Smartwatch; Smartphone; Laptop | Smartwatch | Smartphone | Laptop
 ```
 
 ### Exercise aufgabe-programm
@@ -151,14 +150,14 @@ No. | e.aufgabe | e.grund | e.grundA | e.grundB | Choices | Solution | F1 | F2
 
 ### Exercise beste-begruendung
 
-- Task: Jona uses the laptop for his list of 28 names. Which reason fits best?
+- Task: Selin records a radio play for the class and wants to listen to it straight away. She uses the smartphone. Which reason fits best?
 - Answer format: choose one answer
 - Choices (✓ right, ✗ wrong, with the app's message):
-  - ✓ It has a keyboard for typing many names quickly. – This reason names what the task needs: good input for a lot of text.
-  - ✗ It is the newest device on the table. – New says nothing about whether the device fits the task.
-  - ✗ It is the most expensive device on the table. – The price says nothing about whether the device fits the task.
-  - ✗ It has the best camera. – Jona does not need a camera for a list of names. The reason does not fit the task.
-- Solution: It has a keyboard for typing many names quickly.
+  - ✓ It has a microphone for input and a loudspeaker for output – This reason names what the task needs: sound in and sound out.
+  - ✗ It is the newest device in Selin's family – New says nothing about whether the device fits the task.
+  - ✗ It cost a lot of money – The price says nothing about whether the device fits the task.
+  - ✗ It has a camera – Selin does not need a camera for a radio play. The reason does not fit the task.
+- Solution: It has a microphone for input and a loudspeaker for output
 - Explanation: A good reason names what the task needs as input and output.
 - Link: [../?via=tutor#beste-begruendung](../?via=tutor#beste-begruendung)
 

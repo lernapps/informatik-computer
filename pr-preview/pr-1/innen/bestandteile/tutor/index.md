@@ -41,10 +41,11 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 Der gläserne Computer: Prozessor, Arbeitsspeicher, Festspeicher, Ein- und Ausgabegeräte und ihre Aufgaben.
 
-### Station 4: das Tablet aus Glas
+### Station 4: der gläserne Computer
 
-Du weißt schon: Hardware kannst du anfassen. Aber was steckt eigentlich in einem Tablet? An Station 4
-steht ein Tablet aus Glas. Jona sagt: „Hier kannst du hineinschauen. Rate mal, wo das Tablet denkt.“
+An Station 3 hast du ein Programm bedient. Von Station 2 weißt du: Hardware kannst du anfassen. Aber was
+steckt eigentlich in einem Tablet? An Station 4 steht ein Tablet aus Glas. Nach ihm heißt die ganze
+Ausstellung: der gläserne Computer. Jona sagt: „Hier kannst du hineinschauen. Rate mal, wo das Tablet denkt.“
 
 Auf dieser Seite lernst du die wichtigsten Teile eines Computers kennen und was jedes Teil tut.
 
@@ -54,15 +55,17 @@ Auf dieser Seite lernst du die wichtigsten Teile eines Computers kennen und was 
 
 Bild: Ein Tablet aus Glas. Innen sieht man einen grauen Chip, einen grünen Riegel und ein oranges Kästchen. Außen sind ein Fingertipp auf dem Bildschirm, oben eine Kamera, unten drei kleine Löcher und rechts ein Gitter. Bogenlinien zeigen Schall, der unten hineingeht und rechts herauskommt. Bildunterschrift: Der gläserne Computer. Die Zahlen gehören zu den Namen darunter: 1 bis 3 sind innen, 4 bis 7 außen. Beschriftungen: 1 Prozessor, 2 Arbeitsspeicher, 3 Festspeicher, 4 Touchscreen, 5 Kamera, 6 Mikrofon, 7 Lautsprecher
 
+- **Daten**: Alles, womit ein Computer arbeitet, zum Beispiel Zahlen, Buchstaben, Bilder und Töne.
+
 - **Eingabegerät**: Ein Teil, mit dem Daten in den Computer kommen, zum Beispiel Kamera, Mikrofon oder Tastatur.
 
 - **Ausgabegerät**: Ein Teil, mit dem der Computer dir etwas zeigt, vorspielt oder druckt, zum Beispiel Bildschirm, Lautsprecher oder Drucker.
 
 Die Teile im Innern, verglichen mit deinem Zimmer:
-- Teil | Was es tut | Wie in deinem Zimmer
-- Prozessor | rechnet und arbeitet die Daten ab | du selbst beim Arbeiten
-- Arbeitsspeicher | hält, woran gerade gearbeitet wird | dein Schreibtisch
-- Festspeicher | hebt Fotos, Apps und Texte auf, auch ohne Strom | dein Schrank
+- Teil | Was es tut (wie in deinem Zimmer)
+- Prozessor | rechnet mit den Daten (wie du selbst beim Arbeiten)
+- Arbeitsspeicher | hält, woran gerade gearbeitet wird (wie dein Schreibtisch)
+- Festspeicher | hebt Fotos, Apps und Texte auf, auch ohne Strom (wie dein Schrank)
 
 Der Vergleich hat eine Grenze: Dein Schreibtisch bleibt voll, wenn das Licht ausgeht. Der Arbeitsspeicher
 vergisst alles, sobald der Strom weg ist. Und der Prozessor denkt nicht selbst nach. Er macht genau das,
@@ -111,7 +114,7 @@ die Teile zusammenarbeiten.
 
 ### Aufgabe stromausfall
 
-- Aufgabe: Mia malt am Computer ein Bild. Sie hat noch nicht gespeichert. Plötzlich fällt der Strom aus. Wo war das Bild?
+- Aufgabe: Selin malt am Computer ein Bild. Sie hat noch nicht gespeichert. Plötzlich fällt der Strom aus. Wo war das Bild?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Im Arbeitsspeicher – Ungespeichertes liegt im Arbeitsspeicher. Ohne Strom ist er leer, darum ist das Bild weg.
