@@ -370,11 +370,12 @@ Geräten oft über ein Menü geht. Keine Übung hängt vom System ab.
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Musterseite innen/eva-prinzip in de und en: EVA-Bild eva-kaesten (mit Schublade Speicher), Figuren Jona und Selin, Rollenspiel-Anleitung, Komponente EvaSortierer mit Test, generated Vorgänge ordnen, Data vorgaenge und eva-geraete; zeigt das wiederkehrende Bild und das Seitenmuster
+- [x] Musterseite innen/eva-prinzip in de und en: EVA-Bild eva-kaesten (mit Schublade Speicher), Figuren Jona und Selin, Rollenspiel-Anleitung, Komponente EvaSortierer mit Test, generated Vorgänge ordnen, Data vorgaenge und eva-geraete; zeigt das wiederkehrende Bild und das Seitenmuster
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
-- [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
+- [x] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
+      Creator: Ja, die übrigen 5 Seiten folgen diesem Muster. Als Nächstes bestandteile mit dem gläsernen Tablet.
 - [ ] Seite alltag/informatiksysteme (de, en): Bild ausstellung, Gerätesuche unplugged, generated aus gegenstaende; zeigt Informatiksysteme im Alltag erkennen
 - [ ] Seite alltag/hardware-software (de, en): Bild hardware-software, generated aus hardware-software, matching Hardware zu Software; zeigt Unterscheiden und Zusammenwirken
 - [ ] Seite alltag/programme-bedienen (de, en): labelled-figure malprogramm, Befehlstabelle mit Tastenkürzeln (Quellen Microsoft und Apple Support), ordering, generated Sonnen zählen; zeigt Öffnen, Speichern, Kopieren, Einfügen
