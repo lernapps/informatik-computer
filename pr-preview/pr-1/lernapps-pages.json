@@ -3,6 +3,16 @@
   "strand": "informatik/informatiksysteme",
   "pages": [
     {
+      "path": "innen/bestandteile/",
+      "title": {
+        "de": "Bestandteile eines Computers",
+        "en": "Parts of a computer"
+      },
+      "competencies": [
+        "computer-bestandteile"
+      ]
+    },
+    {
       "path": "innen/eva-prinzip/",
       "title": {
         "de": "Das EVA-Prinzip",
