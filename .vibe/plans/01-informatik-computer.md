@@ -8,7 +8,7 @@ phase: code
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: { checks-pass: 3 }
+failedChecks: { checks-pass: 4 }
 ---
 
 # Plan: informatik-computer, first version
@@ -380,7 +380,7 @@ Geräten oft über ein Menü geht. Keine Übung hängt vom System ab.
 - [x] Seite alltag/hardware-software (de, en): Bild hardware-software, generated aus hardware-software, matching Hardware zu Software; zeigt Unterscheiden und Zusammenwirken
 - [x] Seite alltag/programme-bedienen (de, en): labelled-figure malprogramm, Befehlstabelle mit Tastenkürzeln (Quellen Microsoft und Apple Support), ordering, generated Sonnen zählen; zeigt Öffnen, Speichern, Kopieren, Einfügen
 - [x] Seite innen/bestandteile (de, en): labelled-figure glaeserner-computer, Vergleich Schreibtisch und Schrank, matching pairsFrom material; zeigt Bestandteile und Aufgaben
-- [ ] Seite innen/geraet-auswaehlen (de, en): Vergleichstabelle, Drei-Fragen-Methode mit EVA-Bild, generated aus aufgaben, Rückblick auf die Ausstellung; zeigt Auswählen und Begründen
+- [x] Seite innen/geraet-auswaehlen (de, en): Vergleichstabelle, Drei-Fragen-Methode mit EVA-Bild, generated aus aufgaben, Rückblick auf die Ausstellung; zeigt Auswählen und Begründen
 <!-- tasks: pages (5 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.

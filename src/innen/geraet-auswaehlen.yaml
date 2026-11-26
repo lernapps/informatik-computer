@@ -1,0 +1,303 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: Geräte und Programme auswählen
+  en: Choosing devices and programs
+description:
+  de: "Für eine Aufgabe ein passendes Gerät und Programm auswählen und die Wahl mit dem EVA-Bild begründen."
+  en: "Choose a suitable device and program for a task and explain your choice with the IPO picture."
+competencies: [informatiksystem-auswaehlen]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Station 6: Mia sucht ein Gerät"
+      en: "Station 6: Mia is looking for a device"
+    blocks:
+      - type: figure
+        image: images/auswahl-station.svg
+        source: { de: eigene Zeichnung, en: own drawing }
+        licence: CC-BY-4.0
+        alt:
+          de: Mia steht links vor einem Tisch mit einer Smartwatch, einem Smartphone und einem Laptop. Rechts steht Jona.
+          en: Mia stands on the left in front of a table with a smartwatch, a smartphone and a laptop. Jona stands on the right.
+        caption:
+          de: Mia aus der 6b besucht die Ausstellung. Drei Geräte liegen zur Auswahl.
+          en: Mia from class 6b visits the exhibition. Three devices are there to choose from.
+      - type: text
+        text:
+          de: |
+            An Station 5 hast du jedes Gerät in die EVA-Kästen gelegt. Jetzt kommt Mia aus der 6b. Sie muss ein
+            Referat über Igel schreiben, zwei Seiten Text. Sie fragt Jona: „Welches Gerät soll ich nehmen?“
+
+            Auf dieser Seite lernst du, für eine Aufgabe ein passendes Gerät und Programm auszuwählen und deine Wahl
+            zu begründen.
+          en: |
+            At station 5 you put every device into the IPO boxes. Now Mia from class 6b arrives. She has to write a
+            talk about hedgehogs, two pages of text. She asks Jona: “Which device should I use?”
+
+            On this page you learn to choose a suitable device and program for a task and to explain your choice.
+      - type: single-choice
+        id: mias-geraet
+        text:
+          de: Was rätst du Mia für zwei Seiten Text?
+          en: What do you advise Mia for two pages of text?
+        options:
+          - text:
+              de: Den Laptop
+              en: The laptop
+            correct: true
+            info:
+              de: Der Laptop hat eine Tastatur und einen großen Bildschirm. Damit schreibt man lange Texte am leichtesten.
+              en: The laptop has a keyboard and a big screen. That makes long texts easiest to write.
+          - text:
+              de: Das Smartphone
+              en: The smartphone
+            correct: false
+            info:
+              de: Auf dem Smartphone geht es, aber das Tippen auf dem kleinen Bildschirm ist mühsam.
+              en: It works on a smartphone, but typing on the small screen is hard work.
+          - text:
+              de: Die Smartwatch
+              en: The smartwatch
+            correct: false
+            info:
+              de: Auf der Smartwatch kann man kaum tippen. Der Bildschirm ist winzig.
+              en: You can hardly type on a smartwatch. The screen is tiny.
+        explanation:
+          de: Für viel Text passt das Gerät mit Tastatur und großem Bildschirm.
+          en: For a lot of text the device with a keyboard and a big screen fits best.
+  - type: section
+    id: idee
+    title:
+      de: Mit dem EVA-Bild auswählen
+      en: Choosing with the IPO picture
+    blocks:
+      - type: text
+        text:
+          de: |
+            Jedes Gerät hat andere Eingabegeräte und Ausgabegeräte. Die Tabelle vergleicht die drei Geräte vom Tisch.
+          en: |
+            Every device has different input devices and output devices. The table compares the three devices on the
+            table.
+      - type: table
+        caption:
+          de: Was die drei Geräte zur Eingabe und Ausgabe haben
+          en: What the three devices have for input and output
+        header:
+          - { de: Gerät, en: Device }
+          - { de: Eingabe (E) und Ausgabe (A), en: Input (I) and output (O) }
+        rowHeaders: true
+        rows:
+          - - { de: Smartwatch, en: smartwatch }
+            - de: "E: winziger Touchscreen. A: winziger Bildschirm."
+              en: "I: tiny touchscreen. O: tiny screen."
+          - - { de: Smartphone, en: smartphone }
+            - de: "E: Touchscreen, Kamera, Mikrofon. A: kleiner Bildschirm, Lautsprecher."
+              en: "I: touchscreen, camera, microphone. O: small screen, loudspeaker."
+          - - { de: Laptop, en: laptop }
+            - de: "E: Tastatur, Touchpad. A: großer Bildschirm, Lautsprecher."
+              en: "I: keyboard, touchpad. O: big screen, loudspeaker."
+      - type: text
+        text:
+          de: |
+            Jona zeigt Mia das EVA-Bild für ihr Referat. So sieht sie, was die Aufgabe braucht:
+          en: |
+            Jona shows Mia the IPO picture for her talk. This way she sees what the task needs:
+      - type: vue-component
+        component: EvaBild
+        props:
+          boxes:
+            - { de: Eingabe, en: Input }
+            - { de: Verarbeitung, en: Process }
+            - { de: Ausgabe, en: Output }
+          letters:
+            - { de: E, en: I }
+            - { de: V, en: P }
+            - { de: A, en: O }
+          items:
+            - { de: "viel Text tippen: Tastatur", en: "type a lot of text: keyboard" }
+            - { de: "Programm: Textverarbeitung", en: "program: word processor" }
+            - { de: "ganze Seite sehen: großer Bildschirm", en: "see a whole page: big screen" }
+          drawer: { de: Speicher – hebt auf, en: storage – keeps }
+          drawerItem: { de: das Referat, en: the talk }
+        nojs:
+          de: >-
+            Das EVA-Bild für Mias Referat: Kasten E „Eingabe“: viel Text tippen, also eine Tastatur. Pfeil zu Kasten V
+            „Verarbeitung“: das Programm Textverarbeitung. Pfeil zu Kasten A „Ausgabe“: eine ganze Seite sehen, also
+            ein großer Bildschirm. An Verarbeitung hängt die Schublade „Speicher – hebt auf“ mit dem Referat.
+          en: >-
+            The IPO picture for Mia's talk: box I “Input”: type a lot of text, so a keyboard. Arrow to box P “Process”:
+            the program word processor. Arrow to box O “Output”: see a whole page, so a big screen. The drawer
+            “storage – keeps” with the talk hangs on Process.
+      - type: definition
+        term:
+          de: Textverarbeitung
+          en: word processor
+        explanation:
+          de: Ein Programm zum Schreiben und Gestalten von Texten.
+          en: A program for writing and laying out texts.
+      - type: definition
+        term:
+          de: Präsentationsprogramm
+          en: presentation program
+        explanation:
+          de: Ein Programm für Folien, die man bei einem Vortrag zeigt.
+          en: A program for slides that you show during a talk.
+  - type: section
+    id: beispiel
+    title:
+      de: "So wählst du: drei Fragen"
+      en: "How to choose: three questions"
+    blocks:
+      - type: example
+        title:
+          de: Mias Referat
+          en: Mia's talk
+        blocks:
+          - type: text
+            text:
+              de: |
+                1. **Was soll herauskommen?** Zwei Seiten Text, die Mia gut lesen kann. Ausgabe: ein großer Bildschirm.
+                2. **Was muss ich eingeben?** Viele Wörter. Eingabe: eine Tastatur.
+                3. **Welches Gerät und Programm können das?** Der Laptop mit einer Textverarbeitung.
+
+                Mias Begründung: „Ich nehme den Laptop, weil ich viel tippen muss und die ganze Seite sehen will.“
+              en: |
+                1. **What should come out?** Two pages of text that Mia can read well. Output: a big screen.
+                2. **What do I have to put in?** Lots of words. Input: a keyboard.
+                3. **Which device and program can do that?** The laptop with a word processor.
+
+                Mia's reason: “I'll take the laptop, because I have to type a lot and want to see the whole page.”
+      - type: note
+        title:
+          de: Merke
+          en: Remember
+        blocks:
+          - type: text
+            text:
+              de: Das neueste oder teuerste Gerät passt nicht immer am besten. Es kommt auf die Aufgabe an.
+              en: The newest or most expensive device is not always the best fit. It depends on the task.
+  - type: section
+    id: uebung
+    title:
+      de: Üben an der Station
+      en: Practise at the station
+    blocks:
+      - type: generated
+        id: welches-geraet
+        given:
+          e: { pick: 1, from: { data: aufgaben } }
+        task:
+          text:
+            de: "{{e.aufgabe}} Welches Gerät passt am besten?"
+            en: "{{e.aufgabe}} Which device fits best?"
+        answer:
+          value: "e.geraet"
+          compare:
+            choice: [Smartwatch, Smartphone, Laptop]
+        mistakes:
+          - value: "e.falschA"
+            message:
+              de: "{{e.grundA}} Frag dich: Was muss hinein, und was soll herauskommen?"
+              en: "{{e.grundA}} Ask yourself: what has to go in, and what should come out?"
+          - value: "e.falschB"
+            message:
+              de: "{{e.grundB}} Frag dich: Was muss hinein, und was soll herauskommen?"
+              en: "{{e.grundB}} Ask yourself: what has to go in, and what should come out?"
+        hint:
+          de: "Geh die drei Fragen durch: Was soll herauskommen? Was muss ich eingeben? Welches Gerät kann das?"
+          en: "Go through the three questions: what should come out? What do I have to put in? Which device can do that?"
+        steps:
+          - de: "{{e.grund}}"
+            en: "{{e.grund}}"
+      - type: matching
+        id: aufgabe-programm
+        text:
+          de: Welches Programm passt zu welcher Aufgabe?
+          en: Which program fits which task?
+        pairs:
+          - left: { de: ein Referat schreiben, en: write a talk }
+            right: { de: Textverarbeitung, en: word processor }
+          - left: { de: Folien für einen Vortrag machen, en: make slides for a talk }
+            right: { de: Präsentationsprogramm, en: presentation program }
+          - left: { de: ein Bild fürs Plakat malen, en: draw a picture for the poster }
+            right: { de: Malprogramm, en: drawing program }
+          - left: { de: ein Lied anhören, en: listen to a song }
+            right: { de: Musik-App, en: music app }
+        distractors:
+          - { de: Taschenrechner-App, en: calculator app }
+        explanation:
+          de: "Jedes Programm ist für eine Art von Aufgabe gemacht. Mit der Taschenrechner-App rechnet man, dafür gibt es hier keine Aufgabe."
+          en: "Each program is made for one kind of task. The calculator app is for calculating, and there is no such task here."
+      - type: single-choice
+        id: beste-begruendung
+        text:
+          de: Jona nimmt für seine Liste mit 28 Namen den Laptop. Welche Begründung passt am besten?
+          en: Jona uses the laptop for his list of 28 names. Which reason fits best?
+        options:
+          - text:
+              de: Er hat eine Tastatur, mit der man schnell viele Namen tippt.
+              en: It has a keyboard for typing many names quickly.
+            correct: true
+            info:
+              de: "Die Begründung nennt, was die Aufgabe braucht: eine gute Eingabe für viel Text."
+              en: "This reason names what the task needs: good input for a lot of text."
+          - text:
+              de: Er ist das neueste Gerät auf dem Tisch.
+              en: It is the newest device on the table.
+            correct: false
+            info:
+              de: Neu sagt nichts darüber, ob das Gerät zur Aufgabe passt.
+              en: New says nothing about whether the device fits the task.
+          - text:
+              de: Er ist das teuerste Gerät auf dem Tisch.
+              en: It is the most expensive device on the table.
+            correct: false
+            info:
+              de: Der Preis sagt nichts darüber, ob das Gerät zur Aufgabe passt.
+              en: The price says nothing about whether the device fits the task.
+          - text:
+              de: Er hat die beste Kamera.
+              en: It has the best camera.
+            correct: false
+            info:
+              de: Für eine Namensliste braucht Jona keine Kamera. Die Begründung passt nicht zur Aufgabe.
+              en: Jona does not need a camera for a list of names. The reason does not fit the task.
+        explanation:
+          de: Eine gute Begründung nennt, was die Aufgabe als Eingabe und Ausgabe braucht.
+          en: A good reason names what the task needs as input and output.
+      - type: true-false
+        id: neuestes-geraet
+        text:
+          de: "Stimmt das? Das neueste Gerät ist für jede Aufgabe das beste."
+          en: "True or false? The newest device is the best for every task."
+        answer: false
+        explanation:
+          de: Falsch. Zum Joggen passt eine Smartwatch besser als der neueste Laptop. Es kommt auf die Aufgabe an.
+          en: False. For jogging a smartwatch fits better than the newest laptop. It depends on the task.
+  - type: section
+    id: rueckblick
+    title:
+      de: Rückblick auf die Ausstellung
+      en: Looking back at the exhibition
+    blocks:
+      - type: text
+        text:
+          de: |
+            Mia geht mit einer guten Wahl nach Hause. Und du hast alle sechs Stationen geschafft:
+
+            1. Du erkennst Informatiksysteme in deinem Alltag.
+            2. Du unterscheidest Hardware und Software.
+            3. Du bedienst ein Programm: Öffnen, Speichern, Kopieren, Einfügen.
+            4. Du kennst die Teile im gläsernen Computer.
+            5. Du ordnest Geräte und Schritte mit dem EVA-Prinzip.
+            6. Du wählst ein Gerät für eine Aufgabe und begründest deine Wahl.
+          en: |
+            Mia goes home with a good choice. And you have completed all six stations:
+
+            1. You can spot computer systems in your everyday life.
+            2. You can tell hardware from software.
+            3. You can use a program: open, save, copy, paste.
+            4. You know the parts inside the glass computer.
+            5. You can sort devices and steps with the IPO model.
+            6. You can choose a device for a task and explain your choice.
