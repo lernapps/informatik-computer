@@ -51,6 +51,16 @@
       "competencies": [
         "eva-prinzip"
       ]
+    },
+    {
+      "path": "innen/geraet-auswaehlen/",
+      "title": {
+        "de": "Geräte und Programme auswählen",
+        "en": "Choosing devices and programs"
+      },
+      "competencies": [
+        "informatiksystem-auswaehlen"
+      ]
     }
   ]
 }
