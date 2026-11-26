@@ -1,0 +1,263 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: Programme bedienen
+  en: Using programs
+description:
+  de: "Öffnen, Speichern, Kopieren, Einfügen und Ausschneiden an einem Malprogramm."
+  en: "Open, save, copy, paste and cut in a drawing program."
+competencies: [programme-bedienen]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Station 3: das Plakat der Ausstellung"
+      en: "Station 3: the poster for the exhibition"
+    blocks:
+      - type: text
+        text:
+          de: |
+            Du kennst jetzt Hardware und Software. Jetzt bedienst du selbst eine Software. Selin hat gestern am
+            Computer ein Plakat für die Ausstellung gemalt. Dann hat sie das Malprogramm geschlossen. Heute ist das
+            Plakat weg.
+
+            Auf dieser Seite lernst du die wichtigsten Befehle eines Programms: Öffnen, Speichern, Kopieren, Einfügen
+            und Ausschneiden.
+          en: |
+            You now know hardware and software. Now you use a piece of software yourself. Yesterday Selin drew a poster
+            for the exhibition on the computer. Then she closed the drawing program. Today the poster is gone.
+
+            On this page you learn the most important commands of a program: open, save, copy, paste and cut.
+      - type: single-choice
+        id: plakat-weg
+        text:
+          de: Warum ist Selins Plakat weg?
+          en: Why is Selin's poster gone?
+        options:
+          - text:
+              de: Sie hat es vor dem Schließen nicht gespeichert.
+              en: She did not save it before closing.
+            correct: true
+            info:
+              de: Was nicht gespeichert ist, geht beim Schließen verloren.
+              en: What is not saved is lost when you close the program.
+          - text:
+              de: Das Malprogramm löscht jede Nacht alle Bilder.
+              en: The drawing program deletes all pictures every night.
+            correct: false
+            info:
+              de: Ein Malprogramm löscht gespeicherte Bilder nicht von selbst.
+              en: A drawing program does not delete saved pictures by itself.
+          - text:
+              de: Der Bildschirm war zu klein für das Plakat.
+              en: The screen was too small for the poster.
+            correct: false
+            info:
+              de: Der Bildschirm zeigt nur, was gerade offen ist. Er hebt nichts auf.
+              en: The screen only shows what is open right now. It does not keep anything.
+        explanation:
+          de: Vor dem Schließen muss man speichern. Sonst ist die Arbeit weg.
+          en: You have to save before closing. Otherwise your work is gone.
+  - type: section
+    id: idee
+    title:
+      de: Die wichtigsten Befehle
+      en: The most important commands
+    blocks:
+      - type: labelled-figure
+        image: images/malprogramm.svg
+        source: { de: eigene Zeichnung, en: own drawing }
+        licence: CC-BY-4.0
+        alt:
+          de: >-
+            Ein Malprogramm. Oben sind sechs Knöpfe: ein Ordner, eine Diskette, eine Schere, zwei Blätter, ein
+            Klemmbrett und ein Pfeil zurück. Darunter ist eine Malfläche mit einer gelben Sonne. Ein gestrichelter
+            Rahmen markiert die Sonne.
+          en: >-
+            A drawing program. At the top there are six buttons: a folder, a floppy disk, scissors, two sheets, a
+            clipboard and an arrow pointing back. Below is a drawing area with a yellow sun. A dashed frame marks the
+            sun.
+        caption:
+          de: "Ein erfundenes Malprogramm. Die Zahlen gehören zu den Befehlen darunter. Der gestrichelte Rahmen zeigt: Die Sonne ist markiert."
+          en: "An invented drawing program. The numbers belong to the commands below. The dashed frame shows: the sun is selected."
+        labels:
+          - { x: 10, y: 36, text: { de: Öffnen, en: open } }
+          - { x: 20, y: 36, text: { de: Speichern, en: save } }
+          - { x: 35, y: 36, text: { de: Ausschneiden, en: cut } }
+          - { x: 46, y: 36, text: { de: Kopieren, en: copy } }
+          - { x: 57, y: 36, text: { de: Einfügen, en: paste } }
+          - { x: 72, y: 36, text: { de: Rückgängig, en: undo } }
+      - type: table
+        caption:
+          de: Was jeder Befehl tut
+          en: What each command does
+        header:
+          - { de: Befehl, en: Command }
+          - { de: Was passiert, en: What happens }
+        rowHeaders: true
+        rows:
+          - - { de: Öffnen, en: Open }
+            - {
+                de: holt ein gespeichertes Bild zurück auf den Bildschirm,
+                en: brings a saved picture back onto the screen,
+              }
+          - - { de: Speichern, en: Save }
+            - { de: "hebt das Bild auf, auch nach dem Schließen", en: "keeps the picture, even after closing" }
+          - - { de: Kopieren, en: Copy }
+            - {
+                de: legt eine Kopie des Markierten in die Zwischenablage,
+                en: puts a copy of what is selected on the clipboard,
+              }
+          - - { de: Einfügen, en: Paste }
+            - { de: "setzt ein, was in der Zwischenablage liegt", en: puts in what is on the clipboard }
+          - - { de: Ausschneiden, en: Cut }
+            - {
+                de: "nimmt das Markierte weg und legt es in die Zwischenablage",
+                en: takes away what is selected and puts it on the clipboard,
+              }
+          - - { de: Rückgängig, en: Undo }
+            - { de: nimmt den letzten Schritt zurück, en: takes back the last step }
+      - type: definition
+        term:
+          de: Zwischenablage
+          en: clipboard
+        explanation:
+          de: Ein unsichtbarer Platz, an dem das Programm das Kopierte oder Ausgeschnittene bis zum Einfügen aufhebt.
+          en: An invisible place where the program keeps what you copied or cut until you paste it.
+      - type: note
+        title:
+          de: Merke
+          en: Remember
+        blocks:
+          - type: text
+            text:
+              de: |
+                **Kopieren setzt noch nichts ein.** Erst Einfügen bringt die Kopie ins Bild. Du kannst sie mehrmals
+                einfügen. **Ausschneiden** nimmt das Original weg, Kopieren nicht.
+
+                Öffnen und Speichern findest du meist im Menü „Datei“. Auf dem Tablet gibt es oft keine Tasten dafür. Dann findest du die Befehle in einem Menü, zum Beispiel
+                wenn du lange auf etwas tippst. Auf einer Tastatur geht es zum Beispiel so: Kopieren mit Strg + C,
+                Einfügen mit Strg + V, Ausschneiden mit Strg + X, Rückgängig mit Strg + Z. Auf dem Mac nimmst du ⌘
+                statt Strg.
+              en: |
+                **Copying does not put anything in yet.** Only pasting brings the copy into the picture. You can paste
+                it several times. **Cut** takes the original away, copy does not.
+
+                You usually find open and save in the “File” menu. On a tablet there are often no keys for this. Then you find the commands in a menu, for example when
+                you press and hold something. On a keyboard it works like this, for example: copy with Ctrl + C, paste
+                with Ctrl + V, cut with Ctrl + X, undo with Ctrl + Z. On a Mac you use ⌘ instead of Ctrl.
+  - type: section
+    id: beispiel
+    title:
+      de: "Beispiel: zwei Sonnen fürs Plakat"
+      en: "Example: two suns for the poster"
+    blocks:
+      - type: example
+        title:
+          de: Selin braucht eine zweite Sonne
+          en: Selin needs a second sun
+        blocks:
+          - type: text
+            text:
+              de: |
+                1. Selin markiert die Sonne. Ein gestrichelter Rahmen erscheint.
+                2. Sie wählt **Kopieren**. Auf dem Bild ist immer noch eine Sonne. Die Kopie liegt in der Zwischenablage.
+                3. Sie wählt **Einfügen**. Jetzt sind es zwei Sonnen. Sie schiebt die neue an ihren Platz.
+                4. Sie wählt **Speichern** und gibt dem Bild den Namen „Plakat“. Jetzt kann sie das Programm schließen.
+              en: |
+                1. Selin selects the sun. A dashed frame appears.
+                2. She chooses **copy**. There is still one sun in the picture. The copy is on the clipboard.
+                3. She chooses **paste**. Now there are two suns. She moves the new one to its place.
+                4. She chooses **save** and names the picture “Poster”. Now she can close the program.
+  - type: section
+    id: uebung
+    title:
+      de: Üben an der Station
+      en: Practise at the station
+    blocks:
+      - type: ordering
+        id: sonne-ins-plakat
+        text:
+          de: "Selin will die Sonne aus einem alten Bild ins Plakat holen. Beide Bilder sind schon offen. In welcher Reihenfolge geht sie vor?"
+          en: "Selin wants to bring the sun from an old picture into the poster. Both pictures are already open. In which order does she do it?"
+        items:
+          - { de: Im alten Bild die Sonne markieren, en: Select the sun in the old picture }
+          - { de: Kopieren wählen, en: Choose copy }
+          - { de: Zum Plakat wechseln, en: Switch to the poster }
+          - { de: Einfügen wählen, en: Choose paste }
+          - { de: Das Plakat speichern, en: Save the poster }
+        explanation:
+          de: "Erst markieren, dann kopieren. Einfügen geht erst im Plakat. Speichern kommt zum Schluss, damit nichts verloren geht."
+          en: "First select, then copy. You can only paste once you are in the poster. Saving comes last so nothing gets lost."
+      - type: matching
+        id: befehl-wirkung
+        text:
+          de: Was passiert bei welchem Befehl?
+          en: What happens with which command?
+        pairs:
+          - left: { de: Kopieren, en: copy }
+            right: { de: Eine Kopie kommt in die Zwischenablage., en: A copy goes onto the clipboard. }
+          - left: { de: Einfügen, en: paste }
+            right:
+              de: "Was in der Zwischenablage liegt, kommt ins Bild."
+              en: "What is on the clipboard goes into the picture."
+          - left: { de: Ausschneiden, en: cut }
+            right:
+              {
+                de: Das Markierte verschwindet und kommt in die Zwischenablage.,
+                en: What is selected disappears and goes onto the clipboard.,
+              }
+          - left: { de: Rückgängig, en: undo }
+            right: { de: Der letzte Schritt wird zurückgenommen., en: The last step is taken back. }
+          - left: { de: Speichern, en: save }
+            right:
+              { de: Das Bild bleibt auch nach dem Schließen erhalten., en: The picture is kept even after closing. }
+        distractors:
+          - { de: Das Bild wird auf Papier gedruckt., en: The picture is printed on paper. }
+        explanation:
+          de: "Drucken ist ein eigener Befehl. Er gehört zu keinem der fünf Befehle hier."
+          en: "Printing is a command of its own. It belongs to none of the five commands here."
+      - type: generated
+        id: sonnen-zaehlen
+        given:
+          e: { pick: 1, from: { data: befehlsfolgen } }
+        task:
+          text:
+            de: "Auf dem Bild ist eine Sonne, und sie ist markiert. Was du einfügst, ist danach markiert. Selin wählt nacheinander: **{{e.folge}}**. Wie viele Sonnen sind jetzt auf dem Bild?"
+            en: "There is one sun in the picture, and it is selected. Whatever you paste is selected afterwards. Selin chooses one after the other: **{{e.folge}}**. How many suns are in the picture now?"
+        answer:
+          value: "e.sonnen"
+          compare: { number: { format: integer } }
+        mistakes:
+          - value: "e.fehlerKopieren"
+            message:
+              de: "Zu viele: Kopieren setzt noch keine Sonne ein. Erst Einfügen bringt eine ins Bild."
+              en: "Too many: copying does not put a sun in yet. Only pasting brings one into the picture."
+          - value: "e.fehlerAusschneiden"
+            message:
+              de: "Zu viele: Ausschneiden nimmt die markierte Sonne vom Bild weg."
+              en: "Too many: cutting takes the selected sun away from the picture."
+        hint:
+          de: "Zähl Schritt für Schritt mit: Nur Einfügen macht eine Sonne mehr, nur Ausschneiden eine weniger."
+          en: "Count step by step: only paste adds a sun, only cut takes one away."
+        steps:
+          - de: "Kopieren ändert nichts am Bild. Einfügen: eine Sonne mehr. Ausschneiden: eine Sonne weniger."
+            en: "Copy changes nothing in the picture. Paste: one more sun. Cut: one sun fewer."
+          - de: "Bei **{{e.folge}}** sind am Ende {{answer}} Sonnen auf dem Bild."
+            en: "With **{{e.folge}}** there are {{answer}} suns in the picture at the end."
+      - type: true-false
+        id: schliessen-speichert
+        text:
+          de: "Stimmt das? Wenn du ein Programm schließt, speichert es deine Arbeit immer von selbst."
+          en: "True or false? When you close a program, it always saves your work by itself."
+        answer: false
+        explanation:
+          de: Falsch. Viele Programme fragen zwar nach, aber nicht alle. Speichere selbst, bevor du schließt.
+          en: False. Many programs do ask, but not all of them. Save yourself before you close.
+      - type: text
+        text:
+          de: |
+            Geschafft: Das Plakat hängt, mit zwei Sonnen, und es ist gespeichert. Damit endet der Rundgang von außen.
+            Im nächsten Kapitel klappt ihr den Computer auf und schaut hinein.
+          en: |
+            Well done: the poster is up, with two suns, and it is saved. That ends the tour from the outside. In the
+            next chapter you open the computer and look inside.

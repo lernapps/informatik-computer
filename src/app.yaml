@@ -15,3 +15,24 @@ intro:
     output.
 languages: [de, en]
 chapters: [alltag, innen]
+sources:
+  - title:
+      de: "Gesellschaft für Informatik: Bildungsstandards Informatik für die Sekundarstufe I (2025), Abschnitt 5.4 Informatiksysteme"
+      en: "German Informatics Society: Educational standards in computer science, lower secondary (2025), section 5.4 computer systems"
+    url: "https://www.mnu.de/images/fachbereiche/Informatik/Bildungsstandards_Sek_I_2025__pdf-A_.pdf"
+  - title:
+      de: "Ministerium für Schule und Bildung NRW: Kernlehrplan Informatik, Klasse 5 und 6 (2021)"
+      en: "Ministry of Schools and Education NRW: Core curriculum computer science, years 5 and 6 (2021)"
+    url: "https://lehrplannavigator.nrw.de/system/files/media/document/file/si_kl5u6_if_klp_2021_07_01.pdf"
+  - title:
+      de: "ISB Bayern: LehrplanPLUS Mittelschule, Informatik 5"
+      en: "ISB Bavaria: LehrplanPLUS lower secondary, computer science 5"
+    url: "https://www.lehrplanplus.bayern.de/fachlehrplan/mittelschule/5/informatik"
+  - title:
+      de: "Microsoft Support: Tastenkombinationen in Windows"
+      en: "Microsoft Support: Keyboard shortcuts in Windows"
+    url: "https://support.microsoft.com/de-de/windows/tastenkombinationen-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec"
+  - title:
+      de: "Apple Support: Mac-Tastaturkurzbefehle"
+      en: "Apple Support: Mac keyboard shortcuts"
+    url: "https://support.apple.com/de-de/102650"
