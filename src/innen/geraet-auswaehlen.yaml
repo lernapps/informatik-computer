@@ -89,20 +89,20 @@ blocks:
         rowHeaders: true
         rows:
           - - { de: Smartwatch, en: smartwatch }
-            - de: "E: winziger Touchscreen. A: winziger Bildschirm."
-              en: "I: tiny touchscreen. O: tiny screen."
+            - de: "E: winziger Touchscreen, Bewegungsmesser. A: winziger Bildschirm."
+              en: "I: tiny touchscreen, motion detector. O: tiny screen."
           - - { de: Smartphone, en: smartphone }
-            - de: "E: Touchscreen, Kamera, Mikrofon. A: kleiner Bildschirm, Lautsprecher."
-              en: "I: touchscreen, camera, microphone. O: small screen, loudspeaker."
+            - de: "E: Touchscreen, Kamera, Mikrofon, Bewegungsmesser. A: kleiner Bildschirm, Lautsprecher."
+              en: "I: touchscreen, camera, microphone, motion detector. O: small screen, loudspeaker."
           - - { de: Laptop, en: laptop }
-            - de: "E: Tastatur, Touchpad. A: großer Bildschirm, Lautsprecher."
-              en: "I: keyboard, touchpad. O: big screen, loudspeaker."
+            - de: "E: Tastatur, Touchpad, Kamera, Mikrofon. A: großer Bildschirm, Lautsprecher."
+              en: "I: keyboard, touchpad, camera, microphone. O: big screen, loudspeaker."
       - type: text
         text:
           de: |
             Jona zeigt Mia das EVA-Bild für ihr Referat. So sieht sie, was die Aufgabe braucht:
           en: |
-            Jona shows Mia the IPO picture for her talk. This way she sees what the task needs:
+            Jona shows Mia the IPO picture for her report. This way she sees what the task needs:
       - type: vue-component
         component: EvaBild
         props:
@@ -119,16 +119,16 @@ blocks:
             - { de: "Programm: Textverarbeitung", en: "program: word processor" }
             - { de: "ganze Seite sehen: großer Bildschirm", en: "see a whole page: big screen" }
           drawer: { de: Speicher – hebt auf, en: storage – keeps }
-          drawerItem: { de: das Referat, en: the talk }
+          drawerItem: { de: das Referat, en: the report }
         nojs:
           de: >-
             Das EVA-Bild für Mias Referat: Kasten E „Eingabe“: viel Text tippen, also eine Tastatur. Pfeil zu Kasten V
             „Verarbeitung“: das Programm Textverarbeitung. Pfeil zu Kasten A „Ausgabe“: eine ganze Seite sehen, also
             ein großer Bildschirm. An Verarbeitung hängt die Schublade „Speicher – hebt auf“ mit dem Referat.
           en: >-
-            The IPO picture for Mia's talk: box I “Input”: type a lot of text, so a keyboard. Arrow to box P “Process”:
+            The IPO picture for Mia's report: box I “Input”: type a lot of text, so a keyboard. Arrow to box P “Process”:
             the program word processor. Arrow to box O “Output”: see a whole page, so a big screen. The drawer
-            “storage – keeps” with the talk hangs on Process.
+            “storage – keeps” with the report hangs on Process.
       - type: definition
         term:
           de: Textverarbeitung
@@ -152,7 +152,7 @@ blocks:
       - type: example
         title:
           de: Mias Referat
-          en: Mia's talk
+          en: Mia's report
         blocks:
           - type: text
             text:
@@ -216,7 +216,7 @@ blocks:
           de: Welches Programm passt zu welcher Aufgabe?
           en: Which program fits which task?
         pairs:
-          - left: { de: ein Referat schreiben, en: write a talk }
+          - left: { de: ein Referat schreiben, en: write a report }
             right: { de: Textverarbeitung, en: word processor }
           - left: { de: Folien für einen Vortrag machen, en: make slides for a talk }
             right: { de: Präsentationsprogramm, en: presentation program }

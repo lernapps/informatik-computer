@@ -36,17 +36,17 @@
     de: "Die Anzeige zeigt den Preis und der Drucker druckt den Kassenbon"
     en: "The display shows the price and the printer prints the receipt"
 - vorgang:
-    de: "Mia schickt eine Sprachnachricht."
-    en: "Mia sends a voice message."
+    de: "Mia hört eine Sprachnachricht ab."
+    en: "Mia listens to a voice message."
   eingabe:
-    de: "Das Mikrofon nimmt Mias Stimme auf"
-    en: "The microphone picks up Mia's voice"
+    de: "Mia tippt auf „Abspielen“"
+    en: "Mia taps “Play”"
   verarbeitung:
-    de: "Der Prozessor macht aus der Stimme eine Datei zum Verschicken"
-    en: "The processor turns the voice into a file to send"
+    de: "Der Prozessor macht aus der Nachricht Töne"
+    en: "The processor turns the message into sounds"
   ausgabe:
-    de: "Beim Freund spielt der Lautsprecher die Nachricht ab"
-    en: "On her friend's phone the loudspeaker plays the message"
+    de: "Der Lautsprecher spielt die Nachricht ab"
+    en: "The loudspeaker plays the message"
 - vorgang:
     de: "Jona spielt ein Spiel an der Konsole."
     en: "Jona plays a game on the console."

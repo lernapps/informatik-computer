@@ -16,6 +16,11 @@
   <circle cx="200" cy="44" r="6" fill="#333" stroke="#2b5d8a" stroke-width="2"/>
   <!-- Mikrofon: drei kleine Löcher unten -->
   <circle cx="192" cy="257" r="2.5" fill="#333"/><circle cx="200" cy="257" r="2.5" fill="#333"/><circle cx="208" cy="257" r="2.5" fill="#333"/>
+  <!-- Schallwellen: hinein ins Mikrofon (unten), heraus aus dem Lautsprecher (rechts) -->
+  <g fill="none" stroke="#7b4fb8" stroke-width="2.5" stroke-linecap="round">
+    <path d="M186 292 q14 -10 28 0"/><path d="M180 284 q20 -12 40 0"/>
+    <path d="M366 136 q10 14 0 28"/><path d="M374 128 q14 22 0 44"/>
+  </g>
   <!-- Lautsprecher: Gitter rechts -->
   <g stroke="#333" stroke-width="3" stroke-linecap="round">
     <path d="M348 128v44"/><path d="M340 122v56"/>

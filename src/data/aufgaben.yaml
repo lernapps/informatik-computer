@@ -3,7 +3,7 @@
 
 - aufgabe:
     de: "Mia schreibt ein Referat über Igel, zwei Seiten Text."
-    en: "Mia writes a talk about hedgehogs, two pages of text."
+    en: "Mia writes a report about hedgehogs, two pages of text."
   geraet: "Laptop"
   falschA: "Smartwatch"
   grundA:
@@ -32,20 +32,20 @@
     de: "Fotos brauchen eine Kamera zur Eingabe und einen Bildschirm zur Ausgabe, und das Gerät muss in die Tasche passen. Das kann das Smartphone."
     en: "Photos need a camera for input and a screen for output, and the device has to fit in a pocket. The smartphone can do that."
 - aufgabe:
-    de: "Selin will beim Joggen ihre Schritte zählen, ohne etwas in der Hand zu halten."
-    en: "Selin wants to count her steps while jogging, without holding anything in her hand."
+    de: "Selin will beim Joggen ihre Schritte zählen und immer wieder auf die Zahl schauen, ohne etwas aus der Tasche zu holen."
+    en: "Selin wants to count her steps while jogging and keep checking the number without taking anything out of her pocket."
   geraet: "Smartwatch"
   falschA: "Smartphone"
   grundA:
-    de: "Das Smartphone kann Schritte zählen, aber Selin müsste es in der Hand oder Tasche tragen."
-    en: "The smartphone can count steps, but Selin would have to carry it in her hand or pocket."
+    de: "Das Smartphone kann Schritte zählen, aber Selin müsste es zum Nachschauen jedes Mal aus der Tasche holen."
+    en: "The smartphone can count steps, but Selin would have to take it out of her pocket every time to look."
   falschB: "Laptop"
   grundB:
     de: "Mit einem Laptop kann man nicht joggen."
     en: "You cannot go jogging with a laptop."
   grund:
-    de: "Die Smartwatch sitzt am Arm. Sie merkt die Bewegung (Eingabe) und zeigt die Schritte (Ausgabe), ohne dass Selin etwas hält."
-    en: "The smartwatch sits on the wrist. It notices the movement (input) and shows the steps (output) without Selin holding anything."
+    de: "Die Smartwatch sitzt am Arm. Sie merkt die Bewegung (Eingabe) und zeigt die Schritte (Ausgabe), ohne dass Selin etwas aus der Tasche holt."
+    en: "The smartwatch sits on the wrist. It notices the movement (input) and shows the steps (output) without Selin taking anything out of her pocket."
 - aufgabe:
     de: "Mia will auf dem Fahrrad die Uhrzeit sehen, ohne anzuhalten."
     en: "Mia wants to see the time on her bike without stopping."

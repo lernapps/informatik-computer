@@ -1,6 +1,6 @@
 # Befehlsfolgen für die Übung „Wie viele Sonnen?“. Am Anfang ist eine Sonne auf dem Bild und markiert; was
 # eingefügt wird, ist danach markiert; Ausschneiden nimmt die markierte Sonne weg. sonnen ist die richtige Zahl,
-# fehlerKopieren die Zahl, wenn man glaubt, Kopieren füge schon ein, fehlerAusschneiden die Zahl, wenn man glaubt,
+# Ausschneiden folgt nie auf Ausschneiden (danach ist nichts markiert). fehlerKopieren die Zahl, wenn man glaubt, Kopieren füge schon ein, fehlerAusschneiden die Zahl, wenn man glaubt,
 # Ausschneiden lasse die Sonne stehen. Beide Fehler sind immer verschieden von sonnen.
 
 - folge:
@@ -22,11 +22,11 @@
   fehlerKopieren: 3
   fehlerAusschneiden: 4
 - folge:
-    de: "Kopieren, Einfügen, Einfügen, Ausschneiden, Ausschneiden"
-    en: "copy, paste, paste, cut, cut"
-  sonnen: 1
-  fehlerKopieren: 2
-  fehlerAusschneiden: 3
+    de: "Kopieren, Einfügen, Einfügen, Ausschneiden, Einfügen, Ausschneiden"
+    en: "copy, paste, paste, cut, paste, cut"
+  sonnen: 2
+  fehlerKopieren: 3
+  fehlerAusschneiden: 4
 - folge:
     de: "Ausschneiden, Einfügen, Einfügen, Kopieren, Kopieren, Einfügen"
     en: "cut, paste, paste, copy, copy, paste"

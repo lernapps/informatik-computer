@@ -107,11 +107,13 @@ blocks:
       - type: text
         text:
           de: |
-            Die Pfeile im Bild zeigen: Beide brauchen einander. Die Software sagt der Hardware, was sie tun soll. Die
+            Die gestrichelte Wolke zeigt nur: nicht zum Anfassen. Die Apps sind im Gerät gespeichert. Die Pfeile im
+            Bild zeigen: Beide brauchen einander. Die Software sagt der Hardware, was sie tun soll. Die
             Hardware führt es aus. Ohne Software tut die Hardware nichts Sinnvolles. Ohne Hardware kann die Software
             nirgends laufen.
           en: |
-            The arrows in the picture show: they need each other. The software tells the hardware what to do. The
+            The dashed cloud only shows: not touchable. The apps are stored inside the device. The arrows in the
+            picture show: they need each other. The software tells the hardware what to do. The
             hardware does it. Without software the hardware does nothing useful. Without hardware the software has
             nowhere to run.
       - type: note
@@ -122,11 +124,11 @@ blocks:
           - type: text
             text:
               de: |
-                Frag dich: **Kann ich es anfassen?** Ja: Hardware. Nein: Software. Der Bildschirm *zeigt* Software,
-                ist aber selbst Hardware.
+                Frag dich: **Ist es ein Teil zum Anfassen?** Dann ist es Hardware. **Ist es ein Programm, eine App?**
+                Dann ist es Software. Der Bildschirm *zeigt* Software, ist aber selbst Hardware.
               en: |
-                Ask yourself: **Can I touch it?** Yes: hardware. No: software. The screen *shows* software, but is
-                itself hardware.
+                Ask yourself: **Is it a part you can touch?** Then it is hardware. **Is it a program, an app?** Then it
+                is software. The screen *shows* software, but is itself hardware.
       - type: true-false
         id: spiel-hardware
         text:
@@ -198,7 +200,7 @@ blocks:
           en: Which app needs which hardware most?
         pairs:
           - left: { de: Kamera, en: camera }
-            right: { de: Foto-App, en: photo app }
+            right: { de: Kamera-App, en: camera app }
           - left: { de: Lautsprecher, en: loudspeaker }
             right: { de: Musik-App, en: music app }
           - left: { de: Mikrofon, en: microphone }
@@ -206,8 +208,8 @@ blocks:
         distractors:
           - { de: Wetter-App, en: weather app }
         explanation:
-          de: "Jede App braucht ein Stück Hardware, mit dem sie arbeitet: Fotos die Kamera, Musik den Lautsprecher, Aufnahmen das Mikrofon. Die Wetter-App braucht vor allem den Bildschirm."
-          en: "Each app needs a piece of hardware to work with: photos need the camera, music the loudspeaker, recordings the microphone. The weather app mainly needs the screen."
+          de: "Jede App braucht ein Stück Hardware, mit dem sie arbeitet: die Kamera-App die Kamera, Musik den Lautsprecher, Aufnahmen das Mikrofon. Die Wetter-App braucht vor allem den Bildschirm."
+          en: "Each app needs a piece of hardware to work with: the camera app needs the camera, music the loudspeaker, recordings the microphone. The weather app mainly needs the screen."
       - type: single-choice
         id: ohne-software
         text:

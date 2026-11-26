@@ -28,13 +28,13 @@ blocks:
           de: |
             Die Computer-AG baut die Ausstellung „Der gläserne Computer“. Jona und Selin aus der Klasse 6b sammeln
             Geräte dafür. Auf den Tischen liegen schon ein Tablet, eine Smartwatch und eine Kasse. Selin bringt ein
-            Fahrrad, eine Smartwatch und ein Lineal. Was davon passt in die Ausstellung?
+            Fahrrad, eine Spielkonsole und ein Lineal. Was davon passt in die Ausstellung?
 
             Auf dieser Seite lernst du, Informatiksysteme in deinem Alltag zu erkennen.
           en: |
             The computer club is building the exhibition “The glass computer”. Jona and Selin from class 6b are
             collecting devices for it. A tablet, a smartwatch and a till are already on the tables. Selin brings a
-            bicycle, a smartwatch and a ruler. Which of them fits into the exhibition?
+            bicycle, a game console and a ruler. Which of them fits into the exhibition?
 
             On this page you learn to spot computer systems in your everyday life.
       - type: single-choice
@@ -44,19 +44,19 @@ blocks:
           en: Which of the three things has a small computer inside?
         options:
           - text:
-              de: In der Smartwatch
-              en: In the smartwatch
+              de: In der Spielkonsole
+              en: In the game console
             correct: true
             info:
-              de: Die Smartwatch zählt Schritte und zeigt die Uhrzeit. Das macht ein kleiner Computer in ihr.
-              en: The smartwatch counts steps and shows the time. A small computer inside it does that.
+              de: In der Konsole rechnet ein Computer aus, wie sich die Figuren im Spiel bewegen.
+              en: A computer inside the console works out how the characters move in the game.
           - text:
               de: Im Fahrrad
               en: In the bicycle
             correct: false
             info:
-              de: Ein Fahrrad fährt mit deiner Kraft. Einen Computer braucht es dafür nicht.
-              en: A bicycle runs on your strength. It does not need a computer for that.
+              de: Ein einfaches Fahrrad rechnet nichts, zählt nichts und merkt sich nichts.
+              en: A simple bicycle does not calculate, count or remember anything.
           - text:
               de: Im Lineal
               en: In the ruler
@@ -65,8 +65,8 @@ blocks:
               de: Mit dem Lineal misst du selbst. Es rechnet nichts und merkt sich nichts.
               en: With a ruler you do the measuring yourself. It does not calculate or remember anything.
         explanation:
-          de: Nur in der Smartwatch arbeitet ein kleiner Computer. Sie gehört in die Ausstellung.
-          en: Only the smartwatch has a small computer working inside. It belongs in the exhibition.
+          de: Nur in der Spielkonsole arbeitet ein Computer. Sie gehört in die Ausstellung.
+          en: Only the game console has a computer working inside. It belongs in the exhibition.
   - type: section
     id: idee
     title:
@@ -79,19 +79,19 @@ blocks:
           en: computer system
         explanation:
           de: >-
-            Ein Gerät, in dem ein Computer nach einem Programm arbeitet. Ein Programm ist eine genaue Anleitung für den
-            Computer.
+            Ein Gerät, in dem Hardware und Software zusammenarbeiten: Ein Computer arbeitet darin nach einem Programm.
+            Ein Programm ist eine genaue Anleitung für den Computer.
           en: >-
-            A device in which a computer works by following a program. A program is an exact set of instructions for
-            the computer.
+            A device in which hardware and software work together: a computer inside it follows a program. A program is
+            an exact set of instructions for the computer.
       - type: text
         text:
           de: |
-            Du merkst es oft daran: Das Gerät rechnet, zählt oder merkt sich etwas. Oder du wählst etwas aus, und das
-            Gerät reagiert darauf. Ein Smartphone, eine Spielkonsole und eine Kasse sind Informatiksysteme.
+            Du merkst es oft daran: Das Gerät rechnet, zählt oder merkt sich etwas. Ein Smartphone, eine Spielkonsole
+            und eine Kasse sind Informatiksysteme. Was Hardware und Software sind, lernst du an der nächsten Station.
           en: |
-            You can often tell like this: the device calculates, counts or remembers something. Or you choose
-            something, and the device reacts to it. A smartphone, a game console and a till are computer systems.
+            You can often tell like this: the device calculates, counts or remembers something. A smartphone, a game
+            console and a till are computer systems. You learn what hardware and software are at the next station.
       - type: note
         title:
           de: Merke
@@ -103,12 +103,12 @@ blocks:
                 **Ein Bildschirm ist kein Muss.** Auch in einer Waschmaschine oder in einem Auto stecken kleine
                 Computer. Sie sind nur gut versteckt.
 
-                **Strom allein reicht nicht.** Eine Taschenlampe hat Strom, aber keinen Computer. Der Schalter macht
+                **Strom allein reicht nicht.** Eine einfache Taschenlampe hat Strom, aber keinen Computer. Der Schalter macht
                 das Licht nur an oder aus.
               en: |
                 **A screen is not a must.** Small computers are hidden in a washing machine or a car too.
 
-                **Power alone is not enough.** A torch has power, but no computer. The switch only turns the light on
+                **Power alone is not enough.** A simple torch has power, but no computer. The switch only turns the light on
                 or off.
   - type: section
     id: beispiel
@@ -148,12 +148,12 @@ blocks:
           en: Jona has collected things for the exhibition. Which of them are computer systems?
         options:
           - text:
-              de: Spielkonsole
-              en: Game console
+              de: E-Book-Reader
+              en: E-book reader
             correct: true
             info:
-              de: In der Konsole rechnet ein Computer aus, wie sich die Figuren im Spiel bewegen.
-              en: A computer inside the console works out how the characters move in the game.
+              de: Ein Computer im E-Book-Reader hebt viele Bücher auf und zeigt dir jede Seite.
+              en: A computer in the e-book reader keeps many books and shows you each page.
           - text:
               de: Waschmaschine mit Anzeige
               en: Washing machine with a display
@@ -162,8 +162,8 @@ blocks:
               de: Ein kleiner Computer steuert Wasser, Wärme und Zeit nach dem Programm, das du wählst.
               en: A small computer controls the water, heat and time according to the program you choose.
           - text:
-              de: Föhn
-              en: Hair dryer
+              de: Einfacher Föhn
+              en: Simple hair dryer
             correct: false
             info:
               de: Der Föhn hat Strom, aber keinen Computer. Er bläst nur, solange der Schalter an ist.
@@ -176,8 +176,8 @@ blocks:
               de: Eine Schere hat weder Strom noch einen Computer.
               en: Scissors have neither power nor a computer.
         explanation:
-          de: Spielkonsole und Waschmaschine arbeiten mit einem Computer und einem Programm.
-          en: The game console and the washing machine work with a computer and a program.
+          de: E-Book-Reader und Waschmaschine arbeiten mit einem Computer und einem Programm.
+          en: The e-book reader and the washing machine work with a computer and a program.
       - type: true-false
         id: ohne-bildschirm
         text:
@@ -204,7 +204,7 @@ blocks:
         distractors:
           - { de: "macht Licht, solange der Schalter an ist", en: makes light while the switch is on }
         explanation:
-          de: "Jedes dieser Geräte hat einen Computer mit einer eigenen Aufgabe. Licht machen kann auch eine Taschenlampe ohne Computer."
+          de: "Jedes dieser Geräte hat einen Computer mit einer eigenen Aufgabe. Licht machen kann auch eine einfache Taschenlampe ohne Computer."
           en: "Each of these devices has a computer with its own job. A torch can make light without any computer."
       - type: generated
         id: system-oder-nicht

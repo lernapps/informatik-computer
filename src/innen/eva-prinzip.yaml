@@ -102,20 +102,23 @@ blocks:
             - { de: A, en: O }
           items:
             - { de: "Tasten: 3 + 4 =", en: "keys: 3 + 4 =" }
-            - { de: "Prozessor und Arbeitsspeicher: rechnen 7 aus", en: "processor and memory: work out 7" }
+            - {
+                de: "Prozessor rechnet 7 aus, Arbeitsspeicher hält die Zahlen",
+                en: "processor works out 7, memory holds the numbers",
+              }
             - { de: "Anzeige: 7", en: "display: 7" }
           drawer: { de: Speicher – hebt auf, en: storage – keeps }
-          drawerItem: { de: Festspeicher, en: "for example a hard drive" }
+          drawerItem: { de: "Festspeicher, ein Speicherchip", en: "storage, a storage chip" }
         nojs:
           de: >-
             Das EVA-Bild: drei Kästen mit Pfeilen in dieser Reihenfolge. Kasten E „Eingabe“ (blau): die Tasten,
-            3 + 4 =. Kasten V „Verarbeitung“ (grün): Prozessor und Arbeitsspeicher rechnen 7 aus. Kasten A „Ausgabe“
+            3 + 4 =. Kasten V „Verarbeitung“ (grün): der Prozessor rechnet 7 aus, der Arbeitsspeicher hält die Zahlen. Kasten A „Ausgabe“
             (orange): die Anzeige zeigt 7. An den Kasten Verarbeitung ist eine gestrichelte Schublade angehängt:
-            „Speicher – hebt auf“, der Festspeicher. Ein Doppelpfeil zeigt, dass Daten hinein- und wieder herauskommen.
+            „Speicher – hebt auf“, der Festspeicher, ein Speicherchip. Ein Doppelpfeil zeigt, dass Daten hinein- und wieder herauskommen.
           en: >-
             The IPO picture: three boxes with arrows in this order. Box I “Input” (blue): the keys, 3 + 4 =. Box P
-            “Process” (green): processor and memory work out 7. Box O “Output” (orange): the display shows 7. A dashed
-            drawer is attached to the box Process: “storage – keeps”, for example a hard drive. A double arrow shows
+            “Process” (green): the processor works out 7, memory holds the numbers. Box O “Output” (orange): the display shows 7. A dashed
+            drawer is attached to the box Process: “storage – keeps”, a storage chip. A double arrow shows
             that data goes into it and comes back out.
       - type: definition
         term:
@@ -146,10 +149,12 @@ blocks:
           - type: text
             text:
               de: |
-                Eingabe heißt: **hinein** in den Computer. Ausgabe heißt: **heraus** aus dem Computer zu dir. Ein
+                Eingabe heißt: **hinein** in den Computer. Ausgabe heißt: **heraus** aus dem Computer, zu dir oder zu
+                einem anderen Gerät, zum Beispiel einem Motor. Ein
                 Lautsprecher bringt Töne aus dem Computer heraus. Darum ist er ein Ausgabegerät.
               en: |
-                Input means: **into** the computer. Output means: **out of** the computer to you. A loudspeaker brings
+                Input means: **into** the computer. Output means: **out of** the computer, to you or to another device,
+                for example a motor. A loudspeaker brings
                 sounds out of the computer. That is why it is an output device.
   - type: section
     id: beispiel
@@ -169,16 +174,18 @@ blocks:
                 2. Die Eingabe denkt sich zwei kleine Zahlen aus, schreibt sie auf einen Zettel und gibt ihn weiter.
                 3. Die Verarbeitung rechnet die Zahlen zusammen und schreibt nur das Ergebnis auf einen neuen Zettel.
                 4. Die Ausgabe ruft das Ergebnis laut in die Klasse.
-                5. Ein viertes Kind kann der **Speicher** sein: Es bekommt eine Kopie des Ergebnisses und hebt sie in
-                   einer Schachtel auf.
-                6. Tauscht die Rollen. Die Zettel wandern immer nur in eine Richtung, so wie die Pfeile im EVA-Bild.
+                5. Ein viertes Kind kann der **Speicher** sein: Die Verarbeitung gibt ihm eine Kopie des Ergebnisses.
+                   Es hebt sie in einer Schachtel auf und gibt sie der Verarbeitung zurück, wenn sie danach fragt.
+                6. Tauscht die Rollen. Von der Eingabe zur Ausgabe wandern die Zettel nur in eine Richtung, so wie die
+                   Pfeile im EVA-Bild.
               en: |
                 1. Share out the roles **input**, **process** and **output**. Each role gets a sign.
                 2. Input thinks of two small numbers, writes them on a note and passes it on.
                 3. Process adds the numbers and writes only the result on a new note.
                 4. Output calls out the result to the class.
-                5. A fourth child can be **storage**: they get a copy of the result and keep it in a box.
-                6. Swap roles. The notes only ever travel one way, like the arrows in the IPO picture.
+                5. A fourth child can be **storage**: process hands them a copy of the result. They keep it in a box and
+                   give it back to process when asked.
+                6. Swap roles. From input to output the notes only travel one way, like the arrows in the IPO picture.
   - type: section
     id: uebung
     title:
@@ -320,8 +327,8 @@ blocks:
               de: Der Prozessor zählt die Preise zusammen. Das ist Verarbeitung.
               en: The processor adds up the prices. That is process.
         explanation:
-          de: Ausgabegeräte bringen das Ergebnis zum Menschen, zum Beispiel als Bild, Ton oder Papier.
-          en: Output devices bring the result to people, for example as a picture, a sound or paper.
+          de: Ausgabegeräte bringen das Ergebnis aus dem Computer heraus, zum Beispiel als Bild, Ton oder Papier.
+          en: Output devices bring the result out of the computer, for example as a picture, a sound or paper.
       - type: single-choice
         id: foto-aufheben
         text:

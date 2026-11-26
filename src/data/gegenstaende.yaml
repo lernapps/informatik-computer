@@ -74,8 +74,8 @@
     de: "Ein Computer im E-Book-Reader hebt viele Bücher auf und zeigt dir jede Seite."
     en: "A computer in the e-book reader keeps many books and shows you each page."
 - name:
-    de: "Taschenlampe"
-    en: "torch"
+    de: "einfache Taschenlampe"
+    en: "simple torch"
   antwort:
     de: "nein"
     en: "no"
@@ -83,11 +83,11 @@
     de: "ja"
     en: "yes"
   grund:
-    de: "Die Taschenlampe hat Strom, aber keinen Computer. Der Schalter macht das Licht nur an oder aus."
-    en: "The torch has power, but no computer. The switch only turns the light on or off."
+    de: "Die einfache Taschenlampe hat Strom, aber keinen Computer. Der Schalter macht das Licht nur an oder aus."
+    en: "The simple torch has power, but no computer. The switch only turns the light on or off."
 - name:
-    de: "Föhn"
-    en: "hair dryer"
+    de: "einfacher Föhn"
+    en: "simple hair dryer"
   antwort:
     de: "nein"
     en: "no"
@@ -95,11 +95,11 @@
     de: "ja"
     en: "yes"
   grund:
-    de: "Der Föhn hat Strom, aber keinen Computer. Er macht nur warme Luft, solange der Schalter an ist."
-    en: "The hair dryer has power, but no computer. It only blows warm air while the switch is on."
+    de: "Der einfache Föhn hat Strom, aber keinen Computer. Er macht nur warme Luft, solange der Schalter an ist."
+    en: "The simple hair dryer has power, but no computer. It only blows warm air while the switch is on."
 - name:
-    de: "Fahrrad"
-    en: "bicycle"
+    de: "Fahrrad ohne Motor"
+    en: "bicycle without a motor"
   antwort:
     de: "nein"
     en: "no"
@@ -107,8 +107,8 @@
     de: "ja"
     en: "yes"
   grund:
-    de: "Ein Fahrrad hat keinen Computer. Du bewegst es mit deiner eigenen Kraft."
-    en: "A bicycle has no computer. You move it with your own strength."
+    de: "Ein Fahrrad ohne Motor hat keinen Computer. Es rechnet, zählt und merkt sich nichts."
+    en: "A bicycle without a motor has no computer. It does not calculate, count or remember anything."
 - name:
     de: "Lineal"
     en: "ruler"

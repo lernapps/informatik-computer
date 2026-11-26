@@ -69,10 +69,10 @@ blocks:
         alt:
           de: >-
             Ein Tablet aus Glas. Innen sieht man einen grauen Chip, einen grünen Riegel und ein oranges Kästchen. Außen
-            sind ein Fingertipp auf dem Bildschirm, oben eine Kamera, unten drei kleine Löcher und rechts ein Gitter.
+            sind ein Fingertipp auf dem Bildschirm, oben eine Kamera, unten drei kleine Löcher und rechts ein Gitter. Bogenlinien zeigen Schall, der unten hineingeht und rechts herauskommt.
           en: >-
             A tablet made of glass. Inside you can see a grey chip, a green bar and an orange box. Outside there is a
-            finger tap on the screen, a camera at the top, three small holes at the bottom and a grille on the right.
+            finger tap on the screen, a camera at the top, three small holes at the bottom and a grille on the right. Curved lines show sound going in at the bottom and coming out on the right.
         caption:
           de: "Der gläserne Computer. Die Zahlen gehören zu den Namen darunter: 1 bis 3 sind innen, 4 bis 7 außen."
           en: "The glass computer. The numbers belong to the names below: 1 to 3 are inside, 4 to 7 outside."
@@ -83,7 +83,7 @@ blocks:
           - { x: 29, y: 28, text: { de: Touchscreen, en: touchscreen } }
           - { x: 56, y: 15, text: { de: Kamera, en: camera } }
           - { x: 57, y: 86, text: { de: Mikrofon, en: microphone } }
-          - { x: 91, y: 50, text: { de: Lautsprecher, en: loudspeaker } }
+          - { x: 80, y: 47, text: { de: Lautsprecher, en: loudspeaker } }
       - type: definition
         term:
           de: Eingabegerät
@@ -96,8 +96,8 @@ blocks:
           de: Ausgabegerät
           en: output device
         explanation:
-          de: Ein Teil, mit dem der Computer dir etwas zeigt oder vorspielt, zum Beispiel Bildschirm oder Lautsprecher.
-          en: A part the computer uses to show or play you something, for example a screen or a loudspeaker.
+          de: Ein Teil, mit dem der Computer dir etwas zeigt, vorspielt oder druckt, zum Beispiel Bildschirm, Lautsprecher oder Drucker.
+          en: A part the computer uses to show, play or print something for you, for example a screen, a loudspeaker or a printer.
       - type: table
         caption:
           de: "Die Teile im Innern, verglichen mit deinem Zimmer"
@@ -154,8 +154,8 @@ blocks:
               en: In the processor
             correct: false
             info:
-              de: Der Prozessor rechnet nur. Aufheben kann er nichts.
-              en: The processor only calculates. It cannot keep anything.
+              de: Der Prozessor rechnet nur. Dauerhaft aufheben kann er nichts.
+              en: The processor only calculates. It cannot keep anything for long.
           - text:
               de: Im Bildschirm
               en: In the screen
@@ -248,7 +248,7 @@ blocks:
               - { x: 29, y: 28, text: { de: Touchscreen, en: touchscreen } }
               - { x: 56, y: 15, text: { de: Kamera, en: camera } }
               - { x: 57, y: 86, text: { de: Mikrofon, en: microphone } }
-              - { x: 91, y: 50, text: { de: Lautsprecher, en: loudspeaker } }
+              - { x: 80, y: 47, text: { de: Lautsprecher, en: loudspeaker } }
         pairsFrom: material
         explanation:
           de: "Innen sitzen Prozessor (grauer Chip), Arbeitsspeicher (grüner Riegel) und Festspeicher (oranges Kästchen). Außen sind Touchscreen, Kamera, Mikrofon und Lautsprecher."
