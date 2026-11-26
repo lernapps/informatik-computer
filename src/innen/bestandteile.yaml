@@ -1,0 +1,298 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: Bestandteile eines Computers
+  en: Parts of a computer
+description:
+  de: "Der gläserne Computer: Prozessor, Arbeitsspeicher, Festspeicher, Ein- und Ausgabegeräte und ihre Aufgaben."
+  en: "The glass computer: processor, memory, storage, input and output devices and their jobs."
+competencies: [computer-bestandteile]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Station 4: der gläserne Computer"
+      en: "Station 4: the glass computer"
+    blocks:
+      - type: text
+        text:
+          de: |
+            An Station 3 hast du ein Programm bedient. Von Station 2 weißt du: Hardware kannst du anfassen. Aber was
+            steckt eigentlich in einem Tablet? An Station 4 steht ein Tablet aus Glas. Nach ihm heißt die ganze
+            Ausstellung: der gläserne Computer. Jona sagt: „Hier kannst du hineinschauen. Rate mal, wo das Tablet denkt.“
+
+            Auf dieser Seite lernst du die wichtigsten Teile eines Computers kennen und was jedes Teil tut.
+          en: |
+            At station 3 you used a program. From station 2 you know: hardware is what you can touch. But what is
+            actually inside a tablet? At station 4 there is a tablet made of glass. The whole exhibition is named
+            after it: the glass computer. Jona says: “You can look inside here. Guess where the tablet does its
+            thinking.”
+
+            On this page you get to know the most important parts of a computer and what each part does.
+      - type: single-choice
+        id: wo-denkt
+        text:
+          de: Was glaubst du? Welches Teil rechnet im Tablet?
+          en: What do you think? Which part does the calculating in the tablet?
+        options:
+          - text:
+              de: Ein kleiner Chip im Innern
+              en: A small chip inside
+            correct: true
+            info:
+              de: Dieser Chip heißt Prozessor. Er rechnet, und zwar sehr schnell.
+              en: This chip is called the processor. It calculates, and very fast.
+          - text:
+              de: Der Bildschirm
+              en: The screen
+            correct: false
+            info:
+              de: Der Bildschirm zeigt nur, was im Innern ausgerechnet wurde.
+              en: The screen only shows what was worked out inside.
+          - text:
+              de: Der Akku
+              en: The battery
+            correct: false
+            info:
+              de: Der Akku gibt allen Teilen Strom. Rechnen kann er nicht.
+              en: The battery gives power to all the parts. It cannot calculate.
+        explanation:
+          de: Im Innern sitzt der Prozessor. Er rechnet für alle Programme des Tablets.
+          en: Inside sits the processor. It does the calculating for all the programs on the tablet.
+  - type: section
+    id: idee
+    title:
+      de: Ein Blick ins Innere
+      en: A look inside
+    blocks:
+      - type: labelled-figure
+        image: images/glaeserner-computer.svg
+        source: { de: eigene Zeichnung, en: own drawing }
+        licence: CC-BY-4.0
+        alt:
+          de: >-
+            Ein Tablet aus Glas. Innen sieht man einen grauen Chip, einen grünen Riegel und ein oranges Kästchen. Außen
+            sind ein Fingertipp auf dem Bildschirm, oben eine Kamera, unten drei kleine Löcher und rechts ein Gitter. Bogenlinien zeigen Schall, der unten hineingeht und rechts herauskommt.
+          en: >-
+            A tablet made of glass. Inside you can see a grey chip, a green bar and an orange box. Outside there is a
+            finger tap on the screen, a camera at the top, three small holes at the bottom and a grille on the right. Curved lines show sound going in at the bottom and coming out on the right.
+        caption:
+          de: "Der gläserne Computer. Die Zahlen gehören zu den Namen darunter: 1 bis 3 sind innen, 4 bis 7 außen."
+          en: "The glass computer. The numbers belong to the names below: 1 to 3 are inside, 4 to 7 outside."
+        labels:
+          - { x: 33, y: 40, text: { de: Prozessor, en: processor } }
+          - { x: 55, y: 32, text: { de: Arbeitsspeicher, en: memory } }
+          - { x: 77, y: 65, text: { de: Festspeicher, en: storage } }
+          - { x: 29, y: 28, text: { de: Touchscreen, en: touchscreen } }
+          - { x: 56, y: 15, text: { de: Kamera, en: camera } }
+          - { x: 57, y: 86, text: { de: Mikrofon, en: microphone } }
+          - { x: 80, y: 47, text: { de: Lautsprecher, en: loudspeaker } }
+      - type: definition
+        term:
+          de: Daten
+          en: data
+        explanation:
+          de: Alles, womit ein Computer arbeitet, zum Beispiel Zahlen, Buchstaben, Bilder und Töne.
+          en: Everything a computer works with, for example numbers, letters, pictures and sounds.
+      - type: definition
+        term:
+          de: Eingabegerät
+          en: input device
+        explanation:
+          de: Ein Teil, mit dem Daten in den Computer kommen, zum Beispiel Kamera, Mikrofon oder Tastatur.
+          en: A part that gets data into the computer, for example a camera, a microphone or a keyboard.
+      - type: definition
+        term:
+          de: Ausgabegerät
+          en: output device
+        explanation:
+          de: Ein Teil, mit dem der Computer dir etwas zeigt, vorspielt oder druckt, zum Beispiel Bildschirm, Lautsprecher oder Drucker.
+          en: A part the computer uses to show, play or print something for you, for example a screen, a loudspeaker or a printer.
+      - type: table
+        caption:
+          de: "Die Teile im Innern, verglichen mit deinem Zimmer"
+          en: "The parts inside, compared with your room"
+        header:
+          - { de: Teil, en: Part }
+          - { de: "Was es tut (wie in deinem Zimmer)", en: "What it does (like in your room)" }
+        rowHeaders: true
+        rows:
+          - - { de: Prozessor, en: processor }
+            - de: "rechnet mit den Daten (wie du selbst beim Arbeiten)"
+              en: "calculates with the data (like you yourself while working)"
+          - - { de: Arbeitsspeicher, en: memory }
+            - de: "hält, woran gerade gearbeitet wird (wie dein Schreibtisch)"
+              en: "holds what is being worked on right now (like your desk)"
+          - - { de: Festspeicher, en: storage }
+            - de: "hebt Fotos, Apps und Texte auf, auch ohne Strom (wie dein Schrank)"
+              en: "keeps photos, apps and texts, even without power (like your cupboard)"
+      - type: text
+        text:
+          de: |
+            Der Vergleich hat eine Grenze: Dein Schreibtisch bleibt voll, wenn das Licht ausgeht. Der Arbeitsspeicher
+            vergisst alles, sobald der Strom weg ist. Und der Prozessor denkt nicht selbst nach. Er macht genau das,
+            was das Programm sagt.
+          en: |
+            The comparison has a limit: your desk stays full when the light goes out. Memory forgets everything as soon
+            as the power is gone. And the processor does not think for itself. It does exactly what the program says.
+      - type: single-choice
+        id: stromausfall
+        text:
+          de: Selin malt am Computer ein Bild. Sie hat noch nicht gespeichert. Plötzlich fällt der Strom aus. Wo war das Bild?
+          en: Selin is drawing a picture on the computer. She has not saved yet. Suddenly the power goes off. Where was the picture?
+        options:
+          - text:
+              de: Im Arbeitsspeicher
+              en: In memory
+            correct: true
+            info:
+              de: Ungespeichertes liegt im Arbeitsspeicher. Ohne Strom ist er leer, darum ist das Bild weg.
+              en: Unsaved work sits in memory. Without power memory is empty, so the picture is gone.
+          - text:
+              de: Im Festspeicher
+              en: In storage
+            correct: false
+            info:
+              de: In den Festspeicher kommt das Bild erst beim Speichern. Dann wäre es noch da.
+              en: The picture only goes into storage when it is saved. Then it would still be there.
+          - text:
+              de: Im Prozessor
+              en: In the processor
+            correct: false
+            info:
+              de: Der Prozessor rechnet nur. Dauerhaft aufheben kann er nichts.
+              en: The processor only calculates. It cannot keep anything for long.
+          - text:
+              de: Im Bildschirm
+              en: In the screen
+            correct: false
+            info:
+              de: Der Bildschirm zeigt das Bild nur an. Die Daten liegen im Innern.
+              en: The screen only shows the picture. The data is inside.
+        explanation:
+          de: Was du noch nicht gespeichert hast, liegt nur im Arbeitsspeicher.
+          en: What you have not saved yet is only in memory.
+      - type: definition
+        term:
+          de: Prozessor
+          en: processor
+        explanation:
+          de: Der Chip, der im Computer rechnet und die Befehle der Programme ausführt.
+          en: The chip that calculates in a computer and carries out the instructions of programs.
+      - type: definition
+        term:
+          de: Arbeitsspeicher
+          en: memory
+        explanation:
+          de: Hält die Daten, an denen der Prozessor gerade arbeitet. Ohne Strom ist er leer.
+          en: Holds the data the processor is working on right now. Without power it is empty.
+      - type: definition
+        term:
+          de: Festspeicher
+          en: storage
+        explanation:
+          de: Hebt Daten dauerhaft auf, auch wenn das Gerät aus ist, zum Beispiel Fotos und Apps.
+          en: Keeps data for a long time, even when the device is off, for example photos and apps.
+  - type: section
+    id: beispiel
+    title:
+      de: "Beispiel: Selin nimmt ein Lied auf"
+      en: "Example: Selin records a song"
+    blocks:
+      - type: example
+        title:
+          de: Welche Teile helfen mit?
+          en: Which parts help?
+        blocks:
+          - type: text
+            text:
+              de: |
+                1. Selin singt. Das **Mikrofon** nimmt ihre Stimme auf. Es ist ein Eingabegerät.
+                2. Die Aufnahme liegt im **Arbeitsspeicher**, solange die App mit ihr arbeitet.
+                3. Der **Prozessor** macht die Aufnahme etwas lauter.
+                4. Selin tippt auf „Speichern“. Jetzt liegt das Lied im **Festspeicher**.
+                5. Der **Lautsprecher** spielt das Lied ab. Er ist ein Ausgabegerät.
+              en: |
+                1. Selin sings. The **microphone** picks up her voice. It is an input device.
+                2. The recording sits in **memory** while the app is working with it.
+                3. The **processor** makes the recording a bit louder.
+                4. Selin taps “Save”. Now the song is in **storage**.
+                5. The **loudspeaker** plays the song. It is an output device.
+  - type: section
+    id: uebung
+    title:
+      de: Üben an der Station
+      en: Practise at the station
+    blocks:
+      - type: matching
+        id: marker-zuordnen
+        text:
+          de: Jona hat die Namensschilder vom gläsernen Computer genommen. Welcher Name gehört zu welcher Zahl?
+          en: Jona has taken the name signs off the glass computer. Which name belongs to which number?
+        material:
+          - type: labelled-figure
+            image: images/glaeserner-computer.svg
+            source: { de: eigene Zeichnung, en: own drawing }
+            licence: CC-BY-4.0
+            legend: false
+            alt:
+              de: >-
+                Das Tablet aus Glas mit den Zahlen 1 bis 7. 1 am grauen Chip, 2 am grünen Riegel, 3 am orangen
+                Kästchen, 4 am Fingertipp auf dem Bildschirm, 5 an der Kamera oben, 6 an den drei Löchern unten, 7 am
+                Gitter rechts.
+              en: >-
+                The glass tablet with the numbers 1 to 7. 1 at the grey chip, 2 at the green bar, 3 at the orange box,
+                4 at the finger tap on the screen, 5 at the camera at the top, 6 at the three holes at the bottom, 7 at
+                the grille on the right.
+            caption:
+              de: Der gläserne Computer ohne Namen.
+              en: The glass computer without names.
+            labels:
+              - { x: 33, y: 40, text: { de: Prozessor, en: processor } }
+              - { x: 55, y: 32, text: { de: Arbeitsspeicher, en: memory } }
+              - { x: 77, y: 65, text: { de: Festspeicher, en: storage } }
+              - { x: 29, y: 28, text: { de: Touchscreen, en: touchscreen } }
+              - { x: 56, y: 15, text: { de: Kamera, en: camera } }
+              - { x: 57, y: 86, text: { de: Mikrofon, en: microphone } }
+              - { x: 80, y: 47, text: { de: Lautsprecher, en: loudspeaker } }
+        pairsFrom: material
+        explanation:
+          de: "Innen sitzen Prozessor (grauer Chip), Arbeitsspeicher (grüner Riegel) und Festspeicher (oranges Kästchen). Außen sind Touchscreen, Kamera, Mikrofon und Lautsprecher."
+          en: "Inside are the processor (grey chip), memory (green bar) and storage (orange box). Outside are the touchscreen, camera, microphone and loudspeaker."
+      - type: matching
+        id: teil-aufgabe
+        text:
+          de: Selin schreibt Karten für die Ausstellung. Welche Aufgabe gehört zu welchem Teil?
+          en: Selin is writing cards for the exhibition. Which job belongs to which part?
+        pairs:
+          - left: { de: Prozessor, en: processor }
+            right: { de: rechnet mit den Daten, en: calculates with the data }
+          - left: { de: Arbeitsspeicher, en: memory }
+            right: { de: "hält, woran gerade gearbeitet wird", en: holds what is being worked on right now }
+          - left: { de: Festspeicher, en: storage }
+            right: { de: "hebt Daten auf, auch ohne Strom", en: "keeps data, even without power" }
+          - left: { de: Kamera, en: camera }
+            right: { de: bringt ein Bild in den Computer, en: brings a picture into the computer }
+          - left: { de: Lautsprecher, en: loudspeaker }
+            right: { de: spielt Töne für dich ab, en: plays sounds for you }
+        distractors:
+          - { de: gibt allen Teilen Strom, en: gives power to all the parts }
+        explanation:
+          de: "Strom gibt der Akku. Er gehört zu keinem der fünf Teile hier."
+          en: "Power comes from the battery. It belongs to none of the five parts here."
+      - type: true-false
+        id: akku-leer
+        text:
+          de: "Jonas Tablet hat ein gespeichertes Foto. Dann ist der Akku leer und das Tablet geht aus. Stimmt es: Nach dem Aufladen ist das Foto weg?"
+          en: "Jona's tablet has a saved photo. Then the battery runs flat and the tablet switches off. True or false: after charging, the photo is gone?"
+        answer: false
+        explanation:
+          de: Falsch. Das Foto ist gespeichert, also liegt es im Festspeicher. Der hebt Daten auch ohne Strom auf.
+          en: False. The photo is saved, so it is in storage. Storage keeps data even without power.
+      - type: text
+        text:
+          de: |
+            Geschafft: Der gläserne Computer hat seine Namensschilder zurück. An der nächsten Station schaust du, wie
+            die Teile zusammenarbeiten.
+          en: |
+            Well done: the glass computer has its name signs back. At the next station you find out how the parts work
+            together.

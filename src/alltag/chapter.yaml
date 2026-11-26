@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: Überall Informatiksysteme
+  en: Computer systems everywhere
+summary:
+  de: Du findest Informatiksysteme in deinem Alltag, unterscheidest Hardware und Software und bedienst ein Malprogramm.
+  en: You find computer systems in your everyday life, tell hardware from software and use a drawing program.
+pages: [informatiksysteme, hardware-software, programme-bedienen]
+selfAssessment:
+  pages:
+    - exercises:
+        - /alltag/informatiksysteme/#system-oder-nicht
+        - /alltag/informatiksysteme/#system-oder-nicht
+        - /alltag/informatiksysteme/#was-der-computer-tut
+    - exercises:
+        - /alltag/hardware-software/#hardware-oder-software
+        - /alltag/hardware-software/#hardware-oder-software
+        - /alltag/hardware-software/#wer-mit-wem
+    - exercises:
+        - /alltag/programme-bedienen/#sonne-ins-plakat
+        - /alltag/programme-bedienen/#befehl-wirkung
+        - /alltag/programme-bedienen/#sonnen-zaehlen

@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+format: 2
+strand: informatik/informatiksysteme
+title:
+  de: Wie ein Computer arbeitet
+  en: How a computer works
+intro:
+  de: >-
+    Die Computer-AG zeigt die Ausstellung „Der gläserne Computer“. Jona und Selin aus der Klasse 6b, beide 11, zeigen dir die Stationen. Später kommt ihre Mitschülerin Mia zu Besuch.
+    Du findest Informatiksysteme in deinem Alltag, schaust in einen Computer hinein und lernst das EVA-Prinzip:
+    Eingabe, Verarbeitung, Ausgabe.
+  en: >-
+    The computer club is showing the exhibition “The glass computer”. Jona and Selin from class 6b, both 11, show you the stations. Later their classmate Mia comes to visit.
+    You find computer systems in your everyday life, look inside a computer and learn the IPO model: input, process,
+    output.
+languages: [de, en]
+chapters: [alltag, innen]
+sources:
+  - title:
+      de: "Gesellschaft für Informatik: Bildungsstandards Informatik für die Sekundarstufe I (2025), Abschnitt 5.4 Informatiksysteme"
+      en: "German Informatics Society: Educational standards in computer science, lower secondary (2025), section 5.4 computer systems"
+    url: "https://www.mnu.de/images/fachbereiche/Informatik/Bildungsstandards_Sek_I_2025__pdf-A_.pdf"
+  - title:
+      de: "Ministerium für Schule und Bildung NRW: Kernlehrplan Informatik, Klasse 5 und 6 (2021)"
+      en: "Ministry of Schools and Education NRW: Core curriculum computer science, years 5 and 6 (2021)"
+    url: "https://lehrplannavigator.nrw.de/system/files/media/document/file/si_kl5u6_if_klp_2021_07_01.pdf"
+  - title:
+      de: "ISB Bayern: LehrplanPLUS Mittelschule, Informatik 5"
+      en: "ISB Bavaria: LehrplanPLUS lower secondary, computer science 5"
+    url: "https://www.lehrplanplus.bayern.de/fachlehrplan/mittelschule/5/informatik"
+  - title:
+      de: "Microsoft Support: Tastenkombinationen in Windows"
+      en: "Microsoft Support: Keyboard shortcuts in Windows"
+    url: "https://support.microsoft.com/de-de/windows/tastenkombinationen-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec"
+  - title:
+      de: "Apple Support: Mac-Tastaturkurzbefehle"
+      en: "Apple Support: Mac keyboard shortcuts"
+    url: "https://support.apple.com/de-de/102650"

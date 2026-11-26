@@ -1,0 +1,135 @@
+# Gegenstände für die Übung „Informatiksystem oder nicht?“. antwort ist ja oder nein, gegenteil die falsche Wahl,
+# grund sagt warum, ohne die Antwort vorwegzunehmen.
+
+- name:
+    de: "Smartphone"
+    en: "smartphone"
+  antwort:
+    de: "ja"
+    en: "yes"
+  gegenteil:
+    de: "nein"
+    en: "no"
+  grund:
+    de: "Im Smartphone arbeitet ein kleiner Computer mit vielen Programmen, den Apps."
+    en: "A small computer with many programs, the apps, works inside a smartphone."
+- name:
+    de: "Spielkonsole"
+    en: "game console"
+  antwort:
+    de: "ja"
+    en: "yes"
+  gegenteil:
+    de: "nein"
+    en: "no"
+  grund:
+    de: "In der Konsole rechnet ein Computer aus, wie sich die Figuren im Spiel bewegen."
+    en: "A computer inside the console works out how the characters move in the game."
+- name:
+    de: "Kasse"
+    en: "till"
+  antwort:
+    de: "ja"
+    en: "yes"
+  gegenteil:
+    de: "nein"
+    en: "no"
+  grund:
+    de: "Ein Computer in der Kasse zählt die Preise zusammen und druckt den Kassenbon."
+    en: "A computer in the till adds up the prices and prints the receipt."
+- name:
+    de: "Waschmaschine mit Anzeige"
+    en: "washing machine with a display"
+  antwort:
+    de: "ja"
+    en: "yes"
+  gegenteil:
+    de: "nein"
+    en: "no"
+  grund:
+    de: "Ein kleiner Computer steuert Wasser, Wärme und Zeit. Er arbeitet das Waschprogramm ab, das du wählst."
+    en: "A small computer controls the water, heat and time. It runs the washing program you choose."
+- name:
+    de: "Smartwatch"
+    en: "smartwatch"
+  antwort:
+    de: "ja"
+    en: "yes"
+  gegenteil:
+    de: "nein"
+    en: "no"
+  grund:
+    de: "Ein kleiner Computer in der Uhr zählt deine Schritte und zeigt die Uhrzeit."
+    en: "A small computer in the watch counts your steps and shows the time."
+- name:
+    de: "E-Book-Reader"
+    en: "e-book reader"
+  antwort:
+    de: "ja"
+    en: "yes"
+  gegenteil:
+    de: "nein"
+    en: "no"
+  grund:
+    de: "Ein Computer im E-Book-Reader hebt viele Bücher auf und zeigt dir jede Seite."
+    en: "A computer in the e-book reader keeps many books and shows you each page."
+- name:
+    de: "einfache Taschenlampe"
+    en: "simple torch"
+  antwort:
+    de: "nein"
+    en: "no"
+  gegenteil:
+    de: "ja"
+    en: "yes"
+  grund:
+    de: "Die einfache Taschenlampe hat Strom, aber keinen Computer. Der Schalter macht das Licht nur an oder aus."
+    en: "The simple torch has power, but no computer. The switch only turns the light on or off."
+- name:
+    de: "einfacher Föhn"
+    en: "simple hair dryer"
+  antwort:
+    de: "nein"
+    en: "no"
+  gegenteil:
+    de: "ja"
+    en: "yes"
+  grund:
+    de: "Der einfache Föhn hat Strom, aber keinen Computer. Er macht nur warme Luft, solange der Schalter an ist."
+    en: "The simple hair dryer has power, but no computer. It only blows warm air while the switch is on."
+- name:
+    de: "Fahrrad ohne Motor"
+    en: "bicycle without a motor"
+  antwort:
+    de: "nein"
+    en: "no"
+  gegenteil:
+    de: "ja"
+    en: "yes"
+  grund:
+    de: "Ein Fahrrad ohne Motor hat keinen Computer. Es rechnet, zählt und merkt sich nichts."
+    en: "A bicycle without a motor has no computer. It does not calculate, count or remember anything."
+- name:
+    de: "Lineal"
+    en: "ruler"
+  antwort:
+    de: "nein"
+    en: "no"
+  gegenteil:
+    de: "ja"
+    en: "yes"
+  grund:
+    de: "Ein Lineal hat weder Strom noch einen Computer. Du misst selbst damit."
+    en: "A ruler has neither power nor a computer. You do the measuring yourself."
+- name:
+    de: "Schere"
+    en: "pair of scissors"
+  antwort:
+    de: "nein"
+    en: "no"
+  gegenteil:
+    de: "ja"
+    en: "yes"
+  grund:
+    de: "Eine Schere hat keinen Computer. Sie schneidet nur, wenn du drückst."
+    en: "Scissors have no computer. They only cut when you press them."

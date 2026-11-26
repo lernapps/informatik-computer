@@ -1,0 +1,250 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: Hardware und Software
+  en: Hardware and software
+description:
+  de: "Hardware und Software unterscheiden und erklären, wie sie zusammenarbeiten."
+  en: "Tell hardware from software and explain how they work together."
+competencies: [hardware-und-software]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Station 2: Was kannst du anfassen?"
+      en: "Station 2: What can you touch?"
+    blocks:
+      - type: text
+        text:
+          de: |
+            An Station 1 hast du Informatiksysteme gefunden. Jetzt klebt Jona Schilder auf das Tablet der Ausstellung.
+            Er fragt: „Was davon kann ich eigentlich anfassen?“
+
+            Auf dieser Seite lernst du, Hardware und Software zu unterscheiden. Und du siehst, warum ein Gerät beides
+            braucht.
+          en: |
+            At station 1 you found computer systems. Now Jona is putting signs on the tablet in the exhibition. He
+            asks: “Which of these can I actually touch?”
+
+            On this page you learn to tell hardware from software. And you see why a device needs both.
+      - type: multiple-choice
+        id: was-anfassen
+        text:
+          de: Was am Tablet kannst du anfassen?
+          en: What on the tablet can you touch?
+        options:
+          - text:
+              de: Den Bildschirm
+              en: The screen
+            correct: true
+            info:
+              de: Den Bildschirm kannst du berühren, zum Beispiel mit dem Finger.
+              en: You can touch the screen, for example with your finger.
+          - text:
+              de: Die Kamera
+              en: The camera
+            correct: true
+            info:
+              de: Die Kamera ist ein kleines Teil im Gehäuse. Du kannst sie anfassen.
+              en: The camera is a small part in the case. You can touch it.
+          - text:
+              de: Die Mal-App
+              en: The drawing app
+            correct: false
+            info:
+              de: Die Mal-App siehst du auf dem Bildschirm. Anfassen kannst du aber nur den Bildschirm, nicht die App.
+              en: You see the drawing app on the screen. But you can only touch the screen, not the app.
+          - text:
+              de: Ein Spiel
+              en: A game
+            correct: false
+            info:
+              de: Ein Spiel ist ein Programm. Du kannst es spielen, aber nicht in die Hand nehmen.
+              en: A game is a program. You can play it, but you cannot hold it in your hand.
+        explanation:
+          de: Bildschirm und Kamera sind Teile zum Anfassen. Apps und Spiele sind Programme.
+          en: The screen and the camera are parts you can touch. Apps and games are programs.
+  - type: section
+    id: idee
+    title:
+      de: Zum Anfassen und nicht zum Anfassen
+      en: Touchable and not touchable
+    blocks:
+      - type: labelled-figure
+        image: images/hardware-software.svg
+        source: { de: eigene Zeichnung, en: own drawing }
+        licence: CC-BY-4.0
+        alt:
+          de: >-
+            Links hält eine Hand ein Tablet. Rechts schwebt eine gestrichelte Wolke mit drei App-Symbolen: Pinsel,
+            Musiknote und Kamera. Zwei Pfeile gehen zwischen Tablet und Wolke hin und her.
+          en: >-
+            On the left a hand holds a tablet. On the right floats a dashed cloud with three app icons: a brush, a
+            music note and a camera. Two arrows go back and forth between the tablet and the cloud.
+        caption:
+          de: "Links die Hardware: 1 bis 3 kannst du anfassen. Rechts in der Wolke die Software: 4 bis 6 nicht."
+          en: "On the left the hardware: you can touch 1 to 3. On the right in the cloud the software: not 4 to 6."
+        labels:
+          - { x: 8, y: 14, text: { de: Gehäuse, en: case } }
+          - { x: 23, y: 54, text: { de: Bildschirm, en: screen } }
+          - { x: 28, y: 19, text: { de: Kamera, en: camera } }
+          - { x: 62, y: 47, text: { de: Mal-App, en: drawing app } }
+          - { x: 77, y: 34, text: { de: Musik-App, en: music app } }
+          - { x: 88, y: 72, text: { de: Kamera-App, en: camera app } }
+      - type: definition
+        term:
+          de: Hardware
+          en: hardware
+        explanation:
+          de: Alle Teile eines Informatiksystems, die du anfassen kannst, zum Beispiel Bildschirm, Tastatur und Kamera.
+          en: All the parts of a computer system that you can touch, for example the screen, the keyboard and the camera.
+      - type: definition
+        term:
+          de: Software
+          en: software
+        explanation:
+          de: Alle Programme eines Informatiksystems. Auf Tablet und Smartphone heißen sie oft Apps. Anfassen kannst du sie nicht.
+          en: All the programs of a computer system. On tablets and smartphones they are often called apps. You cannot touch them.
+      - type: text
+        text:
+          de: |
+            Die gestrichelte Wolke zeigt nur: nicht zum Anfassen. Die Apps stecken im Gerät. Die Pfeile im
+            Bild zeigen: Beide brauchen einander. Die Software sagt der Hardware, was sie tun soll. Die
+            Hardware führt es aus. Ohne Software tut die Hardware nichts Sinnvolles. Ohne Hardware kann die Software
+            nirgends laufen.
+          en: |
+            The dashed cloud only shows: not touchable. The apps are inside the device. The arrows in the
+            picture show: they need each other. The software tells the hardware what to do. The
+            hardware does it. Without software the hardware does nothing useful. Without hardware the software has
+            nowhere to run.
+      - type: note
+        title:
+          de: Merke
+          en: Remember
+        blocks:
+          - type: text
+            text:
+              de: |
+                Frag dich: **Ist es ein Teil zum Anfassen?** Dann ist es Hardware. **Ist es ein Programm, eine App?**
+                Dann ist es Software. Der Bildschirm *zeigt* Software, ist aber selbst Hardware.
+              en: |
+                Ask yourself: **Is it a part you can touch?** Then it is hardware. **Is it a program, an app?** Then it
+                is software. The screen *shows* software, but is itself hardware.
+      - type: true-false
+        id: spiel-hardware
+        text:
+          de: "Stimmt das? Ein Spiel auf dem Smartphone ist Hardware, weil es im Smartphone steckt."
+          en: "True or false? A game on a smartphone is hardware, because it is inside the smartphone."
+        answer: false
+        explanation:
+          de: Falsch. Das Spiel ist ein Programm, also Software. Es läuft auf der Hardware, ist aber selbst nicht anfassbar.
+          en: False. The game is a program, so it is software. It runs on the hardware, but you cannot touch it.
+  - type: section
+    id: beispiel
+    title:
+      de: "Beispiel: ein Foto machen"
+      en: "Example: taking a photo"
+    blocks:
+      - type: example
+        title:
+          de: Kamera und Kamera-App arbeiten zusammen
+          en: The camera and the camera app work together
+        blocks:
+          - type: text
+            text:
+              de: |
+                1. Selin tippt auf das Symbol der Kamera-App. Die **Software** startet.
+                2. Die Kamera-App sagt der **Kamera**: „Nimm jetzt ein Bild auf.“
+                3. Die Kamera nimmt das Bild auf. Der Bildschirm zeigt es.
+
+                Ohne Kamera-App weiß die Kamera nicht, wann sie ein Bild machen soll. Ohne Kamera hat die App kein Bild.
+              en: |
+                1. Selin taps the icon of the camera app. The **software** starts.
+                2. The camera app tells the **camera**: “Take a picture now.”
+                3. The camera takes the picture. The screen shows it.
+
+                Without the camera app, the camera does not know when to take a picture. Without the camera, the app
+                has no picture.
+  - type: section
+    id: uebung
+    title:
+      de: Üben an der Station
+      en: Practise at the station
+    blocks:
+      - type: generated
+        id: hardware-oder-software
+        given:
+          e: { pick: 1, from: { data: hardware-software } }
+        task:
+          text:
+            de: "Auf Jonas nächstem Schild steht: **{{e.name}}**. Ist das Hardware oder Software?"
+            en: "Jona's next sign says: **{{e.name}}**. Is it hardware or software?"
+        answer:
+          value: "e.art"
+          compare:
+            choice: [Hardware, Software]
+        mistakes:
+          - value: "e.gegenteil"
+            message:
+              de: "Mach die Probe: Kannst du es selbst in die Hand nehmen?"
+              en: "Do the test: can you hold it in your own hand?"
+        hint:
+          de: Hardware kannst du anfassen, Software nicht.
+          en: You can touch hardware, but not software.
+        steps:
+          - de: "{{e.grund}} Antwort: {{answer}}."
+            en: "{{e.grund}} Answer: {{answer}}."
+      - type: matching
+        id: wer-mit-wem
+        text:
+          de: Zu welcher Hardware passt welche App?
+          en: Which app goes with which piece of hardware?
+        pairs:
+          - left: { de: Kamera, en: camera }
+            right: { de: Kamera-App, en: camera app }
+          - left: { de: Lautsprecher, en: loudspeaker }
+            right: { de: Musik-App, en: music app }
+          - left: { de: Mikrofon, en: microphone }
+            right: { de: Sprachaufnahme-App, en: voice recorder app }
+        distractors:
+          - { de: Wetter-App, en: weather app }
+        explanation:
+          de: "Jede App braucht ein Stück Hardware, mit dem sie arbeitet: die Kamera-App die Kamera, Musik den Lautsprecher, Aufnahmen das Mikrofon. Die Wetter-App braucht vor allem den Bildschirm."
+          en: "Each app needs a piece of hardware to work with: the camera app needs the camera, music the loudspeaker, recordings the microphone. The weather app mainly needs the screen."
+      - type: single-choice
+        id: ohne-software
+        text:
+          de: Ein Tablet hat gar keine Software, nicht einmal ein Programm zum Starten. Was passiert beim Einschalten?
+          en: A tablet has no software at all, not even a program to start up. What happens when you switch it on?
+        options:
+          - text:
+              de: Es tut nichts Sinnvolles
+              en: It does nothing useful
+            correct: true
+            info:
+              de: Kein Programm sagt der Hardware, was sie tun soll. Darum bleibt das Tablet nutzlos.
+              en: No program tells the hardware what to do. So the tablet stays useless.
+          - text:
+              de: Es zeigt trotzdem Fotos
+              en: It still shows photos
+            correct: false
+            info:
+              de: Um Fotos zu zeigen, braucht das Tablet ein Programm. Das fehlt hier.
+              en: To show photos, the tablet needs a program. That is missing here.
+          - text:
+              de: Es macht sich die Apps selbst
+              en: It makes its own apps
+            correct: false
+            info:
+              de: Apps schreiben Menschen. Hardware allein kann keine Programme erfinden.
+              en: People write apps. Hardware alone cannot invent programs.
+        explanation:
+          de: Hardware braucht Software, sonst weiß sie nicht, was sie tun soll.
+          en: Hardware needs software, otherwise it does not know what to do.
+      - type: text
+        text:
+          de: |
+            Geschafft: Jedes Gerät hat jetzt ein Schild „Hardware“ und eine Liste seiner Software. An der nächsten
+            Station bedient ihr selbst ein Programm: ein Malprogramm.
+          en: |
+            Well done: every device now has a “hardware” sign and a list of its software. At the next station you use a
+            program yourselves: a drawing program.

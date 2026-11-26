@@ -1,0 +1,94 @@
+# Geräte und Bauteile für den EvaSortierer. phase: 0 Eingabe, 1 Verarbeitung, 2 Ausgabe.
+# grund sagt, was das Gerät tut, ohne den Namen des Kastens zu nennen. Der Touchscreen fehlt mit Absicht: Er gehört
+# in zwei Kästen und hat eine eigene Frage.
+- name:
+    de: "Tastatur"
+    en: "keyboard"
+  phase: 0
+  grund:
+    de: "Mit der Tastatur tippst du Buchstaben und Zahlen in den Computer hinein."
+    en: "With a keyboard you type letters and numbers into the computer."
+- name:
+    de: "Maus"
+    en: "mouse"
+  phase: 0
+  grund:
+    de: "Mit der Maus zeigst und klickst du. So sagst du dem Computer, was er tun soll."
+    en: "With a mouse you point and click. That is how you tell the computer what to do."
+- name:
+    de: "Mikrofon"
+    en: "microphone"
+  phase: 0
+  grund:
+    de: "Das Mikrofon nimmt deine Stimme auf und gibt sie dem Computer."
+    en: "The microphone picks up your voice and passes it to the computer."
+- name:
+    de: "Kamera"
+    en: "camera"
+  phase: 0
+  grund:
+    de: "Die Kamera nimmt ein Bild auf und gibt es dem Computer."
+    en: "The camera takes a picture and passes it to the computer."
+- name:
+    de: "Scanner an der Kasse"
+    en: "barcode scanner at the till"
+  phase: 0
+  grund:
+    de: "Der Scanner liest den Strichcode der Ware und gibt ihn der Kasse."
+    en: "The scanner reads the barcode of an item and passes it to the till."
+- name:
+    de: "Knöpfe am Gamecontroller"
+    en: "buttons on a game controller"
+  phase: 0
+  grund:
+    de: "Mit den Knöpfen sagst du dem Spiel, was deine Figur tun soll."
+    en: "With the buttons you tell the game what your character should do."
+- name:
+    de: "Prozessor"
+    en: "processor"
+  phase: 1
+  grund:
+    de: "Der Prozessor rechnet mit den Daten."
+    en: "The processor calculates with the data."
+- name:
+    de: "Arbeitsspeicher"
+    en: "memory"
+  phase: 1
+  grund:
+    de: "Im Arbeitsspeicher liegt alles, woran der Prozessor gerade arbeitet."
+    en: "Memory holds everything the processor is working on right now."
+- name:
+    de: "Bildschirm am PC"
+    en: "monitor"
+  phase: 2
+  grund:
+    de: "Der Bildschirm am PC zeigt dir Bilder und Text. Tippen kannst du auf ihm nicht."
+    en: "A monitor shows you pictures and text. You cannot tap on it."
+- name:
+    de: "Lautsprecher"
+    en: "loudspeaker"
+  phase: 2
+  grund:
+    de: "Der Lautsprecher macht aus den Daten Töne, die du hörst."
+    en: "The loudspeaker turns the data into sounds you can hear."
+- name:
+    de: "Kopfhörer"
+    en: "headphones"
+  phase: 2
+  grund:
+    de: "Kopfhörer spielen dir Töne direkt ins Ohr."
+    en: "Headphones play sounds right into your ears."
+- name:
+    de: "Drucker"
+    en: "printer"
+  phase: 2
+  grund:
+    de: "Der Drucker bringt Text und Bilder auf Papier."
+    en: "A printer puts text and pictures on paper."
+- name:
+    de: "Beamer"
+    en: "projector"
+  phase: 2
+  grund:
+    de: "Der Beamer wirft ein Bild groß an die Wand."
+    en: "A projector shows a big picture on the wall."
