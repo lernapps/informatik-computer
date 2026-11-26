@@ -40,7 +40,9 @@ EVA-Bild begründet ein Gerät für eine Aufgabe.
   oder sind leer).
 - Wiederkehrendes Bild „gläserner Computer mit drei EVA-Kästen“ (Auftrag); Name und Aussehen lege ich mit der
   Musterseite fest und melde sie dem Orchestrator.
-- Nur Deutsch (Regeln des Epics). (guess, nicht ausdrücklich gefragt)
+- Sprachen `[de, en]` (Nachtrag 1 des Orchestrators): Deutsch ist Ausgangssprache, Englisch vollständige Übersetzung
+  in Plain English mit „you“; Fachbegriffe wie im Computing curriculum England (input – process – output, IPO model,
+  hardware, software, processor, memory, storage). Bildtexte werden übersetzt, Namen bleiben.
 
 ## Notes
 
@@ -118,7 +120,7 @@ Voraussetzungen von außerhalb: keine. Keine Wiederholungsseite.
 - Daten: 3 Gerätebeispiele aus dem Auftrag (Tablet, Smartwatch, Kasse) plus Alltagsgeräte; Bauteile: Prozessor,
   Arbeitsspeicher, Festspeicher, Tastatur, Maus, Mikrofon, Kamera, Touchscreen, Bildschirm, Lautsprecher, Drucker.
   Keine Speichergrößen oder Taktfrequenzen (kein Byte vor #491).
-- Sprache: nur Deutsch, einfache Sprache, „du“.
+- Sprachen: Deutsch (einfache Sprache, „du“) und Englisch (Plain English, „you“), je ein vollständiger Seitenbaum.
 
 ## Explore
 
@@ -181,7 +183,9 @@ Die „Ersteller“-Rolle hat in diesem Epic der Orchestrator (lernapps/apps#509
 - Content: „Er ist fertig entworfen und kann ohne Rückfrage umgesetzt werden.“ (#490). Ich schreibe die Inhalte aus
   Karte, GI-Bildungsstandards und Lehrplänen HE, BY, NRW (Regeln, Abschnitt 4).
 - Amount: „Der Explainer hat nur Stufe 5-6, Welle 1 ist also der ganze Explainer.“ 2 Kapitel, 6 Bausteine (#490).
-- Languages: „Deutsch in einfacher Sprache (ISO 24495), Lernende mit ‚du‘ anreden.“ (Regeln, Abschnitt 2)
+- Languages: „Deutsch in einfacher Sprache (ISO 24495), Lernende mit ‚du‘ anreden.“ (Regeln, Abschnitt 2);
+  Nachtrag 1: „Jede App hat zwei Sprachen, Deutsch und Englisch … Deutsch ist die Ausgangssprache. Englisch ist eine
+  vollständige Übersetzung … Plain English, Lernende mit ‚you‘.“
 - Look and feel: fixed by the archetype.
 - Terms: „Fachbegriffe wie die GI-Bildungsstandards 2025: Informatiksystem, EVA-Prinzip (Eingabe, Verarbeitung,
   Ausgabe) …“; „Produktnamen nur als Beispiel; der Begriff steht im Vordergrund (‚Tabellenkalkulation‘, nicht
