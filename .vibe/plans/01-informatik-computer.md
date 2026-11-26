@@ -377,7 +377,7 @@ Geräten oft über ein Menü geht. Keine Übung hängt vom System ab.
       change: change the pattern first.
       Creator: Ja, die übrigen 5 Seiten folgen diesem Muster. Als Nächstes bestandteile mit dem gläsernen Tablet.
 - [x] Seite alltag/informatiksysteme (de, en): Bild ausstellung, Gerätesuche unplugged, generated aus gegenstaende; zeigt Informatiksysteme im Alltag erkennen
-- [ ] Seite alltag/hardware-software (de, en): Bild hardware-software, generated aus hardware-software, matching Hardware zu Software; zeigt Unterscheiden und Zusammenwirken
+- [x] Seite alltag/hardware-software (de, en): Bild hardware-software, generated aus hardware-software, matching Hardware zu Software; zeigt Unterscheiden und Zusammenwirken
 - [ ] Seite alltag/programme-bedienen (de, en): labelled-figure malprogramm, Befehlstabelle mit Tastenkürzeln (Quellen Microsoft und Apple Support), ordering, generated Sonnen zählen; zeigt Öffnen, Speichern, Kopieren, Einfügen
 - [ ] Seite innen/bestandteile (de, en): labelled-figure glaeserner-computer, Vergleich Schreibtisch und Schrank, matching pairsFrom material; zeigt Bestandteile und Aufgaben
 - [ ] Seite innen/geraet-auswaehlen (de, en): Vergleichstabelle, Drei-Fragen-Methode mit EVA-Bild, generated aus aufgaben, Rückblick auf die Ausstellung; zeigt Auswählen und Begründen
