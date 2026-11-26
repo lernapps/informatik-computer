@@ -65,14 +65,15 @@ Was jeder Befehl tut:
 - Ausschneiden | nimmt das Markierte weg und legt es in die Zwischenablage
 - Rückgängig | nimmt den letzten Schritt zurück
 
-- **Zwischenablage**: Ein unsichtbarer Platz, an dem das Programm das Kopierte oder Ausgeschnittene bis zum Einfügen aufhebt.
+- **Zwischenablage**: Ein unsichtbarer Platz, an dem der Computer das Kopierte oder Ausgeschnittene bis zum Einfügen aufhebt. So kannst du auch von einem Programm in ein anderes einfügen.
 
 **Merke: Merke**
 
 **Kopieren setzt noch nichts ein.** Erst Einfügen bringt die Kopie ins Bild. Du kannst sie mehrmals
 einfügen. **Ausschneiden** nimmt das Original weg, Kopieren nicht.
 
-Öffnen und Speichern findest du meist im Menü „Datei“. Auf dem Tablet gibt es oft keine Tasten dafür. Dann findest du die Befehle in einem Menü, zum Beispiel
+Öffnen und Speichern findest du meist im Menü „Datei“. Auf dem Tablet gibt es für Kopieren und
+Einfügen oft keine Tasten. Dann findest du die Befehle in einem Menü, zum Beispiel
 wenn du lange auf etwas tippst. Auf einer Tastatur geht es zum Beispiel so: Kopieren mit Strg + C,
 Einfügen mit Strg + V, Ausschneiden mit Strg + X, Rückgängig mit Strg + Z. Auf dem Mac nimmst du ⌘
 statt Strg.
@@ -85,6 +86,12 @@ statt Strg.
 2. Sie wählt **Kopieren**. Auf dem Bild ist immer noch eine Sonne. Die Kopie liegt in der Zwischenablage.
 3. Sie wählt **Einfügen**. Jetzt sind es zwei Sonnen. Sie schiebt die neue an ihren Platz.
 4. Sie wählt **Speichern** und gibt dem Bild den Namen „Plakat“. Jetzt kann sie das Programm schließen.
+
+**Merke: Mitmachen: am echten Malprogramm**
+
+Öffne an einem Computer oder Tablet der Schule ein Malprogramm. Male eine Sonne, kopiere sie und füge
+sie zweimal ein. Speichere das Bild unter deinem Vornamen, schließe das Programm und öffne das Bild
+wieder. Sind alle drei Sonnen noch da?
 
 ### Üben an der Station
 
@@ -123,7 +130,7 @@ Im nächsten Kapitel klappt ihr den Computer auf und schaut hinein.
 
 - Aufgabe: Was passiert bei welchem Befehl?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: Kopieren – Eine Kopie kommt in die Zwischenablage.; Einfügen – Was in der Zwischenablage liegt, kommt ins Bild.; Ausschneiden – Das Markierte verschwindet und kommt in die Zwischenablage.; Rückgängig – Der letzte Schritt wird zurückgenommen.; Speichern – Das Bild bleibt auch nach dem Schließen erhalten.
+- Lösung: Kopieren – Eine Kopie kommt in die Zwischenablage.; Einfügen – Was in der Zwischenablage liegt, kommt ins Bild.; Ausschneiden – Das Markierte verschwindet und kommt in die Zwischenablage.; Öffnen – Ein gespeichertes Bild kommt zurück auf den Bildschirm.; Rückgängig – Der letzte Schritt wird zurückgenommen.; Speichern – Das Bild bleibt auch nach dem Schließen erhalten.
 - Erklärung: Drucken ist ein eigener Befehl. Er gehört zu keinem der fünf Befehle hier.
 - Link: [../?via=tutor#befehl-wirkung](../?via=tutor#befehl-wirkung)
 
@@ -145,7 +152,7 @@ Im nächsten Kapitel klappt ihr den Computer auf und schaut hinein.
 Nr. | e.folge | Lösung | F1 | F2
 1 | Ausschneiden, Einfügen, Ausschneiden, Einfügen, Kopieren, Einfügen | 2 | 3 | 4
 2 | Ausschneiden, Einfügen, Einfügen, Kopieren, Kopieren, Einfügen | 3 | 5 | 4
-3 | Kopieren, Einfügen, Einfügen, Ausschneiden, Ausschneiden | 1 | 2 | 3
+3 | Kopieren, Einfügen, Einfügen, Ausschneiden, Einfügen, Ausschneiden | 2 | 3 | 4
 4 | Kopieren, Einfügen, Kopieren, Einfügen, Ausschneiden | 2 | 4 | 3
 5 | Kopieren, Kopieren, Einfügen, Ausschneiden, Einfügen | 2 | 4 | 3
 ```

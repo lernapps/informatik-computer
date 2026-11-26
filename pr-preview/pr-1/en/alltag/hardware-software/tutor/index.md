@@ -58,14 +58,15 @@ Picture: On the left a hand holds a tablet. On the right floats a dashed cloud w
 
 - **software**: All the programs of a computer system. On tablets and smartphones they are often called apps. You cannot touch them.
 
-The arrows in the picture show: they need each other. The software tells the hardware what to do. The
+The dashed cloud only shows: not touchable. The apps are stored inside the device. The arrows in the
+picture show: they need each other. The software tells the hardware what to do. The
 hardware does it. Without software the hardware does nothing useful. Without hardware the software has
 nowhere to run.
 
 **Remember: Remember**
 
-Ask yourself: **Can I touch it?** Yes: hardware. No: software. The screen *shows* software, but is
-itself hardware.
+Ask yourself: **Is it a part you can touch?** Then it is hardware. **Is it a program, an app?** Then it
+is software. The screen *shows* software, but is itself hardware.
 
 - Exercise `spiel-hardware` (below)
 
@@ -143,8 +144,8 @@ No. | e.name | e.grund | Choices | Solution | F1
 
 - Task: Which app needs which hardware most?
 - Answer format: match each item on the left with one on the right
-- Solution: camera – photo app; loudspeaker – music app; microphone – voice recorder app
-- Explanation: Each app needs a piece of hardware to work with: photos need the camera, music the loudspeaker, recordings the microphone. The weather app mainly needs the screen.
+- Solution: camera – camera app; loudspeaker – music app; microphone – voice recorder app
+- Explanation: Each app needs a piece of hardware to work with: the camera app needs the camera, music the loudspeaker, recordings the microphone. The weather app mainly needs the screen.
 - Link: [../?via=tutor#wer-mit-wem](../?via=tutor#wer-mit-wem)
 
 ### Exercise ohne-software

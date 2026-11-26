@@ -59,14 +59,15 @@ Bild: Links hält eine Hand ein Tablet. Rechts schwebt eine gestrichelte Wolke m
 
 - **Software**: Alle Programme eines Informatiksystems. Auf Tablet und Smartphone heißen sie oft Apps. Anfassen kannst du sie nicht.
 
-Die Pfeile im Bild zeigen: Beide brauchen einander. Die Software sagt der Hardware, was sie tun soll. Die
+Die gestrichelte Wolke zeigt nur: nicht zum Anfassen. Die Apps sind im Gerät gespeichert. Die Pfeile im
+Bild zeigen: Beide brauchen einander. Die Software sagt der Hardware, was sie tun soll. Die
 Hardware führt es aus. Ohne Software tut die Hardware nichts Sinnvolles. Ohne Hardware kann die Software
 nirgends laufen.
 
 **Merke: Merke**
 
-Frag dich: **Kann ich es anfassen?** Ja: Hardware. Nein: Software. Der Bildschirm *zeigt* Software,
-ist aber selbst Hardware.
+Frag dich: **Ist es ein Teil zum Anfassen?** Dann ist es Hardware. **Ist es ein Programm, eine App?**
+Dann ist es Software. Der Bildschirm *zeigt* Software, ist aber selbst Hardware.
 
 - Aufgabe `spiel-hardware` (unten)
 
@@ -143,8 +144,8 @@ Nr. | e.name | e.grund | Zur Wahl | Lösung | F1
 
 - Aufgabe: Welche App braucht welche Hardware am dringendsten?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: Kamera – Foto-App; Lautsprecher – Musik-App; Mikrofon – Sprachaufnahme-App
-- Erklärung: Jede App braucht ein Stück Hardware, mit dem sie arbeitet: Fotos die Kamera, Musik den Lautsprecher, Aufnahmen das Mikrofon. Die Wetter-App braucht vor allem den Bildschirm.
+- Lösung: Kamera – Kamera-App; Lautsprecher – Musik-App; Mikrofon – Sprachaufnahme-App
+- Erklärung: Jede App braucht ein Stück Hardware, mit dem sie arbeitet: die Kamera-App die Kamera, Musik den Lautsprecher, Aufnahmen das Mikrofon. Die Wetter-App braucht vor allem den Bildschirm.
 - Link: [../?via=tutor#wer-mit-wem](../?via=tutor#wer-mit-wem)
 
 ### Aufgabe ohne-software

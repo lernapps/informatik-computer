@@ -59,13 +59,13 @@ table.
 
 What the three devices have for input and output:
 - Device | Input (I) and output (O)
-- smartwatch | I: tiny touchscreen. O: tiny screen.
-- smartphone | I: touchscreen, camera, microphone. O: small screen, loudspeaker.
-- laptop | I: keyboard, touchpad. O: big screen, loudspeaker.
+- smartwatch | I: tiny touchscreen, motion detector. O: tiny screen.
+- smartphone | I: touchscreen, camera, microphone, motion detector. O: small screen, loudspeaker.
+- laptop | I: keyboard, touchpad, camera, microphone. O: big screen, loudspeaker.
 
-Jona shows Mia the IPO picture for her talk. This way she sees what the task needs:
+Jona shows Mia the IPO picture for her report. This way she sees what the task needs:
 
-Interactive: The IPO picture for Mia's talk: box I “Input”: type a lot of text, so a keyboard. Arrow to box P “Process”: the program word processor. Arrow to box O “Output”: see a whole page, so a big screen. The drawer “storage – keeps” with the talk hangs on Process.
+Interactive: The IPO picture for Mia's report: box I “Input”: type a lot of text, so a keyboard. Arrow to box P “Process”: the program word processor. Arrow to box O “Output”: see a whole page, so a big screen. The drawer “storage – keeps” with the report hangs on Process.
 
 - **word processor**: A program for writing and laying out texts.
 
@@ -73,7 +73,7 @@ Interactive: The IPO picture for Mia's talk: box I “Input”: type a lot of te
 
 ### How to choose: three questions
 
-**Example: Mia's talk**
+**Example: Mia's report**
 
 1. **What should come out?** Two pages of text that Mia can read well. Output: a big screen.
 2. **What do I have to put in?** Lots of words. Input: a keyboard.
@@ -133,19 +133,19 @@ Mia goes home with a good choice. And you have completed all six stations:
 
 ```
 No. | e.aufgabe | e.grund | e.grundA | e.grundB | Choices | Solution | F1 | F2
-1 | Mia writes a talk about hedgehogs, two pages of text. | For a lot of text you need a keyboard for input and a big screen for output. The laptop has both. | On a smartwatch you can hardly type, and the screen is tiny. | On a smartphone you can type, but two pages of text are hard work there. The screen is small. | Smartwatch; Smartphone; Laptop | Laptop | Smartwatch | Smartphone
+1 | Mia writes a report about hedgehogs, two pages of text. | For a lot of text you need a keyboard for input and a big screen for output. The laptop has both. | On a smartwatch you can hardly type, and the screen is tiny. | On a smartphone you can type, but two pages of text are hard work there. The screen is small. | Smartwatch; Smartphone; Laptop | Laptop | Smartwatch | Smartphone
 2 | Mia wants to see the time on her bike without stopping. | The smartwatch shows the time on the wrist. A quick look is enough. | Mia would first have to take the smartphone out of her pocket. She would have to stop for that. | You cannot look at a laptop while cycling. | Smartwatch; Smartphone; Laptop | Smartwatch | Smartphone | Laptop
 3 | Selin films a short video of the dance at the school fair. | A video needs a camera and a microphone for input. The smartphone has both and is easy to hold. | Most smartwatches have no camera. | Selin would have to hold the laptop up, and it only films in one direction, towards her. | Smartwatch; Smartphone; Laptop | Smartphone | Smartwatch | Laptop
 4 | Jona wants to take photos on the class hike and look at them straight away. | Photos need a camera for input and a screen for output, and the device has to fit in a pocket. The smartphone can do that. | The laptop is heavy to carry, and its camera is meant for pictures of you at the screen. | Most smartwatches have no camera. Without an input device for pictures there are no photos. | Smartwatch; Smartphone; Laptop | Smartphone | Laptop | Smartwatch
 5 | Jona types a list of all 28 names in the class for the trip. | For long lists a keyboard is best for input. The laptop has one. | You cannot type a long list on a smartwatch. | It works on a smartphone, but typing 28 names on the small screen takes a long time. | Smartwatch; Smartphone; Laptop | Laptop | Smartwatch | Smartphone
-6 | Selin wants to count her steps while jogging, without holding anything in her hand. | The smartwatch sits on the wrist. It notices the movement (input) and shows the steps (output) without Selin holding anything. | The smartphone can count steps, but Selin would have to carry it in her hand or pocket. | You cannot go jogging with a laptop. | Smartwatch; Smartphone; Laptop | Smartwatch | Smartphone | Laptop
+6 | Selin wants to count her steps while jogging and keep checking the number without taking anything out of her pocket. | The smartwatch sits on the wrist. It notices the movement (input) and shows the steps (output) without Selin taking anything out of her pocket. | The smartphone can count steps, but Selin would have to take it out of her pocket every time to look. | You cannot go jogging with a laptop. | Smartwatch; Smartphone; Laptop | Smartwatch | Smartphone | Laptop
 ```
 
 ### Exercise aufgabe-programm
 
 - Task: Which program fits which task?
 - Answer format: match each item on the left with one on the right
-- Solution: write a talk – word processor; make slides for a talk – presentation program; draw a picture for the poster – drawing program; listen to a song – music app
+- Solution: write a report – word processor; make slides for a talk – presentation program; draw a picture for the poster – drawing program; listen to a song – music app
 - Explanation: Each program is made for one kind of task. The calculator app is for calculating, and there is no such task here.
 - Link: [../?via=tutor#aufgabe-programm](../?via=tutor#aufgabe-programm)
 

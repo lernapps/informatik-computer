@@ -63,14 +63,15 @@ What each command does:
 - Cut | takes away what is selected and puts it on the clipboard
 - Undo | takes back the last step
 
-- **clipboard**: An invisible place where the program keeps what you copied or cut until you paste it.
+- **clipboard**: An invisible place where the computer keeps what you copied or cut until you paste it. That is how you can also paste from one program into another.
 
 **Remember: Remember**
 
 **Copying does not put anything in yet.** Only pasting brings the copy into the picture. You can paste
 it several times. **Cut** takes the original away, copy does not.
 
-You usually find open and save in the “File” menu. On a tablet there are often no keys for this. Then you find the commands in a menu, for example when
+You usually find open and save in the “File” menu. On a tablet there are often no keys for copy and
+paste. Then you find the commands in a menu, for example when
 you press and hold something. On a keyboard it works like this, for example: copy with Ctrl + C, paste
 with Ctrl + V, cut with Ctrl + X, undo with Ctrl + Z. On a Mac you use ⌘ instead of Ctrl.
 
@@ -82,6 +83,12 @@ with Ctrl + V, cut with Ctrl + X, undo with Ctrl + Z. On a Mac you use ⌘ inste
 2. She chooses **copy**. There is still one sun in the picture. The copy is on the clipboard.
 3. She chooses **paste**. Now there are two suns. She moves the new one to its place.
 4. She chooses **save** and names the picture “Poster”. Now she can close the program.
+
+**Remember: Join in: in a real drawing program**
+
+Open a drawing program on a school computer or tablet. Draw a sun, copy it and paste it twice. Save the
+picture under your first name, close the program and open the picture again. Are all three suns still
+there?
 
 ### Practise at the station
 
@@ -120,7 +127,7 @@ next chapter you open the computer and look inside.
 
 - Task: What happens with which command?
 - Answer format: match each item on the left with one on the right
-- Solution: copy – A copy goes onto the clipboard.; paste – What is on the clipboard goes into the picture.; cut – What is selected disappears and goes onto the clipboard.; undo – The last step is taken back.; save – The picture is kept even after closing.
+- Solution: copy – A copy goes onto the clipboard.; paste – What is on the clipboard goes into the picture.; cut – What is selected disappears and goes onto the clipboard.; open – A saved picture comes back onto the screen.; undo – The last step is taken back.; save – The picture is kept even after closing.
 - Explanation: Printing is a command of its own. It belongs to none of the five commands here.
 - Link: [../?via=tutor#befehl-wirkung](../?via=tutor#befehl-wirkung)
 
@@ -142,7 +149,7 @@ next chapter you open the computer and look inside.
 No. | e.folge | Solution | F1 | F2
 1 | cut, paste, cut, paste, copy, paste | 2 | 3 | 4
 2 | cut, paste, paste, copy, copy, paste | 3 | 5 | 4
-3 | copy, paste, paste, cut, cut | 1 | 2 | 3
+3 | copy, paste, paste, cut, paste, cut | 2 | 3 | 4
 4 | copy, paste, copy, paste, cut | 2 | 4 | 3
 5 | copy, copy, paste, cut, paste | 2 | 4 | 3
 ```

@@ -47,7 +47,7 @@ Picture: Three exhibition tables with a tablet, a smartwatch and a till. Jona st
 
 The computer club is building the exhibition “The glass computer”. Jona and Selin from class 6b are
 collecting devices for it. A tablet, a smartwatch and a till are already on the tables. Selin brings a
-bicycle, a smartwatch and a ruler. Which of them fits into the exhibition?
+bicycle, a game console and a ruler. Which of them fits into the exhibition?
 
 On this page you learn to spot computer systems in your everyday life.
 
@@ -55,16 +55,16 @@ On this page you learn to spot computer systems in your everyday life.
 
 ### How to spot a computer system
 
-- **computer system**: A device in which a computer works by following a program. A program is an exact set of instructions for the computer.
+- **computer system**: A device in which hardware and software work together: a computer inside it follows a program. A program is an exact set of instructions for the computer.
 
-You can often tell like this: the device calculates, counts or remembers something. Or you choose
-something, and the device reacts to it. A smartphone, a game console and a till are computer systems.
+You can often tell like this: the device calculates, counts or remembers something. A smartphone, a game
+console and a till are computer systems. You learn what hardware and software are at the next station.
 
 **Remember: Remember**
 
 **A screen is not a must.** Small computers are hidden in a washing machine or a car too.
 
-**Power alone is not enough.** A torch has power, but no computer. The switch only turns the light on
+**Power alone is not enough.** A simple torch has power, but no computer. The switch only turns the light on
 or off.
 
 ### Join in: device hunt
@@ -95,11 +95,11 @@ touch and what you cannot.
 - Task: Which of the three things has a small computer inside?
 - Answer format: choose one answer
 - Choices (✓ right, ✗ wrong, with the app's message):
-  - ✓ In the smartwatch – The smartwatch counts steps and shows the time. A small computer inside it does that.
-  - ✗ In the bicycle – A bicycle runs on your strength. It does not need a computer for that.
+  - ✓ In the game console – A computer inside the console works out how the characters move in the game.
+  - ✗ In the bicycle – A simple bicycle does not calculate, count or remember anything.
   - ✗ In the ruler – With a ruler you do the measuring yourself. It does not calculate or remember anything.
-- Solution: In the smartwatch
-- Explanation: Only the smartwatch has a small computer working inside. It belongs in the exhibition.
+- Solution: In the game console
+- Explanation: Only the game console has a computer working inside. It belongs in the exhibition.
 - Link: [../?via=tutor#was-passt](../?via=tutor#was-passt)
 
 ### Exercise welche-systeme
@@ -107,12 +107,12 @@ touch and what you cannot.
 - Task: Jona has collected things for the exhibition. Which of them are computer systems?
 - Answer format: choose all right answers
 - Choices (✓ right, ✗ wrong, with the app's message):
-  - ✓ Game console – A computer inside the console works out how the characters move in the game.
+  - ✓ E-book reader – A computer in the e-book reader keeps many books and shows you each page.
   - ✓ Washing machine with a display – A small computer controls the water, heat and time according to the program you choose.
-  - ✗ Hair dryer – The hair dryer has power, but no computer. It only blows while the switch is on.
+  - ✗ Simple hair dryer – The hair dryer has power, but no computer. It only blows while the switch is on.
   - ✗ Scissors – Scissors have neither power nor a computer.
-- Solution: Game console; Washing machine with a display
-- Explanation: The game console and the washing machine work with a computer and a program.
+- Solution: E-book reader; Washing machine with a display
+- Explanation: The e-book reader and the washing machine work with a computer and a program.
 - Link: [../?via=tutor#welche-systeme](../?via=tutor#welche-systeme)
 
 ### Exercise ohne-bildschirm
@@ -145,14 +145,14 @@ touch and what you cannot.
 
 ```
 No. | e.name | e.grund | Choices | Solution | F1
-1 | bicycle | A bicycle has no computer. You move it with your own strength. | yes; no | no | yes
+1 | bicycle without a motor | A bicycle without a motor has no computer. It does not calculate, count or remember anything. | yes; no | no | yes
 2 | game console | A computer inside the console works out how the characters move in the game. | yes; no | yes | no
 3 | pair of scissors | Scissors have no computer. They only cut when you press them. | yes; no | no | yes
 4 | smartphone | A small computer with many programs, the apps, works inside a smartphone. | yes; no | yes | no
 5 | smartwatch | A small computer in the watch counts your steps and shows the time. | yes; no | yes | no
 6 | e-book reader | A computer in the e-book reader keeps many books and shows you each page. | yes; no | yes | no
-7 | torch | The torch has power, but no computer. The switch only turns the light on or off. | yes; no | no | yes
-8 | hair dryer | The hair dryer has power, but no computer. It only blows warm air while the switch is on. | yes; no | no | yes
+7 | simple torch | The simple torch has power, but no computer. The switch only turns the light on or off. | yes; no | no | yes
+8 | simple hair dryer | The simple hair dryer has power, but no computer. It only blows warm air while the switch is on. | yes; no | no | yes
 9 | ruler | A ruler has neither power nor a computer. You do the measuring yourself. | yes; no | no | yes
 10 | washing machine with a display | A small computer controls the water, heat and time. It runs the washing program you choose. | yes; no | yes | no
 11 | till in the supermarket | A computer in the till adds up the prices and prints the receipt. | yes; no | yes | no

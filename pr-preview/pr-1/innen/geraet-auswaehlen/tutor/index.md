@@ -59,9 +59,9 @@ Jedes Gerät hat andere Eingabegeräte und Ausgabegeräte. Die Tabelle vergleich
 
 Was die drei Geräte zur Eingabe und Ausgabe haben:
 - Gerät | Eingabe (E) und Ausgabe (A)
-- Smartwatch | E: winziger Touchscreen. A: winziger Bildschirm.
-- Smartphone | E: Touchscreen, Kamera, Mikrofon. A: kleiner Bildschirm, Lautsprecher.
-- Laptop | E: Tastatur, Touchpad. A: großer Bildschirm, Lautsprecher.
+- Smartwatch | E: winziger Touchscreen, Bewegungsmesser. A: winziger Bildschirm.
+- Smartphone | E: Touchscreen, Kamera, Mikrofon, Bewegungsmesser. A: kleiner Bildschirm, Lautsprecher.
+- Laptop | E: Tastatur, Touchpad, Kamera, Mikrofon. A: großer Bildschirm, Lautsprecher.
 
 Jona zeigt Mia das EVA-Bild für ihr Referat. So sieht sie, was die Aufgabe braucht:
 
@@ -138,7 +138,7 @@ Nr. | e.aufgabe | e.grund | e.grundA | e.grundB | Zur Wahl | Lösung | F1 | F2
 3 | Selin filmt beim Schulfest ein kurzes Video vom Tanz. | Ein Video braucht Kamera und Mikrofon zur Eingabe. Das Smartphone hat beides und lässt sich gut halten. | Die meisten Smartwatches haben keine Kamera. | Den Laptop müsste Selin hochhalten, und er filmt nur in eine Richtung, zu ihr hin. | Smartwatch; Smartphone; Laptop | Smartphone | Smartwatch | Laptop
 4 | Jona will beim Wandertag Fotos machen und sie gleich ansehen. | Fotos brauchen eine Kamera zur Eingabe und einen Bildschirm zur Ausgabe, und das Gerät muss in die Tasche passen. Das kann das Smartphone. | Der Laptop ist schwer zum Mitnehmen, und seine Kamera ist für Fotos von dir selbst am Bildschirm gedacht. | Die meisten Smartwatches haben keine Kamera. Ohne Eingabegerät für Bilder gibt es keine Fotos. | Smartwatch; Smartphone; Laptop | Smartphone | Laptop | Smartwatch
 5 | Jona tippt eine Liste mit allen 28 Namen der Klasse für den Ausflug. | Für lange Listen ist eine Tastatur zur Eingabe am besten. Das hat der Laptop. | Auf der Smartwatch kann man keine lange Liste tippen. | Auf dem Smartphone geht das, aber 28 Namen auf dem kleinen Bildschirm zu tippen dauert lange. | Smartwatch; Smartphone; Laptop | Laptop | Smartwatch | Smartphone
-6 | Selin will beim Joggen ihre Schritte zählen, ohne etwas in der Hand zu halten. | Die Smartwatch sitzt am Arm. Sie merkt die Bewegung (Eingabe) und zeigt die Schritte (Ausgabe), ohne dass Selin etwas hält. | Das Smartphone kann Schritte zählen, aber Selin müsste es in der Hand oder Tasche tragen. | Mit einem Laptop kann man nicht joggen. | Smartwatch; Smartphone; Laptop | Smartwatch | Smartphone | Laptop
+6 | Selin will beim Joggen ihre Schritte zählen und immer wieder auf die Zahl schauen, ohne etwas aus der Tasche zu holen. | Die Smartwatch sitzt am Arm. Sie merkt die Bewegung (Eingabe) und zeigt die Schritte (Ausgabe), ohne dass Selin etwas aus der Tasche holt. | Das Smartphone kann Schritte zählen, aber Selin müsste es zum Nachschauen jedes Mal aus der Tasche holen. | Mit einem Laptop kann man nicht joggen. | Smartwatch; Smartphone; Laptop | Smartwatch | Smartphone | Laptop
 ```
 
 ### Aufgabe aufgabe-programm

@@ -47,7 +47,7 @@ Bild: Drei Ausstellungstische mit einem Tablet, einer Smartwatch und einer Kasse
 
 Die Computer-AG baut die Ausstellung „Der gläserne Computer“. Jona und Selin aus der Klasse 6b sammeln
 Geräte dafür. Auf den Tischen liegen schon ein Tablet, eine Smartwatch und eine Kasse. Selin bringt ein
-Fahrrad, eine Smartwatch und ein Lineal. Was davon passt in die Ausstellung?
+Fahrrad, eine Spielkonsole und ein Lineal. Was davon passt in die Ausstellung?
 
 Auf dieser Seite lernst du, Informatiksysteme in deinem Alltag zu erkennen.
 
@@ -55,17 +55,17 @@ Auf dieser Seite lernst du, Informatiksysteme in deinem Alltag zu erkennen.
 
 ### Woran du ein Informatiksystem erkennst
 
-- **Informatiksystem**: Ein Gerät, in dem ein Computer nach einem Programm arbeitet. Ein Programm ist eine genaue Anleitung für den Computer.
+- **Informatiksystem**: Ein Gerät, in dem Hardware und Software zusammenarbeiten: Ein Computer arbeitet darin nach einem Programm. Ein Programm ist eine genaue Anleitung für den Computer.
 
-Du merkst es oft daran: Das Gerät rechnet, zählt oder merkt sich etwas. Oder du wählst etwas aus, und das
-Gerät reagiert darauf. Ein Smartphone, eine Spielkonsole und eine Kasse sind Informatiksysteme.
+Du merkst es oft daran: Das Gerät rechnet, zählt oder merkt sich etwas. Ein Smartphone, eine Spielkonsole
+und eine Kasse sind Informatiksysteme. Was Hardware und Software sind, lernst du an der nächsten Station.
 
 **Merke: Merke**
 
 **Ein Bildschirm ist kein Muss.** Auch in einer Waschmaschine oder in einem Auto stecken kleine
 Computer. Sie sind nur gut versteckt.
 
-**Strom allein reicht nicht.** Eine Taschenlampe hat Strom, aber keinen Computer. Der Schalter macht
+**Strom allein reicht nicht.** Eine einfache Taschenlampe hat Strom, aber keinen Computer. Der Schalter macht
 das Licht nur an oder aus.
 
 ### Mitmachen: Gerätesuche
@@ -96,11 +96,11 @@ Anfassen ist und was nicht.
 - Aufgabe: In welchem der drei Dinge steckt ein kleiner Computer?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ In der Smartwatch – Die Smartwatch zählt Schritte und zeigt die Uhrzeit. Das macht ein kleiner Computer in ihr.
-  - ✗ Im Fahrrad – Ein Fahrrad fährt mit deiner Kraft. Einen Computer braucht es dafür nicht.
+  - ✓ In der Spielkonsole – In der Konsole rechnet ein Computer aus, wie sich die Figuren im Spiel bewegen.
+  - ✗ Im Fahrrad – Ein einfaches Fahrrad rechnet nichts, zählt nichts und merkt sich nichts.
   - ✗ Im Lineal – Mit dem Lineal misst du selbst. Es rechnet nichts und merkt sich nichts.
-- Lösung: In der Smartwatch
-- Erklärung: Nur in der Smartwatch arbeitet ein kleiner Computer. Sie gehört in die Ausstellung.
+- Lösung: In der Spielkonsole
+- Erklärung: Nur in der Spielkonsole arbeitet ein Computer. Sie gehört in die Ausstellung.
 - Link: [../?via=tutor#was-passt](../?via=tutor#was-passt)
 
 ### Aufgabe welche-systeme
@@ -108,12 +108,12 @@ Anfassen ist und was nicht.
 - Aufgabe: Jona hat Gegenstände für die Ausstellung gesammelt. Welche davon sind Informatiksysteme?
 - Antwortformat: alle richtigen Antworten wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Spielkonsole – In der Konsole rechnet ein Computer aus, wie sich die Figuren im Spiel bewegen.
+  - ✓ E-Book-Reader – Ein Computer im E-Book-Reader hebt viele Bücher auf und zeigt dir jede Seite.
   - ✓ Waschmaschine mit Anzeige – Ein kleiner Computer steuert Wasser, Wärme und Zeit nach dem Programm, das du wählst.
-  - ✗ Föhn – Der Föhn hat Strom, aber keinen Computer. Er bläst nur, solange der Schalter an ist.
+  - ✗ Einfacher Föhn – Der Föhn hat Strom, aber keinen Computer. Er bläst nur, solange der Schalter an ist.
   - ✗ Schere – Eine Schere hat weder Strom noch einen Computer.
-- Lösung: Spielkonsole; Waschmaschine mit Anzeige
-- Erklärung: Spielkonsole und Waschmaschine arbeiten mit einem Computer und einem Programm.
+- Lösung: E-Book-Reader; Waschmaschine mit Anzeige
+- Erklärung: E-Book-Reader und Waschmaschine arbeiten mit einem Computer und einem Programm.
 - Link: [../?via=tutor#welche-systeme](../?via=tutor#welche-systeme)
 
 ### Aufgabe ohne-bildschirm
@@ -129,7 +129,7 @@ Anfassen ist und was nicht.
 - Aufgabe: Selin schreibt Schilder für die Tische. Was macht der Computer in jedem Gerät?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
 - Lösung: Kasse – zählt die Preise zusammen; Smartwatch – zählt deine Schritte; Waschmaschine – steuert Wasser und Zeit; Spielkonsole – bewegt die Figuren im Spiel
-- Erklärung: Jedes dieser Geräte hat einen Computer mit einer eigenen Aufgabe. Licht machen kann auch eine Taschenlampe ohne Computer.
+- Erklärung: Jedes dieser Geräte hat einen Computer mit einer eigenen Aufgabe. Licht machen kann auch eine einfache Taschenlampe ohne Computer.
 - Link: [../?via=tutor#was-der-computer-tut](../?via=tutor#was-der-computer-tut)
 
 ### Aufgabe system-oder-nicht
@@ -146,14 +146,14 @@ Anfassen ist und was nicht.
 
 ```
 Nr. | e.name | e.grund | Zur Wahl | Lösung | F1
-1 | Fahrrad | Ein Fahrrad hat keinen Computer. Du bewegst es mit deiner eigenen Kraft. | ja; nein | nein | ja
+1 | Fahrrad ohne Motor | Ein Fahrrad ohne Motor hat keinen Computer. Es rechnet, zählt und merkt sich nichts. | ja; nein | nein | ja
 2 | Spielkonsole | In der Konsole rechnet ein Computer aus, wie sich die Figuren im Spiel bewegen. | ja; nein | ja | nein
 3 | Schere | Eine Schere hat keinen Computer. Sie schneidet nur, wenn du drückst. | ja; nein | nein | ja
 4 | Smartphone | Im Smartphone arbeitet ein kleiner Computer mit vielen Programmen, den Apps. | ja; nein | ja | nein
 5 | Smartwatch | Ein kleiner Computer in der Uhr zählt deine Schritte und zeigt die Uhrzeit. | ja; nein | ja | nein
 6 | E-Book-Reader | Ein Computer im E-Book-Reader hebt viele Bücher auf und zeigt dir jede Seite. | ja; nein | ja | nein
-7 | Taschenlampe | Die Taschenlampe hat Strom, aber keinen Computer. Der Schalter macht das Licht nur an oder aus. | ja; nein | nein | ja
-8 | Föhn | Der Föhn hat Strom, aber keinen Computer. Er macht nur warme Luft, solange der Schalter an ist. | ja; nein | nein | ja
+7 | einfache Taschenlampe | Die einfache Taschenlampe hat Strom, aber keinen Computer. Der Schalter macht das Licht nur an oder aus. | ja; nein | nein | ja
+8 | einfacher Föhn | Der einfache Föhn hat Strom, aber keinen Computer. Er macht nur warme Luft, solange der Schalter an ist. | ja; nein | nein | ja
 9 | Lineal | Ein Lineal hat weder Strom noch einen Computer. Du misst selbst damit. | ja; nein | nein | ja
 10 | Waschmaschine mit Anzeige | Ein kleiner Computer steuert Wasser, Wärme und Zeit. Er arbeitet das Waschprogramm ab, das du wählst. | ja; nein | ja | nein
 11 | Kasse im Supermarkt | Ein Computer in der Kasse zählt die Preise zusammen und druckt den Kassenbon. | ja; nein | ja | nein

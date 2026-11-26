@@ -53,11 +53,11 @@ On this page you get to know the most important parts of a computer and what eac
 
 ### A look inside
 
-Picture: A tablet made of glass. Inside you can see a grey chip, a green bar and an orange box. Outside there is a finger tap on the screen, a camera at the top, three small holes at the bottom and a grille on the right. Caption: The glass computer. The numbers belong to the names below: 1 to 3 are inside, 4 to 7 outside. Labels: 1 processor, 2 memory, 3 storage, 4 touchscreen, 5 camera, 6 microphone, 7 loudspeaker
+Picture: A tablet made of glass. Inside you can see a grey chip, a green bar and an orange box. Outside there is a finger tap on the screen, a camera at the top, three small holes at the bottom and a grille on the right. Curved lines show sound going in at the bottom and coming out on the right. Caption: The glass computer. The numbers belong to the names below: 1 to 3 are inside, 4 to 7 outside. Labels: 1 processor, 2 memory, 3 storage, 4 touchscreen, 5 camera, 6 microphone, 7 loudspeaker
 
 - **input device**: A part that gets data into the computer, for example a camera, a microphone or a keyboard.
 
-- **output device**: A part the computer uses to show or play you something, for example a screen or a loudspeaker.
+- **output device**: A part the computer uses to show, play or print something for you, for example a screen, a loudspeaker or a printer.
 
 The parts inside, compared with your room:
 - Part | What it does | Like in your room
@@ -116,7 +116,7 @@ together.
 - Choices (✓ right, ✗ wrong, with the app's message):
   - ✓ In memory – Unsaved work sits in memory. Without power memory is empty, so the picture is gone.
   - ✗ In storage – The picture only goes into storage when it is saved. Then it would still be there.
-  - ✗ In the processor – The processor only calculates. It cannot keep anything.
+  - ✗ In the processor – The processor only calculates. It cannot keep anything for long.
   - ✗ In the screen – The screen only shows the picture. The data is inside.
 - Solution: In memory
 - Explanation: What you have not saved yet is only in memory.

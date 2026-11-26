@@ -52,11 +52,11 @@ Auf dieser Seite lernst du die wichtigsten Teile eines Computers kennen und was 
 
 ### Ein Blick ins Innere
 
-Bild: Ein Tablet aus Glas. Innen sieht man einen grauen Chip, einen grünen Riegel und ein oranges Kästchen. Außen sind ein Fingertipp auf dem Bildschirm, oben eine Kamera, unten drei kleine Löcher und rechts ein Gitter. Bildunterschrift: Der gläserne Computer. Die Zahlen gehören zu den Namen darunter: 1 bis 3 sind innen, 4 bis 7 außen. Beschriftungen: 1 Prozessor, 2 Arbeitsspeicher, 3 Festspeicher, 4 Touchscreen, 5 Kamera, 6 Mikrofon, 7 Lautsprecher
+Bild: Ein Tablet aus Glas. Innen sieht man einen grauen Chip, einen grünen Riegel und ein oranges Kästchen. Außen sind ein Fingertipp auf dem Bildschirm, oben eine Kamera, unten drei kleine Löcher und rechts ein Gitter. Bogenlinien zeigen Schall, der unten hineingeht und rechts herauskommt. Bildunterschrift: Der gläserne Computer. Die Zahlen gehören zu den Namen darunter: 1 bis 3 sind innen, 4 bis 7 außen. Beschriftungen: 1 Prozessor, 2 Arbeitsspeicher, 3 Festspeicher, 4 Touchscreen, 5 Kamera, 6 Mikrofon, 7 Lautsprecher
 
 - **Eingabegerät**: Ein Teil, mit dem Daten in den Computer kommen, zum Beispiel Kamera, Mikrofon oder Tastatur.
 
-- **Ausgabegerät**: Ein Teil, mit dem der Computer dir etwas zeigt oder vorspielt, zum Beispiel Bildschirm oder Lautsprecher.
+- **Ausgabegerät**: Ein Teil, mit dem der Computer dir etwas zeigt, vorspielt oder druckt, zum Beispiel Bildschirm, Lautsprecher oder Drucker.
 
 Die Teile im Innern, verglichen mit deinem Zimmer:
 - Teil | Was es tut | Wie in deinem Zimmer
@@ -116,7 +116,7 @@ die Teile zusammenarbeiten.
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Im Arbeitsspeicher – Ungespeichertes liegt im Arbeitsspeicher. Ohne Strom ist er leer, darum ist das Bild weg.
   - ✗ Im Festspeicher – In den Festspeicher kommt das Bild erst beim Speichern. Dann wäre es noch da.
-  - ✗ Im Prozessor – Der Prozessor rechnet nur. Aufheben kann er nichts.
+  - ✗ Im Prozessor – Der Prozessor rechnet nur. Dauerhaft aufheben kann er nichts.
   - ✗ Im Bildschirm – Der Bildschirm zeigt das Bild nur an. Die Daten liegen im Innern.
 - Lösung: Im Arbeitsspeicher
 - Erklärung: Was du noch nicht gespeichert hast, liegt nur im Arbeitsspeicher.
