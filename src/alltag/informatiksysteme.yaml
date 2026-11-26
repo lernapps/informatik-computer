@@ -1,0 +1,241 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: Informatiksysteme im Alltag
+  en: Computer systems in everyday life
+description:
+  de: "Informatiksysteme erkennen: In welchen Geräten steckt ein kleiner Computer?"
+  en: "Spot computer systems: which devices have a small computer inside?"
+competencies: [informatiksysteme-im-alltag]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Station 1: Was gehört in die Ausstellung?"
+      en: "Station 1: What belongs in the exhibition?"
+    blocks:
+      - type: figure
+        image: images/ausstellung.svg
+        source: { de: eigene Zeichnung, en: own drawing }
+        licence: CC-BY-4.0
+        alt:
+          de: Drei Ausstellungstische mit einem Tablet, einer Smartwatch und einer Kasse. Links steht Jona, rechts Selin.
+          en: Three exhibition tables with a tablet, a smartwatch and a till. Jona stands on the left, Selin on the right.
+        caption:
+          de: Die ersten drei Geräte der Ausstellung „Der gläserne Computer“, von außen.
+          en: The first three devices of the exhibition “The glass computer”, from the outside.
+      - type: text
+        text:
+          de: |
+            Die Computer-AG baut die Ausstellung „Der gläserne Computer“. Jona und Selin aus der Klasse 6b sammeln
+            Geräte dafür. Auf den Tischen liegen schon ein Tablet, eine Smartwatch und eine Kasse. Selin bringt ein
+            Fahrrad, eine Smartwatch und ein Lineal. Was davon passt in die Ausstellung?
+
+            Auf dieser Seite lernst du, Informatiksysteme in deinem Alltag zu erkennen.
+          en: |
+            The computer club is building the exhibition “The glass computer”. Jona and Selin from class 6b are
+            collecting devices for it. A tablet, a smartwatch and a till are already on the tables. Selin brings a
+            bicycle, a smartwatch and a ruler. Which of them fits into the exhibition?
+
+            On this page you learn to spot computer systems in your everyday life.
+      - type: single-choice
+        id: was-passt
+        text:
+          de: In welchem der drei Dinge steckt ein kleiner Computer?
+          en: Which of the three things has a small computer inside?
+        options:
+          - text:
+              de: In der Smartwatch
+              en: In the smartwatch
+            correct: true
+            info:
+              de: Die Smartwatch zählt Schritte und zeigt die Uhrzeit. Das macht ein kleiner Computer in ihr.
+              en: The smartwatch counts steps and shows the time. A small computer inside it does that.
+          - text:
+              de: Im Fahrrad
+              en: In the bicycle
+            correct: false
+            info:
+              de: Ein Fahrrad fährt mit deiner Kraft. Einen Computer braucht es dafür nicht.
+              en: A bicycle runs on your strength. It does not need a computer for that.
+          - text:
+              de: Im Lineal
+              en: In the ruler
+            correct: false
+            info:
+              de: Mit dem Lineal misst du selbst. Es rechnet nichts und merkt sich nichts.
+              en: With a ruler you do the measuring yourself. It does not calculate or remember anything.
+        explanation:
+          de: Nur in der Smartwatch arbeitet ein kleiner Computer. Sie gehört in die Ausstellung.
+          en: Only the smartwatch has a small computer working inside. It belongs in the exhibition.
+  - type: section
+    id: idee
+    title:
+      de: Woran du ein Informatiksystem erkennst
+      en: How to spot a computer system
+    blocks:
+      - type: definition
+        term:
+          de: Informatiksystem
+          en: computer system
+        explanation:
+          de: >-
+            Ein Gerät, in dem ein Computer nach einem Programm arbeitet. Ein Programm ist eine genaue Anleitung für den
+            Computer.
+          en: >-
+            A device in which a computer works by following a program. A program is an exact set of instructions for
+            the computer.
+      - type: text
+        text:
+          de: |
+            Du merkst es oft daran: Das Gerät rechnet, zählt oder merkt sich etwas. Oder du wählst etwas aus, und das
+            Gerät reagiert darauf. Ein Smartphone, eine Spielkonsole und eine Kasse sind Informatiksysteme.
+          en: |
+            You can often tell like this: the device calculates, counts or remembers something. Or you choose
+            something, and the device reacts to it. A smartphone, a game console and a till are computer systems.
+      - type: note
+        title:
+          de: Merke
+          en: Remember
+        blocks:
+          - type: text
+            text:
+              de: |
+                **Ein Bildschirm ist kein Muss.** Auch in einer Waschmaschine oder in einem Auto stecken kleine
+                Computer. Sie sind nur gut versteckt.
+
+                **Strom allein reicht nicht.** Eine Taschenlampe hat Strom, aber keinen Computer. Der Schalter macht
+                das Licht nur an oder aus.
+              en: |
+                **A screen is not a must.** Small computers are hidden in a washing machine or a car too.
+
+                **Power alone is not enough.** A torch has power, but no computer. The switch only turns the light on
+                or off.
+  - type: section
+    id: beispiel
+    title:
+      de: "Mitmachen: Gerätesuche"
+      en: "Join in: device hunt"
+    blocks:
+      - type: note
+        title:
+          de: Eine Suche ohne Computer, im Klassenzimmer und zu Hause
+          en: A hunt without a computer, in the classroom and at home
+        blocks:
+          - type: text
+            text:
+              de: |
+                1. Nimm ein Blatt und mach zwei Spalten: „Informatiksystem“ und „kein Informatiksystem“.
+                2. Schau dich im Klassenzimmer um. Schreib jedes Gerät mit Strom in eine Spalte.
+                3. Frag bei jedem Gerät: Rechnet es, zählt es oder merkt es sich etwas?
+                4. Mach zu Hause weiter: Küche, Bad, Kinderzimmer.
+                5. Vergleicht eure Listen in der Klasse. Wer hat ein verstecktes Informatiksystem gefunden?
+              en: |
+                1. Take a sheet of paper and make two columns: “computer system” and “not a computer system”.
+                2. Look around the classroom. Write every device that uses power in one of the columns.
+                3. For each device ask: does it calculate, count or remember something?
+                4. Carry on at home: kitchen, bathroom, bedroom.
+                5. Compare your lists in class. Who found a hidden computer system?
+  - type: section
+    id: uebung
+    title:
+      de: Üben an der Station
+      en: Practise at the station
+    blocks:
+      - type: multiple-choice
+        id: welche-systeme
+        text:
+          de: Jona hat Gegenstände für die Ausstellung gesammelt. Welche davon sind Informatiksysteme?
+          en: Jona has collected things for the exhibition. Which of them are computer systems?
+        options:
+          - text:
+              de: Spielkonsole
+              en: Game console
+            correct: true
+            info:
+              de: In der Konsole rechnet ein Computer aus, wie sich die Figuren im Spiel bewegen.
+              en: A computer inside the console works out how the characters move in the game.
+          - text:
+              de: Waschmaschine mit Anzeige
+              en: Washing machine with a display
+            correct: true
+            info:
+              de: Ein kleiner Computer steuert Wasser, Wärme und Zeit nach dem Programm, das du wählst.
+              en: A small computer controls the water, heat and time according to the program you choose.
+          - text:
+              de: Föhn
+              en: Hair dryer
+            correct: false
+            info:
+              de: Der Föhn hat Strom, aber keinen Computer. Er bläst nur, solange der Schalter an ist.
+              en: The hair dryer has power, but no computer. It only blows while the switch is on.
+          - text:
+              de: Schere
+              en: Scissors
+            correct: false
+            info:
+              de: Eine Schere hat weder Strom noch einen Computer.
+              en: Scissors have neither power nor a computer.
+        explanation:
+          de: Spielkonsole und Waschmaschine arbeiten mit einem Computer und einem Programm.
+          en: The game console and the washing machine work with a computer and a program.
+      - type: true-false
+        id: ohne-bildschirm
+        text:
+          de: "Stimmt das? Ein Gerät ohne Bildschirm kann kein Informatiksystem sein."
+          en: "True or false? A device without a screen cannot be a computer system."
+        answer: false
+        explanation:
+          de: Falsch. Auch ohne Bildschirm kann ein Computer im Gerät arbeiten, zum Beispiel im Auto oder in einer Spielzeug-Roboterfigur.
+          en: False. A computer can work inside a device without a screen too, for example in a car or a toy robot.
+      - type: matching
+        id: was-der-computer-tut
+        text:
+          de: Selin schreibt Schilder für die Tische. Was macht der Computer in jedem Gerät?
+          en: Selin is writing signs for the tables. What does the computer do in each device?
+        pairs:
+          - left: { de: Kasse, en: till }
+            right: { de: zählt die Preise zusammen, en: adds up the prices }
+          - left: { de: Smartwatch, en: smartwatch }
+            right: { de: zählt deine Schritte, en: counts your steps }
+          - left: { de: Waschmaschine, en: washing machine }
+            right: { de: steuert Wasser und Zeit, en: controls water and time }
+          - left: { de: Spielkonsole, en: game console }
+            right: { de: bewegt die Figuren im Spiel, en: moves the characters in the game }
+        distractors:
+          - { de: "macht Licht, solange der Schalter an ist", en: makes light while the switch is on }
+        explanation:
+          de: "Jedes dieser Geräte hat einen Computer mit einer eigenen Aufgabe. Licht machen kann auch eine Taschenlampe ohne Computer."
+          en: "Each of these devices has a computer with its own job. A torch can make light without any computer."
+      - type: generated
+        id: system-oder-nicht
+        given:
+          e: { pick: 1, from: { data: gegenstaende } }
+        task:
+          text:
+            de: "Gehört **{{e.name}}** als Informatiksystem in die Ausstellung? Antworte mit ja oder nein."
+            en: "Does the **{{e.name}}** belong in the exhibition as a computer system? Answer yes or no."
+        answer:
+          value: "e.antwort"
+          compare:
+            choice:
+              - { de: ja, en: "yes" }
+              - { de: nein, en: "no" }
+        mistakes:
+          - value: "e.gegenteil"
+            message:
+              de: "Schau noch einmal hin: Rechnet, zählt oder merkt sich das Gerät etwas?"
+              en: "Look again: does the device calculate, count or remember something?"
+        hint:
+          de: "Strom allein reicht nicht, und ein Bildschirm ist kein Muss."
+          en: "Power alone is not enough, and a screen is not a must."
+        steps:
+          - de: "{{e.grund}}"
+            en: "{{e.grund}}"
+      - type: text
+        text:
+          de: |
+            Geschafft: Die Ausstellung hat ihre Geräte. An der nächsten Station schaut ihr, was in jedem Gerät zum
+            Anfassen ist und was nicht.
+          en: |
+            Well done: the exhibition has its devices. At the next station you look at what in each device you can
+            touch and what you cannot.

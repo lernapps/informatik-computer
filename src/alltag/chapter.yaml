@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: Überall Informatiksysteme
+  en: Computer systems everywhere
+summary:
+  de: Du findest Informatiksysteme in deinem Alltag, unterscheidest Hardware und Software und bedienst ein Malprogramm.
+  en: You find computer systems in your everyday life, tell hardware from software and use a drawing program.
+pages: [informatiksysteme]
